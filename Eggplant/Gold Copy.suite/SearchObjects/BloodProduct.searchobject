@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		504,
+		132,
+		218,
+		29
+	],
+	"lastmodifieddate": 1675780953.1289999,
+	"createddate": 1675780953.1289999,
+	"name": "BloodProduct",
+	"lastfounddate": 1678909504.8870001,
+	"ocrcapturestring": "Blood Product",
+	"lastfoundlocation": [
+		909,
+		232,
+		218,
+		29
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[118,19]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "BloodProduct.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					504,
+					132,
+					218,
+					29
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Blood Product"
+			}
+	]
+}

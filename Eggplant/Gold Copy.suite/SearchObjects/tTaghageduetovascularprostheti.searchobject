@@ -1,0 +1,68 @@
+{
+	"originalcapturelocation": [
+		1043,
+		489,
+		451,
+		19
+	],
+	"lastmodifieddate": 1677692297.9159999,
+	"createddate": 1677597513.4720001,
+	"name": "tTaghageduetovascularprostheti",
+	"lastfounddate": 1679408670.0770001,
+	"ocrcapturestring": "Vag hage due to vascular prosthetic devices, implants and grafts, initial encounter",
+	"lastfoundlocation": [
+		1058,
+		466,
+		40,
+		19
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "^Tag",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[27,11]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					1043,
+					489,
+					451,
+					19
+				],
+				"name": "AP_Tag/AP_Tag.png"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[21,12]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_Tag/AP_Tag_new.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1528,
+					313,
+					43,
+					25
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Tag"
+			}
+	]
+}

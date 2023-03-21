@@ -1,0 +1,71 @@
+{
+	"entries": [
+		{
+				"message": "Running BloodProducts.script",
+				"identifier": "START",
+				"timestamp": "2023-02-22 15:04:35.447 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-22 15:04:42.349 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-22 15:04:43.584 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-22 15:04:46.878 -0500",
+				"message": "B1930 Powerchart",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-22 15:04:55.246 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"B1930 Powerchart\")",
+				"handlerLine": 5,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-22 15:04:56.073 -0500",
+				"message": "at (91, 300)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-22 15:05:16.998 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable to Find Image MinimizedCernerLogin",
+				"image": "MinimizedCernerLogin",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"message": "(Duration:\"52.505\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-02-22 15:04:36 -0500\", Successes:\"0\", TestCase:\"BloodProducts.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-22 15:05:29.123 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:55 BloodProducts.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-02-22 15:05:31.248 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-22 15:04:36.534 -0500"
+}

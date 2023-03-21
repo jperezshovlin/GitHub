@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script",
+				"identifier": "START",
+				"timestamp": "2023-03-02 09:26:32.682 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-02 09:26:33.699 -0500",
+				"message": "Remote Connection Unavailable",
+				"scriptName": "Utilities.script",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"4.804\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-03-02 09:26:33 -0500\", Successes:\"0\", TestCase:\"Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-02 09:26:38.124 -0500"
+			},
+		{
+				"message": "No Remote Connection: doubleclick Error - Remote Connection Unavailable -- Execution Time 0:00:06 Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-03-02 09:26:46.162 -0500"
+			}
+	],
+	"createdTimestamp": "2023-03-02 09:26:33.320 -0500"
+}

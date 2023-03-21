@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		700,
+		390,
+		72,
+		16
+	],
+	"lastmodifieddate": 1678300114.063,
+	"createddate": 1678300114.063,
+	"name": "RC_VAMedicalSchedAppt",
+	"lastfounddate": 1679064929.473,
+	"ocrcapturestring": "VA Medical",
+	"lastfoundlocation": [
+		699,
+		366,
+		72,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[62,12]",
+					"Tolerance": "_66",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_VAMedicalSchedAppt.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					700,
+					390,
+					72,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "VA Medical"
+			}
+	]
+}

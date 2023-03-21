@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		247,
+		251,
+		123,
+		16
+	],
+	"lastmodifieddate": 1675779868.6329999,
+	"createddate": 1675779868.6329999,
+	"name": "InpatientQuickOrders",
+	"lastfounddate": 1679347530.1820002,
+	"ocrcapturestring": "Inpatient Quick Orders",
+	"lastfoundlocation": [
+		437,
+		251,
+		123,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[57,6]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "InpatientQuickOrders.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					247,
+					251,
+					123,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Inpatient Quick Orders"
+			}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		465,
+		592,
+		19,
+		18
+	],
+	"lastmodifieddate": 1677767970.2610002,
+	"createddate": 1677767970.2610002,
+	"name": "RC_FinancialActivityCheck",
+	"lastfounddate": 1678718459.224,
+	"ocrcapturestring": "0",
+	"lastfoundlocation": [
+		59,
+		233,
+		19,
+		18
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[9,9]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_FinancialActivityCheck.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					465,
+					592,
+					19,
+					18
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "0"
+			}
+	]
+}

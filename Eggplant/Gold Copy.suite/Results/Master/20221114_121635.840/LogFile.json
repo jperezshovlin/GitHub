@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled.script",
+				"identifier": "START",
+				"timestamp": "2022-11-14 12:16:36.855 -0500"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 12:16:37.865 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "Untitled.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 12:16:40.261 -0500",
+				"message": "msedge.exe[return]",
+				"scriptName": "Untitled.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"5.101\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-11-14 12:16:37 -0500\", Successes:\"1\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-11-14 12:16:42.665 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:06 Untitled.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2022-11-14 12:16:55.072 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-14 12:16:37.430 -0500"
+}

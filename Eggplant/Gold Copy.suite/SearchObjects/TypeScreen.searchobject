@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		674,
+		303,
+		81,
+		16
+	],
+	"lastmodifieddate": 1675784601.6630001,
+	"createddate": 1675784601.6630001,
+	"name": "TypeScreen",
+	"lastfounddate": 1678909516.2449999,
+	"ocrcapturestring": "Type & Screen",
+	"lastfoundlocation": [
+		483,
+		303,
+		81,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[40,8]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "TypeScreen.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					674,
+					303,
+					81,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Type & Screen"
+			}
+	]
+}

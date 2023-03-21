@@ -1,0 +1,3 @@
+﻿2023-03-14 12:57:03.326 -0400	START		Running Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script
+2023-03-14 12:57:08.348 -0400	EndTestCase		(Duration:"5.016", Errors:"1", Exceptions:"0", StartTime:"2023-03-14 12:57:03 -0400", Successes:"0", TestCase:"Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script", Warnings:"0")
+2023-03-14 12:57:08.364 -0400	ABORTED		Execution Time 0:00:05 Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script

@@ -1,0 +1,75 @@
+{
+	"originalcapturelocation": [
+		602,
+		528,
+		49,
+		14
+	],
+	"lastmodifieddate": 1675885374.6729999,
+	"createddate": 1675784997.2849998,
+	"name": "AnemiaTypeScreenDiagnosis",
+	"lastfounddate": 1675886609.717,
+	"ocrcapturestring": "Anemia",
+	"lastfoundlocation": [
+		602,
+		598,
+		49,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-99,4]",
+					"Tolerance": "_59",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AnemiaTypeScreenDiagnosis/AnemiaTypeScreenDiagnosis.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					602,
+					528,
+					49,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Anemia"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-105,3]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AnemiaTypeScreenDiagnosis/AnemiaTypeScreenDiagnosis_new.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					607,
+					597,
+					81,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "emia (D64.9)"
+			}
+	]
+}

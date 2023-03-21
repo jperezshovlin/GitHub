@@ -1,0 +1,102 @@
+{
+	"originalcapturelocation": [
+		612,
+		575,
+		164,
+		15
+	],
+	"lastmodifieddate": 1677502884.3309999,
+	"createddate": 1677196116.45,
+	"name": "Pharm_MMR_new",
+	"lastfounddate": 1677503060.1230001,
+	"ocrcapturestring": "metoprolol succinate ER 100",
+	"lastfoundlocation": [
+		615,
+		575,
+		161,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[82,7]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_MMR_Metoprolol.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					612,
+					575,
+					164,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "metoprolol succinate ER 100"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[82,7]",
+					"Tolerance": 50,
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_MMR_Metoprolol.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					612,
+					575,
+					164,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "metoprolol succinate ER 100"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[3,0,164,15]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[79,7]",
+					"Tolerance": 50,
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_MMR_Metoprolol.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					612,
+					575,
+					161,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "metoprolol succinate ER 100"
+			}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script",
+				"identifier": "START",
+				"timestamp": "2023-03-16 14:49:49.590 -0400"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:49:49.922 -0400",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:49:50.680 -0400",
+				"message": "[controlKey]a",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:49:51.412 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:49:52.642 -0400",
+				"message": "C0630 FirstNet",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:49:56.574 -0400",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"C0630 FirstNet\")",
+				"handlerLine": 6,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:49:56.812 -0400",
+				"message": "at (266, 301)",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 6,
+				"identifier": "doubleclick"
+			},
+		{
+				"message": "(Duration:\"50.441\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-03-16 14:49:49 -0400\", Successes:\"0\", TestCase:\"Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-16 14:50:40.046 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:50 Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-03-16 14:50:40.062 -0400"
+			}
+	],
+	"createdTimestamp": "2023-03-16 14:49:49.605 -0400"
+}

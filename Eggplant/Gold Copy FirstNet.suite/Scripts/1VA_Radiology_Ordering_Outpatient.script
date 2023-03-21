@@ -1,0 +1,284 @@
+﻿put "MHPATNT,CCTEST" into NAME
+put "18100737" into FINNUMBER
+
+put "VAClerkTwo" into VACLERKLOGIN
+put "VAPHYSPCP" into VAPHYSPCPLOGIN
+put "VARADIOLOGIST" into VARADIOLOGISTLOGIN
+put "VARADCLERKCPM" into VARADCLERKCPMLOGIN
+put "VARADTECH4"  into VARADTECHLOGIN 
+put "Cerner123"  into Password
+
+//Step 1
+Log "Step 1"
+Utilities.ApplicationLogin VAPHYSPCPLOGIN , Password , "C0630"
+//PopUps.millenniumChangeNotificationWindow
+//wait 3
+//typetext windowsKey, upArrow
+
+//Step 2	
+Log "Step 2"
+Wait 8
+PatientSearch.patientSearch FINNUMBER,FIN
+PopUps.assignRelationship Physician
+
+
+//Step 3
+Log "Step 3"
+wait 4
+Click imageName:"OrdersADD", waitFor:6
+
+//Step 4	
+Log "Step 4"
+wait 5
+typetext windowsKey, upArrow
+typetext windowsKey, upArrow
+wait 4
+Click imageName:"AddOrderSearch", waitFor:10
+wait 6
+TypeText "CT Chest",returnKey
+wait 2
+
+put ImageRectangle("AddOrderSearch") into AD
+put AD + [-5,50,500,800] into XR
+click text: "CT Chest w/o contrast", SearchRectangle:(XR),
+wait 4
+
+If ImageFound("Radiology/ClinicalDecisionSupportfor") then
+	click {Image:"Radiology/ExitOnly", WaitFor:5.5}
+	
+Else
+	Log "Clincal Decison popup did not display, no action needed"
+	
+End if
+
+put ImageRectangle("AddOrderSearch") into AD
+put AD + [700,700,1299,955] into DONE
+click text: "Done", SearchRectangle:DONE
+
+
+
+//Step 5
+Log "Step 5"
+WaitFor 8, "ReasonforExam"
+Click imageName:"ReasonforExam", waitFor:2
+TypeText "Chest Pain",returnKey
+
+
+If ImageFound("Radiology/KidneyDisease")then
+	Click "Radiology/KidneyDisease"
+	TypeText returnKey
+Else
+	Log "kidney disease not here"
+	
+End if
+
+
+If ImageFound("DiagnosesMissing") then
+	WaitFor 8.0, "Diagnoses"
+	Click FoundImageLocation()
+	WaitFor 8.0, "AddDiagnoses"
+	Click FoundImageLocation()
+	WaitFor 8.0, "Diagnosis"
+	Click FoundImageLocation()
+	TypeText "Chest Pain"
+	TypeText Return
+	WaitFor 8, text:"513196"
+	click FoundImageLocation()
+Else
+	Click imageName:"Radiology/Atypicalchestpain", waitFor:2
+	
+End if
+
+If ImageFound("Radiology/DiagnosisAssistant") then
+	Click imageName:"Radiology/DiagnosisAssitantSave", waitFor:2
+Else
+	Log "Diagnosic Assistant did not popup"
+	
+End if
+
+Click imageName:"DiagnosisSearchOk", waitFor:2
+Click imageName:"DiagnosisSearchOk", waitFor:2
+click image: "Sign"
+
+
+If ImageFound( "ErrorDuplicate")  then
+	Click imageName:"Radiology/OrderAnyway", waitFor: 2
+Else
+	Log "No Duplicate Order Popup", "ErrorDuplicate"
+	
+End if
+
+Click imageName:"Refresh", waitFor:2
+put ImageRectangle("PowerChart/PC_LogoHeader") into AD
+put AD + [0,50,1500,120] into ADH
+DoubleClick Text:"Exit", SearchRectangle:ADH
+
+put "MHPATNT,CCTEST" into NAME
+put "18100737" into FINNUMBER
+
+put "VAClerkTwo" into VACLERKLOGIN
+put "VAPHYSPCP" into VAPHYSPCPLOGIN
+put "VARADIOLOGIST" into VARADIOLOGISTLOGIN
+put "VARADCLERKCPM" into VARADCLERKCPMLOGIN
+put "VARADTECH4"  into VARADTECHLOGIN 
+put "Cerner123"  into Password
+//Step 6	
+//Off Page Reference 1 VA - Ambulatory - Referrals steps are not needed since we ar enot referring patient to outside facility
+Log "Step 6 - Off Page Reference 1 VA - Ambulatory - Referrals  "
+typetext altkey & F4
+WaitFor 8, "Common/Icon_LaunchCitrixSearchResult"
+DoubleClick "Common/Icon_LaunchCitrixSearchResult"
+If imagefound (image:"Common/Icon_LaunchDownloadedCitrixWindow", Waitfor: 8.0)
+	Wait 1.0
+	doubleclick FoundImageLocation()
+End If
+Waitfor 30.0, "Common/Button_OK"
+Click FoundImageLocation()
+
+//Step 7	
+Log "Step 7"
+Common.loginExe VARADIOLOGISTLOGIN , Password , "Appbar.exe"
+PopUps.millenniumChangeNotificationWindow
+WaitFor 8, "Radiology/DesktopLauncherIcon"
+Click imageName:"Radiology/DesktopLauncherIcon", waitFor:2
+typetext windowsKey, upArrow
+
+
+//Step 8	
+Log "Step 8"
+WaitFor 20, "Radiology/Protocol"
+Click imageName:"Radiology/Protocol", waitFor:2
+
+
+//Step 9	
+Log "Step 9"
+
+put ImageRectangle("Radiology/Protocol") into PO
+put PO + [-300,50,600,500] into PRO
+
+Repeat until ImageFound("Radiology/MHPATNTCCTESTONE")
+	click image:"Radiology/ScollBar", SearchRectangle:PRO
+	
+End repeat
+
+Click image:"Radiology/MHPATNTCCTESTONE",SearchRectangle:PRO
+
+//Step 10
+Log "Step 10"
+Click imageName:"Radiology/Accept", waitFor:2
+
+
+//Step 11
+Log "Step 11 - No required details to fill, close app"
+typetext altkey & F4
+Click imageName:"Radiology/VARADIOLOGISTB1930", waitFor:2
+
+//Step 12
+Log "Step 12 - N/A Step"
+
+
+//Step 13	
+Log "Step 13"
+Common.loginExe VARADCLERKCPMLOGIN , Password , "Powerchart.exe"
+PopUps.millenniumChangeNotificationWindow
+
+//Step 14
+Log "Step 14"
+typetext windowsKey, upArrow
+
+//Step 15	
+Log "Step 15"
+PatientSearch.patientSearch FINNUMBER,FIN
+
+
+//Step 16	
+Log "Step 16"
+wait 6
+WaitFor 6, image:"Radiology/ImagingFutureOrders"
+Click image:"Radiology/ImagingFutureOrders",waitfor:3
+
+put ImageRectangle("Radiology/FutureOrdersView") into OR
+put OR + [0,50,600,300] into ORDER
+Click Text:"CT Chest w/o contrast", SearchRectangle:ORDER
+
+
+Click imageName:"Radiology/Activate", waitFor:2
+wait 2
+
+If ImageFound("Radiology/ErrorDuplicate") then
+	Click imageName:"Radiology/OrderAnyway", waitFor:3
+Else
+	Log "No duplicate Order"
+	
+End if
+
+put ImageRectangle("PowerChart/PC_LogoHeader") into AD
+put AD + [0,50,1500,80] into ADH
+DoubleClick Text:"Exit", SearchRectangle:ADH
+
+typetext altkey & F4
+
+//Step 17
+Log "Step 17"
+Common.loginExe VARADTECHLOGIN , Password , "appbar.exe"
+PopUps.millenniumChangeNotificationWindow
+WaitFor 8, "Radiology/OnliineWorklistIcon"
+Click imageName:"Radiology/OnliineWorklistIcon", waitFor:2
+typetext windowsKey, upArrow
+
+
+//Step 18	
+Log "Step 18"
+wait 15
+put ImageRectangle("Radiology/ExamStatus") into EX
+put EX + [-20,-5,600,300] into ES
+Click image:"Radiology/ExamStatus",SearchRectangle:(ES)
+wait 2
+If ImageFound("Radiology/ALL")then
+	Click text:"Completed", waitFor:2,SearchRectangle:(ES)
+	Click text:"On Hold Scheduled", waitFor:2,SearchRectangle:(ES)
+	Click text:"On Hold Not Scheduled", waitFor:2,SearchRectangle:(ES)
+	TypeText returnKey
+Else
+	TypeText returnKey
+	Log "Completed is selected"
+	
+	
+End if
+wait 5
+put ImageRectangle("Radiology/ExamStatus") into EX
+put EX + [-20,-5,300,750] into LIST
+rightclick image: "Radiology/MH/MHPATNTCOTESTONE", SearchRectangle:(LIST)
+Click imageName:"Radiology/ExamManagement", waitFor:2
+put ImageRectangle("Radiology/Accession") into AA
+put AA + [400,700,1000,150] into MENU
+
+click image: "Radiology/Start", waitFor:2, SearchRectangle:MENU
+Click image:"Radiology/Complete", SearchRectangle:MENU
+
+If ImageFound("Radiology/Oneormoreoftheselectedprocedur") then
+	Click "Radiology/Ok"
+	
+Else
+	Log "Warning did noy display no action needed"
+	
+End if
+
+WaitFor 10, "Radiology/Matchedimagesarenotpresentfort"
+Click image:"Radiology/Yes"
+
+DoubleClick (Image:"Radiology/TechnologistNotes", WaitFor:4.3)
+TypeText "Test Test",returnKey
+Click image:"Radiology/Apply",  waitFor:2
+Click imageName:"Radiology/Ok", waitFor: 2
+Click imageName:"Radiology/Ok", waitFor: 2
+typetext altkey & F4
+typetext altkey & F4
+Click image:"Radiology/VARADTECH4B1930"
+//Step 19	
+Log "Step 19 - N/A Step "
+//Step 20 +21	
+Log "Step 20 + 21 are PACS Interface Steps"
+
+Log "Test Case: 1VA - Radiology - Ordering - Outpatient Completed"
+

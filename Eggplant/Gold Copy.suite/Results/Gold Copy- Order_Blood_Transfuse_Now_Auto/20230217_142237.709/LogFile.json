@@ -1,0 +1,80 @@
+{
+	"entries": [
+		{
+				"message": "Running BloodProducts.script",
+				"identifier": "START",
+				"timestamp": "2023-02-17 14:22:38.401 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-17 14:22:40.818 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-17 14:22:41.736 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-17 14:22:44.481 -0500",
+				"message": "B1930 Powerchart",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-17 14:22:48.624 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"B1930 Powerchart\")",
+				"handlerLine": 5,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-17 14:22:49.722 -0500",
+				"message": "at (91, 300)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-17 14:23:09.339 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable to Find Image MinimizedCernerLogin",
+				"image": "MinimizedCernerLogin",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-17 14:28:05.614 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable To Find Any Image On Screen \"CernerLogoLoginWindow\" within 60.00 seconds",
+				"image": "CernerLogoLoginWindow",
+				"handlerLine": 6,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"327.408\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-02-17 14:22:38 -0500\", Successes:\"0\", TestCase:\"BloodProducts.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-17 14:28:06.359 -0500"
+			},
+		{
+				"message": "Execution Time 0:05:28 BloodProducts.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-02-17 14:28:08.273 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-17 14:22:38.945 -0500"
+}

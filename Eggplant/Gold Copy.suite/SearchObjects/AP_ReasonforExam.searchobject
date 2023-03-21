@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1427,
+		705,
+		99,
+		13
+	],
+	"lastmodifieddate": 1677606216.062,
+	"createddate": 1677606216.062,
+	"name": "AP_ReasonforExam",
+	"lastfounddate": 1679346103.5279999,
+	"ocrcapturestring": "Reason for Exa",
+	"lastfoundlocation": [
+		1383,
+		570,
+		99,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[112,4]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_ReasonforExam.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1427,
+					705,
+					99,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Reason for Exa"
+			}
+	]
+}

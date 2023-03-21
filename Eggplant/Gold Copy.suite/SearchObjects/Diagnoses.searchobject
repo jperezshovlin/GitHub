@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		833,
+		425,
+		58,
+		16
+	],
+	"lastmodifieddate": 1675781485.4590001,
+	"createddate": 1675781485.4590001,
+	"name": "Diagnoses",
+	"lastfounddate": 1679081189.6300001,
+	"ocrcapturestring": "iagnoses",
+	"lastfoundlocation": [
+		626,
+		495,
+		58,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[29,8]",
+					"Tolerance": "_69",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Diagnoses.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					833,
+					425,
+					58,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "iagnoses"
+			}
+	]
+}

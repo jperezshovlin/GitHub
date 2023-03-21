@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		590,
+		423,
+		51,
+		16
+	],
+	"lastmodifieddate": 1679345258.7509999,
+	"createddate": 1679345258.7509999,
+	"name": "AP_Glucose500",
+	"lastfounddate": 1679408672.9190001,
+	"ocrcapturestring": "0 500-",
+	"lastfoundlocation": [
+		590,
+		423,
+		51,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[25,8]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_Glucose500.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					590,
+					423,
+					51,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "0 500-"
+			}
+	]
+}

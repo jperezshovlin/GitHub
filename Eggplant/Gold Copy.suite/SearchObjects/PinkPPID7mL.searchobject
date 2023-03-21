@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		574,
+		346,
+		93,
+		16
+	],
+	"lastmodifieddate": 1675894565.4850001,
+	"createddate": 1675894565.4850001,
+	"name": "PinkPPID7mL",
+	"lastfounddate": 1678909794.0469999,
+	"ocrcapturestring": "Pink-PPID 7 mL",
+	"lastfoundlocation": [
+		574,
+		346,
+		93,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[46,8]",
+					"Tolerance": "_50",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "PinkPPID7mL.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					574,
+					346,
+					93,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Pink-PPID 7 mL"
+			}
+	]
+}

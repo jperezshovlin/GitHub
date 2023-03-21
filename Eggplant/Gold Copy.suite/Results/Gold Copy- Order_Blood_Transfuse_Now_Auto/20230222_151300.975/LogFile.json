@@ -1,0 +1,647 @@
+{
+	"entries": [
+		{
+				"message": "Running BloodProducts.script",
+				"identifier": "START",
+				"timestamp": "2023-02-22 15:13:02.512 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-22 15:13:07.358 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-22 15:13:08.499 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-22 15:13:11.909 -0500",
+				"message": "B1930 Powerchart",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-22 15:13:17.352 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"B1930 Powerchart\")",
+				"handlerLine": 5,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-22 15:13:18.664 -0500",
+				"message": "at (91, 300)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-22 15:13:41.162 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable to Find Image MinimizedCernerLogin",
+				"image": "MinimizedCernerLogin",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-22 15:13:45.141 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found #1 at (743, 356)",
+				"image": "CernerLogoLoginWindow",
+				"handlerLine": 6,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-22 15:13:46.668 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (896, 463)",
+				"image": "UsernameFieldLoginWindow",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-22 15:13:47.534 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 10,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-22 15:13:49.009 -0500",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 13,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-22 15:13:51.162 -0500",
+				"message": "VAPHYSHOSP",
+				"scriptName": "Utilities.script",
+				"handlerLine": 14,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-22 15:13:53.108 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (885, 523)",
+				"image": "PasswordLogin",
+				"handlerLine": 15,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-22 15:13:54.222 -0500",
+				"message": "Cerner123[return]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 16,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-22 15:13:55.928 -0500",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 18,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-22 15:13:58.775 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (1908, 164)",
+				"image": "PC_PatientSearchDropDown",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-22 15:14:00.929 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1908, 164)",
+				"image": "PC_PatientSearchDropDown",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-22 15:14:02.903 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1863, 230)",
+				"image": "FIN",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-22 15:14:05.010 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1780, 163)",
+				"image": "RecentPatientSearch",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-22 15:14:06.029 -0500",
+				"message": "45127754[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_relationship",
+				"timestamp": "2023-02-22 15:14:10.442 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable to Find Image RegisteredNurseAssignRelationship",
+				"image": "RegisteredNurseAssignRelationship",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_relationship",
+				"timestamp": "2023-02-22 15:14:15.537 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable to Find Image InpatientConsultingPhysician",
+				"image": "InpatientConsultingPhysician",
+				"handlerLine": 8,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:14:16.444 -0500",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:14:51.324 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (511, 309)",
+				"image": "InpatientQuickOrders",
+				"handlerLine": 8,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:14:54.140 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1205, 943)",
+				"image": "BloodProductsTransfuseNowBlood",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:14:56.610 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1632, 310)",
+				"image": "OrderCheckout",
+				"handlerLine": 11,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:14:58.817 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (1361, 999)",
+				"image": "OrdersforSignatureBox",
+				"handlerLine": 12,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:01.363 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1336, 769)",
+				"image": "ModifyDetails",
+				"handlerLine": 13,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:04.627 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (429, 613)",
+				"image": "RBCProduct",
+				"handlerLine": 16,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:07.273 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1768, 1010)",
+				"image": "OrdersForSignature",
+				"handlerLine": 18,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:09.867 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (622, 151)",
+				"image": "BloodProduct",
+				"handlerLine": 20,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:11.989 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (631, 449)",
+				"image": "TypeScreenOK",
+				"handlerLine": 21,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:14.628 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (704, 292)",
+				"image": "RBCProductOrder_1",
+				"handlerLine": 24,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:17.087 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1372, 666)",
+				"image": "HgB7gdLICUandcriticalpatients",
+				"handlerLine": 26,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:19.578 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (788, 441)",
+				"image": "Diagnoses",
+				"handlerLine": 27,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:21.470 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (445, 479)",
+				"image": "AddDiagnosis",
+				"handlerLine": 28,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:25.688 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (844, 337)",
+				"image": "Binoculars",
+				"handlerLine": 29,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:27.744 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (795, 231)",
+				"image": "SearchDiagnosis",
+				"handlerLine": 31,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:28.780 -0500",
+				"message": "anemia[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 33,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:31.674 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (956, 394)",
+				"image": "37980",
+				"handlerLine": 35,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:32.453 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 37,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:33.880 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 38,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:36.737 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (656, 311)",
+				"image": "TypeScreen",
+				"handlerLine": 42,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:38.827 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (656, 311)",
+				"image": "TypeScreen",
+				"handlerLine": 43,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:43.143 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1053, 514)",
+				"image": "NursecollectYes",
+				"handlerLine": 44,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:46.021 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (788, 441)",
+				"image": "Diagnoses",
+				"handlerLine": 45,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:47.960 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (445, 479)",
+				"image": "AddDiagnosis",
+				"handlerLine": 47,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:50.335 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (844, 337)",
+				"image": "Binoculars",
+				"handlerLine": 48,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:52.744 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (795, 231)",
+				"image": "SearchDiagnosis",
+				"handlerLine": 50,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:53.683 -0500",
+				"message": "anemia[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 52,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:57.574 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (956, 394)",
+				"image": "37980",
+				"handlerLine": 54,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:58.338 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 56,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:15:59.959 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 57,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:02.722 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (657, 256)",
+				"image": "RBCProductAdministrationOrder",
+				"handlerLine": 63,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:05.144 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (788, 441)",
+				"image": "Diagnoses",
+				"handlerLine": 64,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:07.033 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (445, 479)",
+				"image": "AddDiagnosis",
+				"handlerLine": 67,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:09.401 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (844, 337)",
+				"image": "Binoculars",
+				"handlerLine": 68,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:11.561 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (795, 231)",
+				"image": "SearchDiagnosis",
+				"handlerLine": 70,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:12.518 -0500",
+				"message": "anemia[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 72,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:15.126 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (956, 394)",
+				"image": "37980",
+				"handlerLine": 74,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:15.945 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 76,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:17.583 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 77,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:32.118 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (659, 239)",
+				"image": "VerifyWitnessConse",
+				"handlerLine": 85,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:34.944 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (788, 441)",
+				"image": "Diagnoses",
+				"handlerLine": 86,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:36.803 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (445, 479)",
+				"image": "AddDiagnosis",
+				"handlerLine": 88,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:39.041 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (844, 337)",
+				"image": "Binoculars",
+				"handlerLine": 89,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:41.080 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (795, 231)",
+				"image": "SearchDiagnosis",
+				"handlerLine": 91,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:42.022 -0500",
+				"message": "anemia[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 93,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:44.769 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (956, 394)",
+				"image": "37980",
+				"handlerLine": 95,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:45.618 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 97,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:47.424 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 98,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:16:50.888 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1781, 1010)",
+				"image": "SignOrders",
+				"handlerLine": 101,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_orderrbc",
+				"timestamp": "2023-02-22 15:17:27.926 -0500",
+				"scriptName": "Utilities.script",
+				"message": "No Image Found On Screen: \"RefreshOrders\"",
+				"image": "RefreshOrders",
+				"handlerLine": 104,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"265.592\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-02-22 15:13:03 -0500\", Successes:\"0\", TestCase:\"BloodProducts.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-22 15:17:28.791 -0500"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Image Found On Screen: \"RefreshOrders\" -- Execution Time 0:04:27 BloodProducts.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-02-22 15:17:38.736 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-22 15:13:03.199 -0500"
+}

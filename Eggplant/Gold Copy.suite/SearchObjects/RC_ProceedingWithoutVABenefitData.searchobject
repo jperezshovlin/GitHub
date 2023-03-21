@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		838,
+		319,
+		246,
+		20
+	],
+	"lastmodifieddate": 1678731868.517,
+	"createddate": 1678731868.517,
+	"name": "RC_ProceedingWithoutVABenefitData",
+	"lastfounddate": 1678914396.7589998,
+	"ocrcapturestring": "Proceeding Without VA Benefit Data",
+	"lastfoundlocation": [
+		838,
+		319,
+		246,
+		20
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[32,7]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_ProceedingWithoutVABenefitData.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					838,
+					319,
+					246,
+					20
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Proceeding Without VA Benefit Data"
+			}
+	]
+}

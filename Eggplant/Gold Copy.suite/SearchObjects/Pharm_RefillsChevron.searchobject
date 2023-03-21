@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		915,
+		259,
+		18,
+		10
+	],
+	"lastmodifieddate": 1677197393.9860001,
+	"createddate": 1677197393.9860001,
+	"name": "Pharm_RefillsChevron",
+	"lastfounddate": 1677197979.063,
+	"ocrcapturestring": "A",
+	"lastfoundlocation": [
+		915,
+		259,
+		18,
+		10
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[9,5]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_RefillsChevron.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					915,
+					259,
+					18,
+					10
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "A"
+			}
+	]
+}

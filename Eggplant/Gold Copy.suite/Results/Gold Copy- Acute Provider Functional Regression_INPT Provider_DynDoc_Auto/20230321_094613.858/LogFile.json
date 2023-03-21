@@ -1,0 +1,70 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script",
+				"identifier": "START",
+				"timestamp": "2023-03-21 09:46:13.864 -0400"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 09:46:14.170 -0400",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 09:46:14.920 -0400",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 09:46:15.660 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 09:46:16.933 -0400",
+				"message": "C0630 Powerchart",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 09:46:20.985 -0400",
+				"scriptName": "Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"C0630 Powerchart\")",
+				"handlerLine": 6,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 09:46:21.191 -0400",
+				"message": "at (460, 301)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 6,
+				"identifier": "doubleclick"
+			},
+		{
+				"message": "(Duration:\"47.55\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-03-21 09:46:13 -0400\", Successes:\"0\", TestCase:\"Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-21 09:47:01.419 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:47 Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-03-21 09:47:01.429 -0400"
+			}
+	],
+	"createdTimestamp": "2023-03-21 09:46:13.868 -0400"
+}

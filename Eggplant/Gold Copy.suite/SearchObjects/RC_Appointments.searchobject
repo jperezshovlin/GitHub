@@ -1,0 +1,75 @@
+{
+	"originalcapturelocation": [
+		216,
+		48,
+		100,
+		21
+	],
+	"lastmodifieddate": 1679064905.299,
+	"createddate": 1678135624.368,
+	"name": "RC_Appointments",
+	"lastfounddate": 1679064905.4170001,
+	"ocrcapturestring": "Appointments",
+	"lastfoundlocation": [
+		101,
+		49,
+		100,
+		21
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[50,10]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_Appointments.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					216,
+					48,
+					100,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Appointments"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[50,10]",
+					"Tolerance": 88,
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_Appointments.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					216,
+					48,
+					100,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Appointments"
+			}
+	]
+}

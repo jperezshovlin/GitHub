@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		270,
+		327,
+		79,
+		17
+	],
+	"lastmodifieddate": 1678133772.3759999,
+	"createddate": 1678133772.3759999,
+	"name": "RC_PatientType",
+	"lastfounddate": 1678914407.319,
+	"ocrcapturestring": "Patient Type",
+	"lastfoundlocation": [
+		270,
+		325,
+		79,
+		17
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[151,25]",
+					"Tolerance": "_71",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_PatientType.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					270,
+					327,
+					79,
+					17
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Patient Type"
+			}
+	]
+}

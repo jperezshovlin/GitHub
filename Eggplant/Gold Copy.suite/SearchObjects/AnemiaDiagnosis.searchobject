@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		607,
+		597,
+		81,
+		14
+	],
+	"lastmodifieddate": 1675885593.332,
+	"createddate": 1675885593.332,
+	"name": "AnemiaDiagnosis",
+	"lastfounddate": 1675887369.4889998,
+	"ocrcapturestring": "emia (D64.9)",
+	"lastfoundlocation": [
+		607,
+		597,
+		81,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-105,3]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AnemiaDiagnosis.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					607,
+					597,
+					81,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "emia (D64.9)"
+			}
+	]
+}

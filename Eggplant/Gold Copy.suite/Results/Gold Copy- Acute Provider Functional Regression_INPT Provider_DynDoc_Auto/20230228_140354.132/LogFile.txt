@@ -1,0 +1,17 @@
+﻿2023-02-28 14:03:55.198 -0500	START		Running Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc.script
+2023-02-28 14:03:57.341 -0500	doubleclick	CernerDomainSearch	at (1685, 200)	2	on_citrixdomainsearch	Utilities.script
+2023-02-28 14:03:58.273 -0500	typetext		[controlKey]a	3	on_citrixdomainsearch	Utilities.script
+2023-02-28 14:04:00.815 -0500	typetext		B1930 Powerchart	4	on_citrixdomainsearch	Utilities.script
+2023-02-28 14:04:05.781 -0500	everyimagelocation	(TEXT:"B1930 Powerchart")	found 2 images	5	on_citrixdomainsearch	Utilities.script
+2023-02-28 14:04:06.871 -0500	doubleclick		at (91, 300)	5	on_citrixdomainsearch	Utilities.script
+2023-02-28 14:04:25.364 -0500	imagefound	MinimizedCernerLogin	Unable to Find Image MinimizedCernerLogin	3	on_powerchartlogin	Utilities.script
+2023-02-28 14:04:38.583 -0500	waitfor	CernerLogoLoginWindow	found #1 at (743, 356)	6	on_powerchartlogin	Utilities.script
+2023-02-28 14:04:41.310 -0500	click	UsernameFieldLoginWindow	at (896, 463)	8	on_powerchartlogin	Utilities.script
+2023-02-28 14:04:42.078 -0500	typetext		[controlKey]a	11	on_powerchartlogin	Utilities.script
+2023-02-28 14:04:43.320 -0500	typetext		[deleteKey]	14	on_powerchartlogin	Utilities.script
+2023-02-28 14:04:45.157 -0500	typetext		VAPHYSHOSP	15	on_powerchartlogin	Utilities.script
+2023-02-28 14:04:46.806 -0500	click	PasswordLogin	at (885, 523)	16	on_powerchartlogin	Utilities.script
+2023-02-28 14:04:47.917 -0500	typetext		Cerner123[return]	17	on_powerchartlogin	Utilities.script
+2023-02-28 14:04:49.241 -0500	typetext		[windowsKey][upArrow]	19	on_powerchartlogin	Utilities.script
+2023-02-28 14:05:47.014 -0500	EndTestCase		(Duration:"111.314", Errors:"1", Exceptions:"0", StartTime:"2023-02-28 14:03:55 -0500", Successes:"0", TestCase:"Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc.script", Warnings:"0")
+2023-02-28 14:05:48.790 -0500	ABORTED		Execution Time 0:01:52 Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc.script

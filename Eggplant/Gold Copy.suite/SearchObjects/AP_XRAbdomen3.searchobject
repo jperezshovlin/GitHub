@@ -1,0 +1,41 @@
+{
+	"lastmodifieddate": 1677693738.9749999,
+	"ocrcapturestring": "XR Abdomen 2 Views",
+	"originalcapturelocation": [
+		464,
+		456,
+		132,
+		24
+	],
+	"createddate": 1677693738.9749999,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_30",
+					"HotSpot": "[66,12]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Adaptive to Image"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_XRAbdomen2ViewsOrder.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					464,
+					456,
+					132,
+					24
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "XR Abdomen 2 Views"
+			}
+	],
+	"name": "AP_XRAbdomen3"
+}

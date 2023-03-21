@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_script" package="PowerChartLogin.suite" timestamp="2023-03-01 09:19:05.004 -0500"
+ tests="1"  failures="0" errors="0" time="126.296000">
+  <properties>
+   <property name="RunDate" value="2023-03-01 09:19:05.004 -0500"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc.script" assertions="1" status="error"  time="125.148">
+    <error type="Exception" message="No Image Found On Screen: &quot;ACD_MPage_Documents&quot;" />
+  </testcase>
+ </testsuite>
+</testsuites>

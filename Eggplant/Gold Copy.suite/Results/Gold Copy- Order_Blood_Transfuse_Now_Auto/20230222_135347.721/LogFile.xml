@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="BloodProducts_script" package="ReusablePowerChartLogin.suite" timestamp="2023-02-22 13:53:47.721 -0500"
+ tests="1"  failures="0" errors="0" time="1.702000">
+  <properties>
+   <property name="RunDate" value="2023-02-22 13:53:47.721 -0500"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="BloodProducts.script" assertions="1" status="success"  time="0">
+  </testcase>
+ </testsuite>
+</testsuites>

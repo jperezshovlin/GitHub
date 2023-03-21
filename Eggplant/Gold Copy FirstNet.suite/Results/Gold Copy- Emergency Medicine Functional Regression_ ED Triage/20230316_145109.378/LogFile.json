@@ -1,0 +1,199 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script",
+				"identifier": "START",
+				"timestamp": "2023-03-16 14:51:09.378 -0400"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:51:09.744 -0400",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:51:10.494 -0400",
+				"message": "[controlKey]a",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:51:11.237 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:51:12.458 -0400",
+				"message": "C0630 FirstNet",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:51:16.433 -0400",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"C0630 FirstNet\")",
+				"handlerLine": 6,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-16 14:51:16.663 -0400",
+				"message": "at (266, 301)",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 6,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-16 14:51:31.762 -0400",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"message": "found #1 at (743, 356)",
+				"image": "CernerLogoLoginWindow",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-16 14:51:32.252 -0400",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"message": "at (896, 463)",
+				"image": "UsernameFieldLoginWindow",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-16 14:51:33.017 -0400",
+				"message": "[controlKey]a",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 12,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-16 14:51:33.771 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-16 14:51:34.877 -0400",
+				"message": "VAEDRN5",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 16,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-16 14:51:35.957 -0400",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"message": "at (885, 523)",
+				"image": "PasswordLogin",
+				"handlerLine": 17,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-16 14:51:37.117 -0400",
+				"message": "Cerner123[return]",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 18,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-16 14:51:37.877 -0400",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script",
+				"handlerLine": 20,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_checkin",
+				"timestamp": "2023-03-16 14:51:42.630 -0400",
+				"scriptName": "Utilities4.script",
+				"message": "at (1861, 202)",
+				"image": "ED_CheckInOption",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_checkin",
+				"timestamp": "2023-03-16 14:51:43.545 -0400",
+				"scriptName": "Utilities4.script",
+				"message": "at (1774, 226)",
+				"image": "ED_ChangeLocation",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_checkin",
+				"timestamp": "2023-03-16 14:51:44.464 -0400",
+				"scriptName": "Utilities4.script",
+				"message": "at (1492, 302)",
+				"image": "ED_NursingUnit",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_checkin",
+				"timestamp": "2023-03-16 14:51:45.267 -0400",
+				"message": "668",
+				"scriptName": "Utilities4.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_checkin",
+				"timestamp": "2023-03-16 14:51:46.267 -0400",
+				"scriptName": "Utilities4.script",
+				"message": "at (1866, 202)",
+				"image": "ED_LocationOK",
+				"handlerLine": 8,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_checkin",
+				"timestamp": "2023-03-16 14:51:47.114 -0400",
+				"scriptName": "Utilities4.script",
+				"message": "at (1861, 202)",
+				"image": "ED_CheckInOption",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_checkin",
+				"timestamp": "2023-03-16 14:51:58.745 -0400",
+				"scriptName": "Utilities4.script",
+				"message": "No Image Found On Screen: \"ED_CheckIn\"",
+				"image": "ED_CheckIn",
+				"handlerLine": 11,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"49.726\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-03-16 14:51:09 -0400\", Successes:\"0\", TestCase:\"Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-16 14:51:59.121 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:49 Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-03-16 14:51:59.132 -0400"
+			}
+	],
+	"createdTimestamp": "2023-03-16 14:51:09.394 -0400"
+}

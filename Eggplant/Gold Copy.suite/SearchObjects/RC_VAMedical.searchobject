@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		471,
+		366,
+		62,
+		17
+	],
+	"lastmodifieddate": 1678134698.332,
+	"createddate": 1678134698.332,
+	"name": "RC_VAMedical",
+	"lastfounddate": 1678732129.1729999,
+	"ocrcapturestring": "VA Medical",
+	"lastfoundlocation": [
+		684,
+		216,
+		31,
+		8
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-10,7]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_VAMedical.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					471,
+					366,
+					62,
+					17
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "VA Medical"
+			}
+	]
+}

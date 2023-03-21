@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		106,
+		40,
+		22,
+		22
+	],
+	"lastmodifieddate": 1668110384.0369999,
+	"createddate": 1668110384.0369999,
+	"name": "RefreshButton",
+	"lastfounddate": 1668447748.027,
+	"ocrcapturestring": "o",
+	"lastfoundlocation": [
+		106,
+		40,
+		22,
+		22
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[6,8]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RefreshButton.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					106,
+					40,
+					22,
+					22
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "o"
+			}
+	]
+}

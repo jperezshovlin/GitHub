@@ -1,0 +1,4 @@
+﻿2022-12-01 10:38:26.862 -0500	START		Running Master.script
+2022-12-01 10:38:27.948 -0500	typetext		[windowsKey]r	2	on_openurl	Utilities.script
+2022-12-01 10:38:30.129 -0500	EndTestCase		(Duration:"2.448", Errors:"1", Exceptions:"0", StartTime:"2022-12-01 10:38:27 -0500", Successes:"0", TestCase:"Master.script", Warnings:"0")
+2022-12-01 10:38:33.434 -0500	ABORTED		Execution Time 0:00:04 Master.script

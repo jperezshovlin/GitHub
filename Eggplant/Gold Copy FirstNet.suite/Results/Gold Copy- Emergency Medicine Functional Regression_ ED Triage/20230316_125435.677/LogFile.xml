@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Gold Copy- Emergency Medicine Functional Regression_ ED Triage_script" package="Gold Copy FirstNet.suite" timestamp="2023-03-16 12:54:35.677 -0400"
+ tests="1"  failures="0" errors="0" time="123.058000">
+  <properties>
+   <property name="RunDate" value="2023-03-16 12:54:35.677 -0400"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script" assertions="1" status="failure"  time="123.042">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

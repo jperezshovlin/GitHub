@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		963,
+		563,
+		51,
+		14
+	],
+	"lastmodifieddate": 1677502211.523,
+	"createddate": 1677502211.523,
+	"name": "Pharm_Continue_RoutingOption",
+	"lastfounddate": 1677516063.191,
+	"ocrcapturestring": "Continue",
+	"lastfoundlocation": [
+		963,
+		563,
+		51,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[25,7]",
+					"Tolerance": "_64",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_Continue_RoutingOption.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					963,
+					563,
+					51,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Continue"
+			}
+	]
+}

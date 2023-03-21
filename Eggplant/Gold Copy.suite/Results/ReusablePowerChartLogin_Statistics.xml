@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2023-02-24 12:07:56 -0500</FirstRun>
+  <LastRun>2023-02-24 12:07:56 -0500</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="BloodProducts">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>10</NumberOfRuns>
+  <NumberOfFails>8</NumberOfFails>
+  <FirstRun>2023-02-07 09:21:57 -0500</FirstRun>
+  <LastRun>2023-02-22 15:18:03 -0500</LastRun>
+  <TotalTimeOnSuccess>211.176000</TotalTimeOnSuccess>
+ </script>
+ <script name="Utilities">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2022-11-28 13:07:34 -0500</FirstRun>
+  <LastRun>2023-02-17 15:35:40 -0500</LastRun>
+  <TotalTimeOnSuccess>6.852000</TotalTimeOnSuccess>
+ </script>
+ <script name="Master">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>13</NumberOfRuns>
+  <NumberOfFails>5</NumberOfFails>
+  <FirstRun>2022-11-14 12:12:56 -0500</FirstRun>
+  <LastRun>2022-11-28 13:09:38 -0500</LastRun>
+  <TotalTimeOnSuccess>127.735000</TotalTimeOnSuccess>
+ </script>
+ <script name="Utilities2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-02-23 19:40:59 -0500</FirstRun>
+  <LastRun>2023-02-23 19:40:59 -0500</LastRun>
+  <TotalTimeOnSuccess>1.754000</TotalTimeOnSuccess>
+ </script>
+</statistics>

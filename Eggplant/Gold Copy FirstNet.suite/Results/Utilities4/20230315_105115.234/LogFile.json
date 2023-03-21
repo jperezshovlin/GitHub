@@ -1,0 +1,47 @@
+{
+	"entries": [
+		{
+				"message": "Running Utilities.script",
+				"identifier": "START",
+				"timestamp": "2023-03-15 10:51:15.253 -0400"
+			},
+		{
+				"handlerName": "on_utilities",
+				"timestamp": "2023-03-15 10:51:15.495 -0400",
+				"scriptName": "Utilities.script",
+				"message": "at (1861, 202)",
+				"image": "ED_CheckInOption",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_utilities",
+				"timestamp": "2023-03-15 10:51:16.395 -0400",
+				"scriptName": "Utilities.script",
+				"message": "at (1777, 226)",
+				"image": "ED_ChangeLocation",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_utilities",
+				"timestamp": "2023-03-15 10:51:17.297 -0400",
+				"scriptName": "Utilities.script",
+				"message": "at (1492, 302)",
+				"image": "ED_NursingUnit",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"message": "(Duration:\"2.109\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-03-15 10:51:15 -0400\", Successes:\"1\", TestCase:\"Utilities.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-15 10:51:17.378 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:02 Utilities.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2023-03-15 10:51:17.412 -0400"
+			}
+	],
+	"createdTimestamp": "2023-03-15 10:51:15.253 -0400"
+}

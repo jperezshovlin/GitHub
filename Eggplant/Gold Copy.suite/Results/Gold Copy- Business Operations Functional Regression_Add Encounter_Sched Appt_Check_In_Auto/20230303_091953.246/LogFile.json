@@ -1,0 +1,54 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script",
+				"identifier": "START",
+				"timestamp": "2023-03-03 09:19:55.214 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-03 09:19:59.693 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-03 09:20:01.017 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-03 09:20:03.460 -0500",
+				"message": "B1930 RevenueCycle",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-03 09:22:01.884 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable To Find Any Image On Screen \"CernerLogoLoginWindow\" within 60.00 seconds",
+				"image": "CernerLogoLoginWindow",
+				"handlerLine": 6,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"125.863\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-03-03 09:19:56 -0500\", Successes:\"0\", TestCase:\"Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-03 09:22:02.626 -0500"
+			},
+		{
+				"message": "Execution Time 0:02:09 Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-03-03 09:22:05.073 -0500"
+			}
+	],
+	"createdTimestamp": "2023-03-03 09:19:56.761 -0500"
+}

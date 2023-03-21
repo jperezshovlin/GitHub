@@ -1,0 +1,29 @@
+{
+	"entries": [
+		{
+				"message": "Running BloodProducts.script",
+				"identifier": "START",
+				"timestamp": "2023-02-13 14:32:01.128 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-13 14:32:03.182 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"message": "(Duration:\"2.977\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-02-13 14:32:01 -0500\", Successes:\"0\", TestCase:\"BloodProducts.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-13 14:32:04.717 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:04 BloodProducts.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-02-13 14:32:07.143 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-13 14:32:01.740 -0500"
+}

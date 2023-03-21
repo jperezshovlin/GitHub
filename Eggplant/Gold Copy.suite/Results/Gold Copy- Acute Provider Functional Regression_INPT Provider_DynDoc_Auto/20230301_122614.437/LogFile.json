@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc.script",
+				"identifier": "START",
+				"timestamp": "2023-03-01 12:26:15.066 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-01 12:26:16.028 -0500",
+				"message": "Remote Connection Unavailable",
+				"scriptName": "Utilities.script",
+				"handlerLine": 2,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"1.965\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-03-01 12:26:15 -0500\", Successes:\"0\", TestCase:\"Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-01 12:26:17.519 -0500"
+			},
+		{
+				"message": "No Remote Connection: doubleclick Error - Remote Connection Unavailable -- Execution Time 0:00:03 Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc.script",
+				"identifier": "FAILURE",
+				"timestamp": "2023-03-01 12:26:24.669 -0500"
+			}
+	],
+	"createdTimestamp": "2023-03-01 12:26:15.553 -0500"
+}

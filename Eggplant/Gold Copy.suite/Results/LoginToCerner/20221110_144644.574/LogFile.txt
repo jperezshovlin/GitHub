@@ -1,0 +1,4 @@
+﻿2022-11-10 14:46:45.580 -0500	START		Running LoginToCerner.script
+2022-11-10 14:46:49.134 -0500	doubleclick	(TEXT:"Cerner")	at (37, 468)	1	on_logintocerner	LoginToCerner.script
+2022-11-10 14:46:52.293 -0500	EndTestCase		(Duration:"5.928", Errors:"0", Exceptions:"0", StartTime:"2022-11-10 14:46:46 -0500", Successes:"1", TestCase:"LoginToCerner.script", Warnings:"0")
+2022-11-10 14:47:02.517 -0500	SUCCESS		Execution Time 0:00:07 LoginToCerner.script

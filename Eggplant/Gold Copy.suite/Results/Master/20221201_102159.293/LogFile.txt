@@ -1,0 +1,9 @@
+﻿2022-12-01 10:22:00.227 -0500	START		Running Master.script
+2022-12-01 10:22:01.543 -0500	typetext		[windowsKey]r	2	on_openurl	Utilities.script
+2022-12-01 10:22:07.148 -0500	typetext		https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]	3	on_openurl	Utilities.script
+2022-12-01 10:22:30.878 -0500	waitfor	RefreshButton	found at (576, 184)	4	on_openurl	Utilities.script
+2022-12-01 10:22:33.987 -0500	imagefound	SSOiIcon	found at (1177, 652)	2	on_ssoilogin	Utilities.script
+2022-12-01 10:22:36.373 -0500	doubleclick	SSOiIcon	at (1177, 652)	3	on_ssoilogin	Utilities.script
+2022-12-01 10:22:39.491 -0500	click	CertificateSelection	at (791, 299)	4	on_ssoilogin	Utilities.script
+2022-12-01 10:22:41.681 -0500	click	CertificateSelectionOkButton	at (1063, 394)	5	on_ssoilogin	Utilities.script
+2022-12-01 10:24:07.560 -0500	ABORTED		Execution Time 0:02:06 Master.script

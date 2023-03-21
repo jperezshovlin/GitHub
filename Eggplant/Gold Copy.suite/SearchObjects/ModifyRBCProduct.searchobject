@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		612,
+		281,
+		132,
+		20
+	],
+	"lastmodifieddate": 1675781151.194,
+	"createddate": 1675781151.194,
+	"name": "ModifyRBCProduct",
+	"lastfounddate": 1675797135.608,
+	"ocrcapturestring": "fev ®© RBC Product",
+	"lastfoundlocation": [
+		612,
+		281,
+		132,
+		20
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[91,12]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ModifyRBCProduct.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					612,
+					281,
+					132,
+					20
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "fev ®© RBC Product"
+			}
+	]
+}

@@ -1,0 +1,9 @@
+﻿2023-03-21 08:11:19.348 -0400	START		Running Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script
+2023-03-21 08:11:19.722 -0400	doubleclick	CernerDomainSearch	at (1685, 200)	2	on_citrixdomainsearch	Utilities.script
+2023-03-21 08:11:20.473 -0400	typetext		[controlKey]a	3	on_citrixdomainsearch	Utilities.script
+2023-03-21 08:11:21.213 -0400	typetext		[deleteKey]	4	on_citrixdomainsearch	Utilities.script
+2023-03-21 08:11:22.547 -0400	typetext		C0630 Powerchart	5	on_citrixdomainsearch	Utilities.script
+2023-03-21 08:11:26.474 -0400	everyimagelocation	(TEXT:"C0630 Powerchart")	found 2 images	6	on_citrixdomainsearch	Utilities.script
+2023-03-21 08:11:26.697 -0400	doubleclick		at (460, 301)	6	on_citrixdomainsearch	Utilities.script
+2023-03-21 08:12:15.093 -0400	EndTestCase		(Duration:"55.745", Errors:"1", Exceptions:"0", StartTime:"2023-03-21 08:11:19 -0400", Successes:"0", TestCase:"Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script", Warnings:"0")
+2023-03-21 08:12:15.105 -0400	ABORTED		Execution Time 0:00:55 Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto_script" package="Gold Copy.suite" timestamp="2023-03-09 09:55:26.754 -0500"
+ tests="1"  failures="0" errors="0" time="415.638000">
+  <properties>
+   <property name="RunDate" value="2023-03-09 09:55:26.754 -0500"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script" assertions="1" status="success"  time="415.623">
+  </testcase>
+ </testsuite>
+</testsuites>

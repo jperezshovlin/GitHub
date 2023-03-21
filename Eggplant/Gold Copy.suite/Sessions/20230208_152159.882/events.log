@@ -1,0 +1,8 @@
+1	0.485	start	
+2	4.952	mouseDown	{button:1, clickCount:1, hotSpot:[882, 467]}
+3	6.601	mouseUp	{button:1, clickCount:1, hotSpot:[882, 467]}
+4	8.578	mouseDown	{button:1, clickCount:1, hotSpot:[985, 463]}
+5	10.446	mouseUp	{button:1, clickCount:0, hotSpot:[877, 467]}
+6	13.241	keyDown	{modifiers:8388608, string:"", theKey:""}
+7	14.815	keyUp	{modifiers:8388608, string:"", theKey:""}
+8	21.666	end	

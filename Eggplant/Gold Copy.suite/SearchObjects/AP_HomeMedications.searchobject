@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		269,
+		627,
+		101,
+		16
+	],
+	"lastmodifieddate": 1677602650.3200002,
+	"createddate": 1677602650.3200002,
+	"name": "AP_HomeMedications",
+	"lastfounddate": 1679346507.0829999,
+	"ocrcapturestring": "Home Medications",
+	"lastfoundlocation": [
+		252,
+		402,
+		101,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[50,8]",
+					"Tolerance": "_48",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_HomeMedications.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					269,
+					627,
+					101,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Home Medications"
+			}
+	]
+}

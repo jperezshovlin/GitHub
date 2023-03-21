@@ -1,0 +1,201 @@
+{
+	"entries": [
+		{
+				"message": "Running VerifyDomain_and_User.script",
+				"identifier": "START",
+				"timestamp": "2022-11-14 14:09:51.231 -0500"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:09:52.651 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:09:57.318 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:01.137 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "found at (115, 51)",
+				"image": "RefreshButton",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:02.997 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (1172, 519)",
+				"image": "SSOiIcon",
+				"handlerLine": 4,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:04.868 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (786, 166)",
+				"image": "CertificateSelection",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:06.769 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (1058, 261)",
+				"image": "CertificateSelectionOkButton",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:18.795 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (1036, 614)",
+				"image": "ActivClientOKButton",
+				"handlerLine": 13,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:26.194 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (1732, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 14,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:27.601 -0500",
+				"message": "B1930 Powerchart",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:29.811 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (66, 260)",
+				"image": "PowerChart",
+				"handlerLine": 16,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:55.329 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "found at (743, 356)",
+				"image": "CernerLogoLoginWindow",
+				"handlerLine": 18,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:57.382 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (896, 463)",
+				"image": "UsernameFieldLoginWindow",
+				"handlerLine": 19,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:10:58.625 -0500",
+				"message": "VAPHYSHOSP",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 22,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:11:00.745 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (885, 523)",
+				"image": "PasswordLogin",
+				"handlerLine": 23,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:11:01.810 -0500",
+				"message": "Cerner123[return]",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 24,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:11:04.653 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "found at (321, 83)",
+				"image": "(TEXT:\"B1930\")",
+				"handlerLine": 25,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:11:05.159 -0500",
+				"message": "Correct Domain Found",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 26,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:11:06.326 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"image": "CorrectDomainFoundVerification.png",
+				"handlerLine": 27,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:11:37.952 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "Unable to Find Image (TEXT:\"VAPHYSHOSP\"). Text not found.",
+				"image": "(TEXT:\"VAPHYSHOSP\")",
+				"handlerLine": 33,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:11:39.086 -0500",
+				"message": "Incorrect User Found",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 37,
+				"identifier": "LogError"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-14 14:11:40.377 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"image": "IncorrectUserFound.png",
+				"handlerLine": 38,
+				"identifier": "capturescreen"
+			},
+		{
+				"message": "(Duration:\"109.111\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-11-14 14:09:51 -0500\", Successes:\"1\", TestCase:\"VerifyDomain_and_User.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-11-14 14:11:40.985 -0500"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Script Error: Number of Errors logged: 1 -- Execution Time 0:01:50 VerifyDomain_and_User.script",
+				"identifier": "FAILURE",
+				"timestamp": "2022-11-14 14:11:48.678 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-14 14:09:51.733 -0500"
+}

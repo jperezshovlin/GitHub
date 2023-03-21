@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		128,
+		718,
+		118,
+		16
+	],
+	"lastmodifieddate": 1678995592.075,
+	"createddate": 1678995592.075,
+	"name": "CAlertandresponsive",
+	"lastfounddate": 1678995592.4229999,
+	"ocrcapturestring": "C Alert and responsive",
+	"lastfoundlocation": [
+		128,
+		718,
+		118,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[8,6]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "CAlertandresponsive.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					128,
+					718,
+					118,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "C Alert and responsive"
+			}
+	]
+}

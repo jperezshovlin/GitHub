@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Master.script",
+				"identifier": "START",
+				"timestamp": "2022-12-01 10:38:26.862 -0500"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-12-01 10:38:27.948 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "Utilities.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"2.448\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-12-01 10:38:27 -0500\", Successes:\"0\", TestCase:\"Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-12-01 10:38:30.129 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:04 Master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-12-01 10:38:33.434 -0500"
+			}
+	],
+	"createdTimestamp": "2022-12-01 10:38:27.679 -0500"
+}

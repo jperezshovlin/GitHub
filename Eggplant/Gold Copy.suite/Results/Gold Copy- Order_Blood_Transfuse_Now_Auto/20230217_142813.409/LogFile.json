@@ -1,0 +1,45 @@
+{
+	"entries": [
+		{
+				"message": "Running BloodProducts.script",
+				"identifier": "START",
+				"timestamp": "2023-02-17 14:28:14.026 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-17 14:28:17.588 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-17 14:28:18.713 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-17 14:28:21.558 -0500",
+				"message": "B1930 Powerchart",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"7.838\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-02-17 14:28:14 -0500\", Successes:\"0\", TestCase:\"BloodProducts.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-17 14:28:22.582 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:09 BloodProducts.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-02-17 14:28:24.780 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-17 14:28:14.597 -0500"
+}

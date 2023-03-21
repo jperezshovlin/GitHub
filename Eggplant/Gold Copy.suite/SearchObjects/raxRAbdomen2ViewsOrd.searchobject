@@ -1,0 +1,41 @@
+{
+	"lastmodifieddate": 1677605968.1339998,
+	"ocrcapturestring": "r a© xRAbd omen 2 Views Ord",
+	"originalcapturelocation": [
+		535,
+		228,
+		228,
+		21
+	],
+	"createddate": 1677605968.1339998,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[159,14]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "raxRAbdomen2ViewsOrd.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					535,
+					228,
+					228,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "r a© xRAbd omen 2 Views Ord"
+			}
+	],
+	"name": "raxRAbdomen2ViewsOrd"
+}

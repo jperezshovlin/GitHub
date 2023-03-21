@@ -1,0 +1,39 @@
+﻿//Preconditions: Patient has an active patient encounter and has a Patient Status Order and VTE prophylaxis
+
+
+//Searches for a domain within the CernerWorks Page
+Utilities.CitrixDomainSearch "c0630 Powerchart"
+
+//Logs in with a specific generic username, password and verify correct username + domain name on PowerChart Landing page.
+Utilities.ApplicationLogin "VAPHYSHOSP","Cerner123"
+
+//Searches for Patient by FIN
+Utilities.SearchFIN "54202663"
+
+Utilities.Relationship
+
+//Orders RBC Product
+Utilities.OrderRBC 
+
+
+//VAPHYSHOSP logs out of Powerchart
+Utilities.ApplicationLogout
+
+
+//Login as RN
+Utilities.CitrixDomainSearch "C0630 Powerchart"
+Utilities.ApplicationLogin "VARN","Cerner123","C0630"
+Utilities.SearchFIN "54202663"
+Utilities.Relationship
+Utilities.CollectSpecimen //Collect lab and log accession number
+Utilities.ApplicationLogout
+
+//Searches for Appbar within the CernerWorks Page
+Utilities.CitrixDomainSearch "C0630 Appbar"
+//Login to Appbar as VAHYBRIDSUPER
+Utilities.ApplicationLogin "VAHYBRIDSUPER","Cerner123","B1930"
+Utilities.SpecimenLogin
+
+
+Utilities.ApplicationLogout
+

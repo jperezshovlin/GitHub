@@ -1,0 +1,73 @@
+{
+	"entries": [
+		{
+				"message": "Running Master.script",
+				"identifier": "START",
+				"timestamp": "2022-11-28 13:09:39.340 -0500"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-11-28 13:09:40.292 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "Utilities.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-11-28 13:09:45.283 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-11-28 13:09:46.956 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (376, 153)",
+				"image": "RefreshButton",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_ssoilogin",
+				"timestamp": "2022-11-28 13:09:49.065 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (977, 576)",
+				"image": "SSOiIcon",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_ssoilogin",
+				"timestamp": "2022-11-28 13:09:51.669 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (977, 576)",
+				"image": "SSOiIcon",
+				"handlerLine": 3,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_ssoilogin",
+				"timestamp": "2022-11-28 13:10:18.999 -0500",
+				"scriptName": "Utilities.script",
+				"message": "No Image Found On Screen: \"CertificateSelection\"",
+				"image": "CertificateSelection",
+				"handlerLine": 4,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"39.807\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-11-28 13:09:39 -0500\", Successes:\"0\", TestCase:\"Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-11-28 13:10:19.693 -0500"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Image Found On Screen: \"CertificateSelection\" -- Execution Time 0:00:40 Master.script",
+				"identifier": "FAILURE",
+				"timestamp": "2022-11-28 13:10:28.933 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-28 13:09:39.884 -0500"
+}

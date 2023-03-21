@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1265,
+		748,
+		26,
+		15
+	],
+	"lastmodifieddate": 1677694843.4400001,
+	"createddate": 1677694843.4400001,
+	"name": "SignOrdersforSignature",
+	"lastfounddate": 1679347591.109,
+	"ocrcapturestring": "Sign",
+	"lastfoundlocation": [
+		1128,
+		735,
+		26,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[19,11]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "SignOrdersforSignature.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1265,
+					748,
+					26,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Sign"
+			}
+	]
+}

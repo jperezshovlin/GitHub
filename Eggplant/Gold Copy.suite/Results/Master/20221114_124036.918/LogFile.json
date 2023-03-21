@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled.script",
+				"identifier": "START",
+				"timestamp": "2022-11-14 12:40:37.978 -0500"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 12:40:38.735 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "Untitled.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 12:40:43.003 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "Untitled.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"5.333\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-11-14 12:40:38 -0500\", Successes:\"1\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-11-14 12:40:43.879 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:06 Untitled.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2022-11-14 12:40:50.270 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-14 12:40:38.544 -0500"
+}

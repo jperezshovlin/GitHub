@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled.script",
+				"identifier": "START",
+				"timestamp": "2022-11-14 12:12:58.077 -0500"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 12:13:00.603 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "Untitled.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 12:13:02.629 -0500",
+				"message": "google.com",
+				"scriptName": "Untitled.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"5.134\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-11-14 12:12:58 -0500\", Successes:\"1\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-11-14 12:13:03.759 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:07 Untitled.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2022-11-14 12:13:11.289 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-14 12:12:58.623 -0500"
+}

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		731,
+		138,
+		73,
+		12
+	],
+	"lastmodifieddate": 1677189037.131,
+	"createddate": 1677189037.131,
+	"name": "Pharm_NewOrderVerify",
+	"lastfounddate": 1677196699.447,
+	"ocrcapturestring": "New Order",
+	"lastfoundlocation": [
+		1060,
+		137,
+		73,
+		12
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[36,6]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_NewOrderVerify.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					731,
+					138,
+					73,
+					12
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "New Order"
+			}
+	]
+}

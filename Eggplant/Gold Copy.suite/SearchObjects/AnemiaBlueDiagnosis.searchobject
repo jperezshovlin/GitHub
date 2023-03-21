@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		604,
+		595,
+		89,
+		18
+	],
+	"lastmodifieddate": 1675886597.425,
+	"createddate": 1675886597.425,
+	"name": "AnemiaBlueDiagnosis",
+	"lastfounddate": 1675887380.845,
+	"ocrcapturestring": "Anemia (D64.9)",
+	"lastfoundlocation": [
+		604,
+		595,
+		89,
+		18
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-100,4]",
+					"Tolerance": "_59",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AnemiaBlueDiagnosis.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					604,
+					595,
+					89,
+					18
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Anemia (D64.9)"
+			}
+	]
+}

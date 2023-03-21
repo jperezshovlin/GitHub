@@ -1,0 +1,6 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2023-03-15 09:39:43.216 -0400,"Success",0:00:00,0,0,0,"20230315_093943.216/LogFile.txt","","",1
+2023-03-15 11:22:48.637 -0400,"Failure",0:00:00,1,0,0,"20230315_112248.637/LogFile.txt","","SenseTalk Compiler Exception -- in checkin:\nSyntax Error at line 46: Syntax Error - can't understand [end of script] at character 1",0
+2023-03-16 12:54:35.677 -0400,"Aborted",0:02:03,1,0,0,"20230316_125435.677/LogFile.txt","","",0
+2023-03-16 14:49:49.590 -0400,"Aborted",0:00:50,1,0,0,"20230316_144949.590/LogFile.txt","","",0
+2023-03-16 14:51:09.378 -0400,"Aborted",0:00:49,1,0,1,"20230316_145109.378/LogFile.txt","","",0

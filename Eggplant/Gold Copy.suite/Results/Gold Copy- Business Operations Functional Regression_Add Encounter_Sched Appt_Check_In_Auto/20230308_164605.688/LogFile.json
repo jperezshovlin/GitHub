@@ -1,0 +1,352 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script",
+				"identifier": "START",
+				"timestamp": "2023-03-08 16:46:05.703 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-08 16:46:06.019 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-08 16:46:06.775 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-08 16:46:07.509 -0500",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-08 16:46:08.898 -0500",
+				"message": "B1930 RevenueCycle",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-08 16:46:12.486 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"B1930 RevenueCycle\")",
+				"handlerLine": 6,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-08 16:46:12.722 -0500",
+				"message": "at (97, 302)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 6,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-08 16:46:41.338 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found #1 at (743, 356)",
+				"image": "CernerLogoLoginWindow",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-08 16:46:41.754 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (896, 463)",
+				"image": "UsernameFieldLoginWindow",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-08 16:46:42.504 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 12,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-08 16:46:43.244 -0500",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-08 16:46:44.549 -0500",
+				"message": "VACLERKTHREE",
+				"scriptName": "Utilities.script",
+				"handlerLine": 16,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-08 16:46:45.598 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (885, 523)",
+				"image": "PasswordLogin",
+				"handlerLine": 17,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-08 16:46:46.649 -0500",
+				"message": "Cerner123[return]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 18,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-08 16:46:47.405 -0500",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 20,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:46:57.870 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "Unable to Find Image Preferences",
+				"image": "Preferences",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:46:58.033 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (30, 56)",
+				"image": "RC_Search",
+				"handlerLine": 11,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:47:00.552 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (469, 173)",
+				"image": "RC_NameLastFirst",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:47:01.838 -0500",
+				"message": "Abdelwahed, Saul",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 14,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:47:09.151 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "Unable to Find Image RC_FinancialActivityCheck",
+				"image": "RC_FinancialActivityCheck",
+				"handlerLine": 18,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:47:14.854 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found 5 images",
+				"image": "(TEXT:\"Search\")",
+				"handlerLine": 26,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:47:14.864 -0500",
+				"message": "[[983,14],[59,52],[502,629],[524,690],[617,690]]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 26,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:47:14.904 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found at (58, 53)",
+				"image": "RC_SearchButton",
+				"handlerLine": 27,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:47:19.510 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found 5 images",
+				"image": "(TEXT:\"Search\")",
+				"handlerLine": 29,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:47:19.610 -0500",
+				"message": "at (502, 629)",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 29,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:47:49.646 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 32,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:48:22.161 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "Unable to Find Image RC_ExternalMPIRetrieve",
+				"image": "RC_ExternalMPIRetrieve",
+				"handlerLine": 35,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:48:22.600 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (152, 56)",
+				"image": "(TEXT:\"Encounters\")",
+				"handlerLine": 41,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:48:27.209 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found 1 images",
+				"image": "(TEXT:\"Encounters\")",
+				"handlerLine": 46,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:48:27.217 -0500",
+				"message": "[[153,57]]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 46,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:48:27.353 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found at (144, 58)",
+				"image": "RC_Encounters_Button",
+				"handlerLine": 47,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:48:33.944 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found 3 images",
+				"image": "(TEXT:\"Encounters\")",
+				"handlerLine": 49,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-08 16:48:34.136 -0500",
+				"message": "at (108, 177)",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 49,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-08 16:48:35.006 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1810, 175)",
+				"image": "RC_AddEncounter",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-08 16:48:35.878 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (180, 274)",
+				"image": "RC_Facility",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-08 16:48:36.629 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-08 16:48:37.362 -0500",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-08 16:48:39.540 -0500",
+				"message": "668 Mann-Grandstaff WA VA Medical Center",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-08 16:48:40.275 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-08 16:48:49.631 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "No Image Found On Screen: \"RC_Building\"",
+				"image": "RC_Building",
+				"handlerLine": 10,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"164.093\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-03-08 16:46:05 -0500\", Successes:\"0\", TestCase:\"Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-08 16:48:49.796 -0500"
+			},
+		{
+				"message": "Execution Time 0:02:44 Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-03-08 16:48:49.812 -0500"
+			}
+	],
+	"createdTimestamp": "2023-03-08 16:46:05.703 -0500"
+}

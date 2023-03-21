@@ -1,0 +1,72 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled.script",
+				"identifier": "START",
+				"timestamp": "2022-11-14 13:00:37.244 -0500"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 13:00:38.641 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "Untitled.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 13:00:43.437 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "Untitled.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 13:00:47.305 -0500",
+				"scriptName": "Untitled.script",
+				"message": "found at (115, 51)",
+				"image": "RefreshButton",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 13:00:49.052 -0500",
+				"scriptName": "Untitled.script",
+				"message": "at (1172, 474)",
+				"image": "SSOiIcon",
+				"handlerLine": 4,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 13:00:51.268 -0500",
+				"scriptName": "Untitled.script",
+				"message": "at (786, 166)",
+				"image": "CertificateSelection",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 13:00:53.305 -0500",
+				"scriptName": "Untitled.script",
+				"message": "at (1058, 261)",
+				"image": "CertificateSelectionOkButton",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"message": "(Duration:\"47.59\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-11-14 13:00:37 -0500\", Successes:\"1\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-11-14 13:01:25.476 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:48 Untitled.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2022-11-14 13:01:32.207 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-14 13:00:37.747 -0500"
+}

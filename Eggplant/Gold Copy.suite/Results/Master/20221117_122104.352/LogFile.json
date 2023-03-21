@@ -1,0 +1,67 @@
+{
+	"entries": [
+		{
+				"message": "Running VerifyDomain_and_User.script",
+				"identifier": "START",
+				"timestamp": "2022-11-17 12:21:05.250 -0500"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-17 12:21:07.277 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-17 12:21:11.324 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-17 12:21:33.209 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "found at (367, 170)",
+				"image": "RefreshButton",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-17 12:21:34.834 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (968, 638)",
+				"image": "SSOiIcon",
+				"handlerLine": 4,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-17 12:21:36.991 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (582, 285)",
+				"image": "CertificateSelection",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-17 12:21:38.824 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (854, 380)",
+				"image": "CertificateSelectionOkButton",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"message": "Execution Time 0:02:21 VerifyDomain_and_User.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-11-17 12:23:26.608 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-17 12:21:06.025 -0500"
+}

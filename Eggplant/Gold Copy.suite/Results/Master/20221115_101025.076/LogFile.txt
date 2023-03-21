@@ -1,0 +1,8 @@
+﻿2022-11-15 10:10:25.839 -0500	START		Running VerifyDomain_and_User.script
+2022-11-15 10:10:27.579 -0500	typetext		[windowsKey]r	1	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-15 10:10:32.514 -0500	typetext		https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]	2	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-15 10:10:35.293 -0500	waitfor	RefreshButton	found at (115, 51)	3	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-15 10:10:37.327 -0500	doubleclick	SSOiIcon	at (1172, 474)	4	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-15 10:10:40.025 -0500	click	CertificateSelection	at (786, 166)	5	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-15 10:10:42.194 -0500	click	CertificateSelectionOkButton	at (1058, 261)	6	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-15 10:11:30.100 -0500	ABORTED		Execution Time 0:01:03 VerifyDomain_and_User.script

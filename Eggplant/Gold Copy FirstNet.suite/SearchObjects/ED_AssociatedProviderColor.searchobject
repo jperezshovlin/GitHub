@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		955,
+		357,
+		138,
+		15
+	],
+	"lastmodifieddate": 1678893001.6300001,
+	"createddate": 1678893001.6300001,
+	"name": "ED_AssociatedProviderColor",
+	"lastfounddate": 1678987689.4559999,
+	"ocrcapturestring": ", Associated Provider Color",
+	"lastfoundlocation": [
+		955,
+		357,
+		138,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[7,5]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ED_AssociatedProviderColor.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					955,
+					357,
+					138,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": ", Associated Provider Color"
+			}
+	]
+}

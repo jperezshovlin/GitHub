@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1884,
+		3,
+		20,
+		12
+	],
+	"lastmodifieddate": 1669910229.7389998,
+	"createddate": 1669910229.7389998,
+	"name": "CernerCloseWindow",
+	"lastfounddate": 1678913103.8969998,
+	"ocrcapturestring": "X",
+	"lastfoundlocation": [
+		922,
+		56,
+		20,
+		12
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[10,6]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "CernerCloseWindow.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1884,
+					3,
+					20,
+					12
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "X"
+			}
+	]
+}

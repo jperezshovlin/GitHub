@@ -1,0 +1,55 @@
+{
+	"entries": [
+		{
+				"message": "Running Untitled.script",
+				"identifier": "START",
+				"timestamp": "2022-11-14 13:06:21.824 -0500"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 13:06:22.601 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "Untitled.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 13:06:26.869 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "Untitled.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 13:06:29.504 -0500",
+				"scriptName": "Untitled.script",
+				"message": "found at (115, 51)",
+				"image": "RefreshButton",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_untitled",
+				"timestamp": "2022-11-14 13:06:53.571 -0500",
+				"scriptName": "Untitled.script",
+				"message": "No Image Found On Screen: \"SSOiIcon\"",
+				"image": "SSOiIcon",
+				"handlerLine": 4,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"31.899\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-11-14 13:06:22 -0500\", Successes:\"0\", TestCase:\"Untitled.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-11-14 13:06:54.209 -0500"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: doubleclick Error - No Image Found On Screen: \"SSOiIcon\" -- Execution Time 0:00:33 Untitled.script",
+				"identifier": "FAILURE",
+				"timestamp": "2022-11-14 13:07:01.901 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-14 13:06:22.308 -0500"
+}

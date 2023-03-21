@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1294,
+		314,
+		101,
+		15
+	],
+	"lastmodifieddate": 1675961006.299,
+	"createddate": 1675961006.299,
+	"name": "AccessionNumber",
+	"lastfounddate": 1675961009.9549999,
+	"ocrcapturestring": "66800-23-040-0006",
+	"lastfoundlocation": [
+		1294,
+		314,
+		101,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[50,7]",
+					"Tolerance": "_38",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AccessionNumber.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1294,
+					314,
+					101,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "66800-23-040-0006"
+			}
+	]
+}

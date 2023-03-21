@@ -1,0 +1,37 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order.script",
+				"identifier": "START",
+				"timestamp": "2023-02-27 08:06:05.277 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 08:06:07.547 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 08:06:08.498 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"4.041\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-02-27 08:06:05 -0500\", Successes:\"0\", TestCase:\"Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-27 08:06:10.001 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:05 Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-02-27 08:06:12.126 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-27 08:06:05.960 -0500"
+}

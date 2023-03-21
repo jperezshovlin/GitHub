@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1571,
+		967,
+		69,
+		16
+	],
+	"lastmodifieddate": 1677608153.8629999,
+	"createddate": 1677608153.8629999,
+	"name": "AP_SignSubmit",
+	"lastfounddate": 1679346246.372,
+	"ocrcapturestring": "Sign/Submit",
+	"lastfoundlocation": [
+		1569,
+		967,
+		69,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[16,8]",
+					"Tolerance": "_57",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_SignSubmit.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1571,
+					967,
+					69,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Sign/Submit"
+			}
+	]
+}

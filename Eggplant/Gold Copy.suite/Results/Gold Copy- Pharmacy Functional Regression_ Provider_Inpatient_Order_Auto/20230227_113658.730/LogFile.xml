@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order_script" package="PowerChartLogin.suite" timestamp="2023-02-27 11:36:58.730 -0500"
+ tests="1"  failures="0" errors="0" time="296.478000">
+  <properties>
+   <property name="RunDate" value="2023-02-27 11:36:58.730 -0500"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order.script" assertions="1" status="success"  time="295.27">
+  </testcase>
+ </testsuite>
+</testsuites>

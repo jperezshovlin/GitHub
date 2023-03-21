@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Utilities.script",
+				"identifier": "START",
+				"timestamp": "2023-02-08 14:52:47.788 -0500"
+			},
+		{
+				"message": "(Duration:\"0\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-02-08 14:52:48 -0500\", Successes:\"1\", TestCase:\"Utilities.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-08 14:52:48.343 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:01 Utilities.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2023-02-08 14:52:57.298 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-08 14:52:48.343 -0500"
+}

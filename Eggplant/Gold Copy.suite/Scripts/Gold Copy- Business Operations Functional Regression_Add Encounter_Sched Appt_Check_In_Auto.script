@@ -1,0 +1,12 @@
+﻿
+Utilities.CitrixDomainSearch "C0630 Revenue Cycle"
+Utilities.ApplicationLogin "VACLERKTHREE", "Cerner123"
+Utilities3.RCSearchPatient "Test, DudeSix"
+Utilities3.AddEncounter
+Utilities3.ScheduleRecurring "3/31/2023"
+//Utilities3.ScheduleFirstAvailable
+//Utilities3.CheckIn
+
+//Utilities3.ScheduleRecurring "3/22/2023"
+
+put suiteinfo().path

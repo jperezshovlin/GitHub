@@ -1,0 +1,9 @@
+﻿Utilities.CitrixDomainSearch ("C0630 FirstNet")
+Utilities.ApplicationLogin "VAEDRN5", "Cerner123"
+Utilities4.CheckIn "668", "EDNurse5", "TST"
+Utilities4.QuickReg "Test, Gilly"
+Utilities4.Triage "Abdominal pain"
+
+
+
+Utilities4.Triage "Chest Pain","140","90", "100", "22","99", "2", "85", "165" //Chief Complaint, Systolic, Diastolic, Pulse, Resp, O2Sat, O2Flow, Weight, Height

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		445,
+		311,
+		151,
+		22
+	],
+	"lastmodifieddate": 1677604518.7150002,
+	"createddate": 1677604518.7150002,
+	"name": "AP_ReviewofSystemsText",
+	"lastfounddate": 1679345840.908,
+	"ocrcapturestring": "Review of Systems",
+	"lastfoundlocation": [
+		428,
+		287,
+		151,
+		22
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[35,98]",
+					"Tolerance": "_66",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_ReviewofSystemsText.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					445,
+					311,
+					151,
+					22
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Review of Systems"
+			}
+	]
+}

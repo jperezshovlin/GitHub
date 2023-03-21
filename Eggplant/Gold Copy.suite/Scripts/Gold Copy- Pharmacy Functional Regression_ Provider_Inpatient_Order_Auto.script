@@ -1,0 +1,16 @@
+﻿//Preconditions: Active inpatient encounter with allergies documented and an LPE encounter
+
+//Appbar must be configured with correct applications for Pharmacist: Dispense Monitor, MMR, Workstation
+
+Utilities.CitrixDomainSearch "C0630 Appbar"
+//Login to Appbar as VAPHARMACIST
+Utilities.ApplicationLogin "VAPHARMACIST3","Cerner123","B1930"
+
+
+Utilities2.Workstation
+
+Utilities2.MMR "Test, Ronnie","Lisinopril 10", "Metoprolol"
+Utilities2.DispenseMonitor
+
+
+

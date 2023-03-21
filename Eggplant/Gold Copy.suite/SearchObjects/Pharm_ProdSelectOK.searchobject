@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1208,
+		685,
+		26,
+		14
+	],
+	"lastmodifieddate": 1677188968.796,
+	"createddate": 1677188968.796,
+	"name": "Pharm_ProdSelectOK",
+	"lastfounddate": 1677516051.3670001,
+	"ocrcapturestring": "OK",
+	"lastfoundlocation": [
+		1208,
+		755,
+		26,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[13,7]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_ProdSelectOK.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1208,
+					685,
+					26,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "OK"
+			}
+	]
+}

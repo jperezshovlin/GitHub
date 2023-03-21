@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		832,
+		213,
+		52,
+		13
+	],
+	"lastmodifieddate": 1677194319.5420001,
+	"createddate": 1677194319.5420001,
+	"name": "Pharm_FirstnamePresciber",
+	"lastfounddate": 1677516075.7420001,
+	"ocrcapturestring": "First name:",
+	"lastfoundlocation": [
+		831,
+		212,
+		52,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[9,27]",
+					"Tolerance": "_50",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_FirstnamePresciber.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					832,
+					213,
+					52,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "First name:"
+			}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		782,
+		203,
+		48,
+		17
+	],
+	"lastmodifieddate": 1678996855.2519999,
+	"createddate": 1678996855.2519999,
+	"name": "ED_NoRadioButtonYellow",
+	"lastfounddate": 1678996943.3140001,
+	"ocrcapturestring": "C No",
+	"lastfoundlocation": [
+		782,
+		571,
+		48,
+		17
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[10,6]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ED_NoRadioButtonYellow.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					782,
+					203,
+					48,
+					17
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "C No"
+			}
+	]
+}

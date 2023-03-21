@@ -1,0 +1,62 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order.script",
+				"identifier": "START",
+				"timestamp": "2023-02-27 10:45:24.997 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 10:45:27.046 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 10:45:27.865 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 10:45:30.337 -0500",
+				"message": "B1930 Appbar",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 10:45:35.623 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"B1930 Appbar\")",
+				"handlerLine": 5,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 10:45:36.605 -0500",
+				"message": "at (81, 302)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "doubleclick"
+			},
+		{
+				"message": "(Duration:\"17.033\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-02-27 10:45:25 -0500\", Successes:\"0\", TestCase:\"Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-27 10:45:42.528 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:18 Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-02-27 10:45:43.862 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-27 10:45:25.494 -0500"
+}

@@ -1,0 +1,9 @@
+﻿2022-11-28 12:04:58.119 -0500	START		Running Master.script
+2022-11-28 12:04:59.770 -0500	typetext		[windowsKey]r	2	on_openurl	Utilities.script
+2022-11-28 12:05:04.222 -0500	typetext		https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]	3	on_openurl	Utilities.script
+2022-11-28 12:05:08.847 -0500	waitfor	RefreshButton	found at (264, 130)	4	on_openurl	Utilities.script
+2022-11-28 12:05:10.686 -0500	imagefound	SSOiIcon	found at (865, 598)	2	on_ssoilogin	Utilities.script
+2022-11-28 12:05:12.077 -0500	doubleclick	SSOiIcon	at (865, 598)	3	on_ssoilogin	Utilities.script
+2022-11-28 12:05:13.915 -0500	click	CertificateSelection	at (479, 245)	4	on_ssoilogin	Utilities.script
+2022-11-28 12:05:15.762 -0500	click	CertificateSelectionOkButton	at (751, 340)	5	on_ssoilogin	Utilities.script
+2022-11-28 12:06:54.851 -0500	FAILURE	Screen_Error.png	Image Not Found: click Error - No Image Found On Screen: "PleaseEnterYourPIN" -- Execution Time 0:01:50 Master.script

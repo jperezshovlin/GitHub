@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		764,
+		463,
+		161,
+		16
+	],
+	"lastmodifieddate": 1675720402.1789999,
+	"createddate": 1675720402.1789999,
+	"name": "InpatientConsultingPhysician",
+	"lastfounddate": 1675958384.842,
+	"ocrcapturestring": "Inpatient Consulting Physician",
+	"lastfoundlocation": [
+		764,
+		463,
+		161,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[80,8]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "InpatientConsultingPhysician.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					764,
+					463,
+					161,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Inpatient Consulting Physician"
+			}
+	]
+}

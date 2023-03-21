@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="Utilities2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-02-23 19:40:59 -0500</FirstRun>
+  <LastRun>2023-03-01 12:49:42 -0500</LastRun>
+  <TotalTimeOnSuccess>4.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Master">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>13</NumberOfRuns>
+  <NumberOfFails>5</NumberOfFails>
+  <FirstRun>2022-11-14 12:12:56 -0500</FirstRun>
+  <LastRun>2022-11-28 13:09:38 -0500</LastRun>
+  <TotalTimeOnSuccess>120.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2023-03-01 12:26:14 -0500</FirstRun>
+  <LastRun>2023-03-01 17:19:56 -0500</LastRun>
+  <TotalTimeOnSuccess>313.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Gold Copy- Order_Blood_Transfuse_Now_Auto">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>10</NumberOfRuns>
+  <NumberOfFails>8</NumberOfFails>
+  <FirstRun>2023-02-07 09:21:57 -0500</FirstRun>
+  <LastRun>2023-02-22 15:18:03 -0500</LastRun>
+  <TotalTimeOnSuccess>210.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Utilities">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2022-11-28 13:07:34 -0500</FirstRun>
+  <LastRun>2023-02-17 15:35:40 -0500</LastRun>
+  <TotalTimeOnSuccess>4.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Utilities3">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-03-06 14:44:40 -0500</FirstRun>
+  <LastRun>2023-03-13 10:38:47 -0400</LastRun>
+  <TotalTimeOnSuccess>1.819000</TotalTimeOnSuccess>
+ </script>
+ <script name="Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2023-03-02 09:26:31 -0500</FirstRun>
+  <LastRun>2023-03-09 09:55:26 -0500</LastRun>
+  <TotalTimeOnSuccess>415.638000</TotalTimeOnSuccess>
+ </script>
+ <script name="Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order_Auto">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2023-02-24 12:07:56 -0500</FirstRun>
+  <LastRun>2023-02-27 11:36:58 -0500</LastRun>
+  <TotalTimeOnSuccess>296.000000</TotalTimeOnSuccess>
+ </script>
+</statistics>

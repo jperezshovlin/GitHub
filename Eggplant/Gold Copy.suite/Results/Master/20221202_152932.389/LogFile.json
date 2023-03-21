@@ -1,0 +1,36 @@
+{
+	"entries": [
+		{
+				"message": "Running Master.script",
+				"identifier": "START",
+				"timestamp": "2022-12-02 15:29:33.241 -0500"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-12-02 15:29:35.294 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "Utilities.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-12-02 15:29:39.857 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"7.452\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-12-02 15:29:33 -0500\", Successes:\"0\", TestCase:\"Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-12-02 15:29:41.238 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:08 Master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-12-02 15:29:43.942 -0500"
+			}
+	],
+	"createdTimestamp": "2022-12-02 15:29:33.785 -0500"
+}

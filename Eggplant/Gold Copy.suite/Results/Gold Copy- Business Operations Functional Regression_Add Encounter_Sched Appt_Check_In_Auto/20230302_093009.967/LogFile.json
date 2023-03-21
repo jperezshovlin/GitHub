@@ -1,0 +1,62 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script",
+				"identifier": "START",
+				"timestamp": "2023-03-02 09:30:10.614 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-02 09:30:13.048 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-02 09:30:13.875 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-02 09:30:16.421 -0500",
+				"message": "B1930 Revenue Cycle",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-02 09:30:21.569 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found 1 images",
+				"image": "(TEXT:\"B1930 Revenue Cycle\")",
+				"handlerLine": 5,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-02 09:30:22.231 -0500",
+				"message": "at current mouse point (1685, 200)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "doubleclick"
+			},
+		{
+				"message": "(Duration:\"16.304\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-03-02 09:30:11 -0500\", Successes:\"0\", TestCase:\"Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-02 09:30:27.500 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:17 Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-03-02 09:30:28.937 -0500"
+			}
+	],
+	"createdTimestamp": "2023-03-02 09:30:11.096 -0500"
+}

@@ -1,0 +1,1028 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script",
+				"identifier": "START",
+				"timestamp": "2023-03-09 09:55:26.770 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-09 09:55:27.156 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-09 09:55:27.913 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-09 09:55:28.647 -0500",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-09 09:55:29.999 -0500",
+				"message": "B1930 RevenueCycle",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-09 09:55:35.268 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"B1930 RevenueCycle\")",
+				"handlerLine": 6,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-09 09:55:35.494 -0500",
+				"message": "at (97, 302)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 6,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-09 09:56:06.837 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found #1 at (743, 356)",
+				"image": "CernerLogoLoginWindow",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-09 09:56:07.739 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (896, 463)",
+				"image": "UsernameFieldLoginWindow",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-09 09:56:08.495 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 12,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-09 09:56:09.229 -0500",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-09 09:56:10.533 -0500",
+				"message": "VACLERKTHREE",
+				"scriptName": "Utilities.script",
+				"handlerLine": 16,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-09 09:56:11.583 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (885, 523)",
+				"image": "PasswordLogin",
+				"handlerLine": 17,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-09 09:56:12.631 -0500",
+				"message": "Cerner123[return]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 18,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-09 09:56:13.387 -0500",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 20,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:56:23.616 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "Unable to Find Image Preferences",
+				"image": "Preferences",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:58:33.358 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (30, 56)",
+				"image": "RC_Search",
+				"handlerLine": 11,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:58:35.080 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (469, 173)",
+				"image": "RC_NameLastFirst",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:58:36.484 -0500",
+				"message": "Abdulmateen, Eugenia",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 14,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:58:43.804 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "Unable to Find Image RC_FinancialActivityCheck",
+				"image": "RC_FinancialActivityCheck",
+				"handlerLine": 18,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:58:50.168 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found 5 images",
+				"image": "(TEXT:\"Search\")",
+				"handlerLine": 26,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:58:50.176 -0500",
+				"message": "[[983,14],[59,52],[502,629],[524,690],[617,690]]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 26,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:58:50.229 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found at (58, 53)",
+				"image": "RC_SearchButton",
+				"handlerLine": 27,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:58:55.557 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found 5 images",
+				"image": "(TEXT:\"Search\")",
+				"handlerLine": 29,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:58:55.671 -0500",
+				"message": "at (502, 629)",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 29,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:59:25.714 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 32,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:59:58.290 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "Unable to Find Image RC_ExternalMPIRetrieve",
+				"image": "RC_ExternalMPIRetrieve",
+				"handlerLine": 35,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 09:59:58.654 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (152, 56)",
+				"image": "(TEXT:\"Encounters\")",
+				"handlerLine": 41,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 10:00:02.881 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found 1 images",
+				"image": "(TEXT:\"Encounters\")",
+				"handlerLine": 46,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 10:00:02.883 -0500",
+				"message": "[[153,58]]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 46,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 10:00:02.972 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found at (144, 58)",
+				"image": "RC_Encounters_Button",
+				"handlerLine": 47,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 10:00:07.842 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "found 3 images",
+				"image": "(TEXT:\"Encounters\")",
+				"handlerLine": 49,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_rcsearchpatient",
+				"timestamp": "2023-03-09 10:00:07.983 -0500",
+				"message": "at (107, 176)",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 49,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:08.835 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1810, 175)",
+				"image": "RC_AddEncounter",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:39.005 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (180, 274)",
+				"image": "RC_Facility",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:39.770 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:40.503 -0500",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:42.692 -0500",
+				"message": "668 Mann-Grandstaff WA VA Medical Center",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 7,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:43.425 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:44.311 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (457, 308)",
+				"image": "RC_Building",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:45.397 -0500",
+				"message": "668 Bldg 01",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 11,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:46.139 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 12,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:47.118 -0500",
+				"message": "668 Derm",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 13,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:47.878 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:48.765 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (421, 352)",
+				"image": "RC_PatientType",
+				"handlerLine": 16,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:49.673 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (300, 522)",
+				"image": "RC_Outpatient",
+				"handlerLine": 17,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:50.406 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 20,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:51.141 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 21,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:52.212 -0500",
+				"message": "Dermatology",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 23,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:52.955 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 25,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:53.703 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 25,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:54.444 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 25,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:55.196 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 25,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:55.933 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 25,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:56.917 -0500",
+				"message": "Elective",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 29,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:57.666 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 30,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:58.613 -0500",
+				"message": "Patient",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 32,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:00:59.361 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 34,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:00.096 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 34,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:00.846 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 34,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:01.583 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 34,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:02.332 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 34,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:03.080 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 34,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:03.814 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 34,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:04.562 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 34,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:05.750 -0500",
+				"message": "Cerner, Cerner",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 37,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:06.500 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 38,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:07.246 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 39,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:07.984 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 42,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:08.719 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 42,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:09.463 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 42,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:10.201 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 42,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:10.957 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 42,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:11.703 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 42,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:12.437 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 42,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:13.172 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 42,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:13.922 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 42,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:14.683 -0500",
+				"message": "T",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 48,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:19.725 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 50,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:20.462 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 51,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:21.226 -0500",
+				"message": "N",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 52,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:26.422 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (639, 251)",
+				"image": "RC_Insurance",
+				"handlerLine": 57,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:27.529 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (643, 299)",
+				"image": "RC_SelectProfile",
+				"handlerLine": 59,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:32.175 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (461, 283)",
+				"image": "RC_VAMedical",
+				"handlerLine": 60,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:32.907 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 61,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:33.657 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 62,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:34.558 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (812, 251)",
+				"image": "RC_Guarantor",
+				"handlerLine": 64,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:35.292 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 65,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:36.199 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1441, 914)",
+				"image": "RC_GuarantorOK",
+				"handlerLine": 67,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:41.502 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "Unable to Find Image RC_InvalidAddress",
+				"image": "RC_InvalidAddress",
+				"handlerLine": 69,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_addencounter",
+				"timestamp": "2023-03-09 10:01:41.728 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1540, 696)",
+				"image": "RC_SaveEncounter",
+				"handlerLine": 75,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:42.599 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (334, 58)",
+				"image": "RC_Appointments",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:44.504 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (268, 649)",
+				"image": "RC_AddAppointmentby",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:46.018 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (116, 709)",
+				"image": "RC_Location",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:46.929 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (90, 726)",
+				"image": "RC_Step1AddLocations",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:47.903 -0500",
+				"message": "668 Derm",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 9,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:48.640 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 10,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:49.391 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 12,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:50.142 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 12,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:50.882 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 12,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:51.619 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 14,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:52.542 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (782, 371)",
+				"image": "RC_Step2AppointmentType",
+				"handlerLine": 19,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:53.600 -0500",
+				"message": "Established",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 20,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:54.339 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 21,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:56.279 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (800, 435)",
+				"image": "RC_DermEstablishedPatientStep2",
+				"handlerLine": 22,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:58.632 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (142, 701)",
+				"image": "RC_FollowUpVA",
+				"handlerLine": 25,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:01:59.614 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1785, 984)",
+				"image": "RC_Next",
+				"handlerLine": 26,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:01.546 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1286, 306)",
+				"image": "RC_InsuranceProfile",
+				"handlerLine": 27,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:02.437 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (761, 358)",
+				"image": "RC_VAMedicalSchedAppt",
+				"handlerLine": 28,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:03.422 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1747, 983)",
+				"image": "RC_Recur",
+				"handlerLine": 30,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:06.140 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (40, 569)",
+				"image": "RC_StartDate",
+				"handlerLine": 34,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:10.203 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 36,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:10.941 -0500",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 37,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:11.929 -0500",
+				"message": "3/22/2023",
+				"scriptName": "Utilities3.script",
+				"handlerLine": 38,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:12.886 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (320, 967)",
+				"image": "RC_RecurApply",
+				"handlerLine": 39,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:14.229 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (998, 140)",
+				"image": "RC_DermEstablishedPatientAppt",
+				"handlerLine": 40,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:15.245 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1792, 1009)",
+				"image": "Select",
+				"handlerLine": 43,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:16.768 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1661, 982)",
+				"image": "RC_ConfirmandNext",
+				"handlerLine": 45,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:19.336 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1661, 982)",
+				"image": "RC_ConfirmandNext",
+				"handlerLine": 45,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:20.789 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1661, 982)",
+				"image": "RC_ConfirmandNext",
+				"handlerLine": 45,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_schedulerecurring",
+				"timestamp": "2023-03-09 10:02:22.193 -0500",
+				"scriptName": "Utilities3.script",
+				"message": "at (1634, 983)",
+				"image": "RC_Confirm",
+				"handlerLine": 49,
+				"identifier": "click"
+			},
+		{
+				"message": "(Duration:\"415.623\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-03-09 09:55:26 -0500\", Successes:\"1\", TestCase:\"Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-09 10:02:22.393 -0500"
+			},
+		{
+				"message": "Execution Time 0:06:55 Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2023-03-09 10:02:22.483 -0500"
+			}
+	],
+	"createdTimestamp": "2023-03-09 09:55:26.770 -0500"
+}

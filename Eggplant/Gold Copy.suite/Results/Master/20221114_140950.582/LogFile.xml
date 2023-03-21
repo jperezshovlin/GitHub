@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="VerifyDomain_and_User_script" package="ReusablePowerChartLogin.suite" timestamp="2022-11-14 14:09:50.582 -0500"
+ tests="1"  failures="2" errors="0" time="110.403000">
+  <properties>
+   <property name="RunDate" value="2022-11-14 14:09:50.582 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="VerifyDomain_and_User.script" assertions="2" status="failure"  time="109.111">
+    <failure type="LogError" message="Incorrect User Found" />
+    <failure type="FAILURE" message="Script Error: Number of Errors logged: 1 -- Execution Time 0:01:50 VerifyDomain_and_User.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

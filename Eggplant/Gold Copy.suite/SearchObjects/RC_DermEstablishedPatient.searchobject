@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		770,
+		429,
+		163,
+		16
+	],
+	"lastmodifieddate": 1678137335.1890001,
+	"createddate": 1678137335.1890001,
+	"name": "RC_DermEstablishedPatient",
+	"lastfounddate": 1678300330.698,
+	"ocrcapturestring": "Derm Established Patient",
+	"lastfoundlocation": [
+		991,
+		130,
+		163,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[38,6]",
+					"Tolerance": "_66",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_DermEstablishedPatient.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					770,
+					429,
+					163,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Derm Established Patient"
+			}
+	]
+}

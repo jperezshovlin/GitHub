@@ -1,0 +1,9 @@
+﻿2023-02-28 13:39:34.352 -0500	START		Running Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc.script
+2023-02-28 13:39:40.518 -0500	doubleclick	CernerDomainSearch	at (1685, 200)	2	on_citrixdomainsearch	Utilities.script
+2023-02-28 13:39:41.422 -0500	typetext		[controlKey]a	3	on_citrixdomainsearch	Utilities.script
+2023-02-28 13:39:44.098 -0500	typetext		B1930 Powerchart	4	on_citrixdomainsearch	Utilities.script
+2023-02-28 13:39:48.753 -0500	everyimagelocation	(TEXT:"B1930 Powerchart")	found 2 images	5	on_citrixdomainsearch	Utilities.script
+2023-02-28 13:39:49.804 -0500	doubleclick		at (91, 300)	5	on_citrixdomainsearch	Utilities.script
+2023-02-28 13:40:08.370 -0500	imagefound	MinimizedCernerLogin	Unable to Find Image MinimizedCernerLogin	3	on_powerchartlogin	Utilities.script
+2023-02-28 13:40:21.752 -0500	EndTestCase		(Duration:"46.88", Errors:"1", Exceptions:"0", StartTime:"2023-02-28 13:39:34 -0500", Successes:"0", TestCase:"Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc.script", Warnings:"0")
+2023-02-28 13:40:24.524 -0500	ABORTED		Execution Time 0:00:48 Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc.script

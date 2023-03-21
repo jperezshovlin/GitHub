@@ -1,0 +1,5 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2022-11-10 14:43:22.795 -0500,"Success",0:00:07,0,0,0,"20221110_144322.795/LogFile.txt","","",1
+2022-11-10 14:46:44.574 -0500,"Success",0:00:07,0,0,0,"20221110_144644.574/LogFile.txt","","",1
+2022-11-10 14:52:33.085 -0500,"Success",0:00:07,0,0,0,"20221110_145233.085/LogFile.txt","","",1
+2022-11-14 12:08:51.857 -0500,"Success",0:00:09,0,0,0,"20221114_120851.857/LogFile.txt","","",1

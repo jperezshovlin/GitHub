@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		707,
+		251,
+		120,
+		15
+	],
+	"lastmodifieddate": 1677199450.813,
+	"createddate": 1677199450.813,
+	"name": "Pharm_lisinopril10mgtablet",
+	"lastfounddate": 1677516105.4400001,
+	"ocrcapturestring": "lisinopril 10 mg tablet",
+	"lastfoundlocation": [
+		707,
+		251,
+		120,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[19,4]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_lisinopril10mgtablet.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					707,
+					251,
+					120,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "lisinopril 10 mg tablet"
+			}
+	]
+}

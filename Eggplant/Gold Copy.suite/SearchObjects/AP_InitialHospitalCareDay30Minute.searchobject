@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1492,
+		711,
+		229,
+		16
+	],
+	"lastmodifieddate": 1677609140.2750001,
+	"createddate": 1677609140.2750001,
+	"name": "AP_InitialHospitalCareDay30Minute",
+	"lastfounddate": 1679347531.865,
+	"ocrcapturestring": "Initial Hospital Care/Day 30 Minutes 99221",
+	"lastfoundlocation": [
+		1486,
+		581,
+		229,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[70,10]",
+					"Tolerance": "_66",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_InitialHospitalCareDay30Minute.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1492,
+					711,
+					229,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Initial Hospital Care/Day 30 Minutes 99221"
+			}
+	]
+}

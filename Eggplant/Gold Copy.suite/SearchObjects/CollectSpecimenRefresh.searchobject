@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1676320845.6269999,
+	"lastfoundlocation": [
+		1278,
+		284,
+		19,
+		20
+	],
+	"originalcapturelocation": [
+		953,
+		124,
+		19,
+		20
+	],
+	"createddate": 1676320845.6269999,
+	"lastfounddate": 1678909793.5310001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[9,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "CollectSpecimenRefresh.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"capturerect": [
+					953,
+					124,
+					19,
+					20
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov"
+			}
+	],
+	"name": "CollectSpecimenRefresh"
+}

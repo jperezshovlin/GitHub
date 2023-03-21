@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1675781641.207,
+	"lastfoundlocation": [
+		834,
+		329,
+		22,
+		21
+	],
+	"originalcapturelocation": [
+		834,
+		329,
+		22,
+		21
+	],
+	"createddate": 1675781641.207,
+	"lastfounddate": 1679081192.0700002,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[10,8]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Binoculars.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"capturerect": [
+					834,
+					329,
+					22,
+					21
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov"
+			}
+	],
+	"name": "Binoculars"
+}

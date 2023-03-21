@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="BloodProducts_script" package="ReusablePowerChartLogin.suite" timestamp="2023-02-17 14:22:37.709 -0500"
+ tests="1"  failures="0" errors="0" time="328.650000">
+  <properties>
+   <property name="RunDate" value="2023-02-17 14:22:37.709 -0500"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="BloodProducts.script" assertions="1" status="error"  time="327.408">
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;CernerLogoLoginWindow&quot; within 60.00 seconds" />
+  </testcase>
+ </testsuite>
+</testsuites>

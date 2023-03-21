@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1450,
+		698,
+		53,
+		18
+	],
+	"lastmodifieddate": 1677768291.832,
+	"createddate": 1677768291.832,
+	"name": "Click_MPIUpdate",
+	"lastfounddate": 1679064822.7620001,
+	"ocrcapturestring": "Update",
+	"lastfoundlocation": [
+		1455,
+		703,
+		53,
+		18
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[30,14]",
+					"Tolerance": "_52",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Click_MPIUpdate.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1450,
+					698,
+					53,
+					18
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Update"
+			}
+	]
+}

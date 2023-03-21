@@ -1,0 +1,32 @@
+{
+	"lastmodifieddate": 1677597707.0910001,
+	"originalcapturelocation": [
+		1041,
+		458,
+		110,
+		19
+	],
+	"createddate": 1677597504.5780001,
+	"testlocationdata": [
+		{
+				"name": "AP_AssessmentPlanClick.png",
+				"type": 1,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[1,8]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"capturerect": [
+					1041,
+					458,
+					110,
+					19
+				]
+			}
+	],
+	"name": "image0002"
+}

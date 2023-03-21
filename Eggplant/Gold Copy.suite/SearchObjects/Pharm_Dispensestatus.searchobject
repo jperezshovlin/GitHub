@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		814,
+		243,
+		92,
+		15
+	],
+	"lastmodifieddate": 1677198996.727,
+	"createddate": 1677198996.727,
+	"name": "Pharm_Dispensestatus",
+	"lastfounddate": 1677516101.95,
+	"ocrcapturestring": "Dispense status:",
+	"lastfoundlocation": [
+		357,
+		89,
+		92,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[6,22]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_Dispensestatus.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					814,
+					243,
+					92,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Dispense status:"
+			}
+	]
+}

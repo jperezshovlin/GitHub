@@ -1,0 +1,49 @@
+{
+	"originalcapturelocation": [
+		674,
+		304,
+		72,
+		14
+	],
+	"lastmodifieddate": 1675785911.839,
+	"createddate": 1675785855.5549998,
+	"name": "RBCProduct_2",
+	"lastfounddate": 1675785886.714,
+	"ocrcapturestring": "RBC Product",
+	"lastfoundlocation": [
+		679,
+		272,
+		72,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[36,7]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RBCProduct_1.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					674,
+					304,
+					72,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "RBC Product"
+			}
+	]
+}

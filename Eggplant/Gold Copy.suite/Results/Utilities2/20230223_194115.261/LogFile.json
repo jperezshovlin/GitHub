@@ -1,0 +1,25 @@
+{
+	"entries": [
+		{
+				"message": "Running Utilities2.script in Usability Mode",
+				"identifier": "START",
+				"timestamp": "2023-02-23 19:41:16.149 -0500"
+			},
+		{
+				"message": "(Duration:\"0.343\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-02-23 19:41:16 -0500\", Successes:\"1\", TestCase:\"Utilities2.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-23 19:41:17.089 -0500"
+			},
+		{
+				"message": "Usability Tests: 0, Usability Warnings: 0",
+				"identifier": "UsabilitySummary",
+				"timestamp": "2023-02-23 19:41:18.557 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:01 Utilities2.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-02-23 19:41:21.146 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-23 19:41:16.736 -0500"
+}

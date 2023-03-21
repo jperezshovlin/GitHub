@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		733,
+		360,
+		141,
+		14
+	],
+	"lastmodifieddate": 1677605204.638,
+	"createddate": 1677605204.638,
+	"name": "AP_SearchNewOrderResults",
+	"lastfounddate": 1679346050.276,
+	"ocrcapturestring": "Search New Order Results",
+	"lastfoundlocation": [
+		736,
+		337,
+		141,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[13,8]",
+					"Tolerance": "_42",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_SearchNewOrderResults.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					733,
+					360,
+					141,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Search New Order Results"
+			}
+	]
+}

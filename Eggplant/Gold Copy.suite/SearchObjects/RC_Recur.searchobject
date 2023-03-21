@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1728,
+		977,
+		35,
+		13
+	],
+	"lastmodifieddate": 1678301219.0110002,
+	"createddate": 1678301219.0110002,
+	"name": "RC_Recur",
+	"lastfounddate": 1678374123.309,
+	"ocrcapturestring": "Recur",
+	"lastfoundlocation": [
+		1728,
+		977,
+		35,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[19,6]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_Recur.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					1728,
+					977,
+					35,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Recur"
+			}
+	]
+}

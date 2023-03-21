@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		461,
+		399,
+		152,
+		16
+	],
+	"lastmodifieddate": 1677601065.9450002,
+	"createddate": 1677601065.9450002,
+	"name": "AP_ArthrogramAnkle",
+	"lastfounddate": 1677601068.2030001,
+	"ocrcapturestring": "RF Arthrogram Ankle SI Left",
+	"lastfoundlocation": [
+		461,
+		399,
+		152,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[89,4]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_ArthrogramAnkle.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					461,
+					399,
+					152,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "RF Arthrogram Ankle SI Left"
+			}
+	]
+}

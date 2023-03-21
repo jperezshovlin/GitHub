@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		763,
+		494,
+		92,
+		13
+	],
+	"lastmodifieddate": 1675800545.777,
+	"createddate": 1675800545.777,
+	"name": "RegisteredNurseAssignRelationship",
+	"lastfounddate": 1678909783.9320002,
+	"ocrcapturestring": "Registered Nurse",
+	"lastfoundlocation": [
+		763,
+		494,
+		92,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[46,6]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RegisteredNurseAssignRelationship.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					763,
+					494,
+					92,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Registered Nurse"
+			}
+	]
+}

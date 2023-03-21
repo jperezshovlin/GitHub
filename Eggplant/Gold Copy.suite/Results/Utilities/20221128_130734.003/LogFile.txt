@@ -1,0 +1,2 @@
+﻿2022-11-28 13:07:36.000 -0500	START		Running Utilities.script
+2022-11-28 13:07:43.375 -0500	SUCCESS		Execution Time 0:00:02 Utilities.script

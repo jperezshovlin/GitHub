@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="BloodProducts_script" package="ReusablePowerChartLogin.suite" timestamp="2023-02-14 12:04:53.534 -0500"
+ tests="1"  failures="1" errors="1" time="438.541000">
+  <properties>
+   <property name="RunDate" value="2023-02-14 12:04:53.534 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="BloodProducts.script" assertions="5" status="error"  time="437.195">
+    <failure type="FAILURE" message="Image Not Found: waitfor Error - Unable To Find Any Image On Screen &quot;CernerHomeButton&quot; within 60.00 seconds -- Execution Time 0:07:18 BloodProducts.script" />
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;CernerHomeButton&quot; within 60.00 seconds" />
+  </testcase>
+ </testsuite>
+</testsuites>

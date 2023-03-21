@@ -1,0 +1,12 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2023-02-22 18:04:21.374 -0500,"Aborted",0:01:15,1,0,0,"20230222_180421.374/LogFile.txt","","",0
+2023-02-24 12:07:56.694 -0500,"Failure",0:02:59,1,0,1,"20230224_120756.694/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: Pharm_MMR_Metropolol",0
+2023-02-24 15:27:34.513 -0500,"Aborted",0:03:03,1,0,1,"20230224_152734.513/LogFile.txt","","",0
+2023-02-27 07:38:54.188 -0500,"Failure",0:03:15,1,0,1,"20230227_073854.188/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: Pharm_MMR_Metropolol",0
+2023-02-27 08:06:04.707 -0500,"Aborted",0:00:05,1,0,0,"20230227_080604.707/LogFile.txt","","",0
+2023-02-27 08:07:06.481 -0500,"Aborted",0:04:43,1,0,0,"20230227_080706.481/LogFile.txt","","",0
+2023-02-27 10:45:24.368 -0500,"Aborted",0:00:18,1,0,0,"20230227_104524.368/LogFile.txt","","",0
+2023-02-27 11:00:32.705 -0500,"Aborted",0:02:11,1,0,0,"20230227_110032.705/LogFile.txt","","",0
+2023-02-27 11:30:04.210 -0500,"Aborted",0:01:51,1,0,0,"20230227_113004.210/LogFile.txt","","",0
+2023-02-27 11:33:23.404 -0500,"Aborted",0:02:05,1,0,0,"20230227_113323.404/LogFile.txt","","",0
+2023-02-27 11:36:58.730 -0500,"Success",0:04:56,0,0,0,"20230227_113658.730/LogFile.txt","","",1

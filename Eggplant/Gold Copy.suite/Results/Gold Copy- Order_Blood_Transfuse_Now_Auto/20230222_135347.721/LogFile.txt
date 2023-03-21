@@ -1,0 +1,3 @@
+﻿2023-02-22 13:53:48.737 -0500	START		Running BloodProducts.script
+2023-02-22 13:53:49.423 -0500	EndTestCase		(Duration:"0", Errors:"0", Exceptions:"0", StartTime:"2023-02-22 13:53:49 -0500", Successes:"1", TestCase:"BloodProducts.script", Warnings:"0")
+2023-02-22 13:53:53.409 -0500	ABORTED		Execution Time 0:00:01 BloodProducts.script

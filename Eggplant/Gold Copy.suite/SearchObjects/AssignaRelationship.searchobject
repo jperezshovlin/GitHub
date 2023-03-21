@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		902,
+		373,
+		117,
+		14
+	],
+	"lastmodifieddate": 1675720199.131,
+	"createddate": 1675720199.131,
+	"name": "AssignaRelationship",
+	"lastfounddate": 1675721656.497,
+	"ocrcapturestring": "Assign a Relationship",
+	"lastfoundlocation": [
+		902,
+		373,
+		117,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[58,7]",
+					"Tolerance": "_60",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AssignaRelationship.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					902,
+					373,
+					117,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Assign a Relationship"
+			}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"originalcapturelocation": [
+		549,
+		311,
+		254,
+		27
+	],
+	"lastmodifieddate": 1675894469.2220001,
+	"createddate": 1675894319.7130001,
+	"name": "ABORhRefLabAntibodyScreenRefLa_1",
+	"lastfounddate": 1675894330.711,
+	"ocrcapturestring": "ABORh (Ref Lab), Antibody Screen (Ref Lab)",
+	"lastfoundlocation": [
+		549,
+		311,
+		254,
+		27
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[127,13]",
+					"Tolerance": "_50",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ABORhRefLabAntibodyScreenRefLa_1.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					549,
+					311,
+					254,
+					27
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "ABORh (Ref Lab), Antibody Screen (Ref Lab)"
+			}
+	]
+}

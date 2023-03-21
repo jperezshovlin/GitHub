@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1270,
+		385,
+		171,
+		16
+	],
+	"lastmodifieddate": 1677603136.02,
+	"createddate": 1677603136.02,
+	"name": "AP_PainintheabdomenR109",
+	"lastfounddate": 1679408694.8109999,
+	"ocrcapturestring": "Pain in the abdomen (R10.9)",
+	"lastfoundlocation": [
+		1261,
+		418,
+		171,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[92,10]",
+					"Tolerance": "_64",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_PainintheabdomenR109.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1270,
+					385,
+					171,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Pain in the abdomen (R10.9)"
+			}
+	]
+}

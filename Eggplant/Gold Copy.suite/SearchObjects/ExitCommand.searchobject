@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		36,
+		163,
+		25,
+		15
+	],
+	"lastmodifieddate": 1676404340.0380001,
+	"createddate": 1676404340.0380001,
+	"name": "ExitCommand",
+	"lastfounddate": 1678909823.467,
+	"ocrcapturestring": "Exit",
+	"lastfoundlocation": [
+		36,
+		163,
+		25,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[12,7]",
+					"Tolerance": "_50",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ExitCommand.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					36,
+					163,
+					25,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Exit"
+			}
+	]
+}

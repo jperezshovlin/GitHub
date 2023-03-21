@@ -1,0 +1,125 @@
+{
+	"originalcapturelocation": [
+		1772,
+		113,
+		10,
+		17
+	],
+	"lastmodifieddate": 1679408967.516,
+	"createddate": 1679407919.309,
+	"name": "PC_PatientSearchDropDown2",
+	"lastfounddate": 1679408967.6160002,
+	"ocrcapturestring": "s",
+	"lastfoundlocation": [
+		1901,
+		108,
+		11,
+		11
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[5,8]",
+					"Tolerance": 50,
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "PC_PatientSearchDropDown.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"capturerect": [
+					1772,
+					113,
+					10,
+					17
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[5,8]",
+					"Tolerance": 55,
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "PC_PatientSearchDropDown.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"capturerect": [
+					1772,
+					113,
+					10,
+					17
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "  1.1",
+					"HotSpot": "[5,8]",
+					"Tolerance": 55,
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "PC_PatientSearchDropDown.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"capturerect": [
+					1772,
+					113,
+					11,
+					18
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,6,10,16]",
+					"Rotate": 0,
+					"Scale": "  1.1",
+					"HotSpot": "[5,2]",
+					"Tolerance": 65,
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "PC_PatientSearchDropDown.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"capturerect": [
+					1772,
+					113,
+					11,
+					11
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov"
+			}
+	]
+}

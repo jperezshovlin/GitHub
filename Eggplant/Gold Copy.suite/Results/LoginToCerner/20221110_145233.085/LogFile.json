@@ -1,0 +1,29 @@
+{
+	"entries": [
+		{
+				"message": "Running LoginToCerner.script",
+				"identifier": "START",
+				"timestamp": "2022-11-10 14:52:34.598 -0500"
+			},
+		{
+				"handlerName": "on_logintocerner",
+				"timestamp": "2022-11-10 14:52:37.907 -0500",
+				"scriptName": "LoginToCerner.script",
+				"message": "at (37, 468)",
+				"image": "(TEXT:\"Cerner\")",
+				"handlerLine": 1,
+				"identifier": "doubleclick"
+			},
+		{
+				"message": "(Duration:\"5.17\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2022-11-10 14:52:35 -0500\", Successes:\"1\", TestCase:\"LoginToCerner.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-11-10 14:52:40.595 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:07 LoginToCerner.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2022-11-10 14:52:50.400 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-10 14:52:35.418 -0500"
+}

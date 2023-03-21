@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1669911407.3610001,
+	"lastfoundlocation": [
+		43,
+		80,
+		10,
+		7
+	],
+	"originalcapturelocation": [
+		15,
+		57,
+		16,
+		12
+	],
+	"createddate": 1669911407.3610001,
+	"lastfounddate": 1676399751.3010001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[8,6]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "CernerHomeButton.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"capturerect": [
+					15,
+					57,
+					16,
+					12
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov"
+			}
+	],
+	"name": "CernerHomeButton"
+}

@@ -1,0 +1,54 @@
+{
+	"entries": [
+		{
+				"message": "Running VerifyDomain_and_User.script",
+				"identifier": "START",
+				"timestamp": "2022-11-16 10:39:29.242 -0500"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-16 10:39:30.393 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-16 10:39:34.523 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-16 10:39:36.138 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "found at (366, 169)",
+				"image": "RefreshButton",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-16 10:40:00.432 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "No Image Found On Screen: \"SSOiIcon\"",
+				"image": "SSOiIcon",
+				"handlerLine": 4,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"31.223\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2022-11-16 10:39:29 -0500\", Successes:\"0\", TestCase:\"VerifyDomain_and_User.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-11-16 10:40:01.218 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:32 VerifyDomain_and_User.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-11-16 10:40:03.058 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-16 10:39:29.993 -0500"
+}

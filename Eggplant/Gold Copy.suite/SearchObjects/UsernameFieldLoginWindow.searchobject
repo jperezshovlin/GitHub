@@ -1,0 +1,75 @@
+{
+	"originalcapturelocation": [
+		875,
+		438,
+		66,
+		14
+	],
+	"lastmodifieddate": 1670011592.2979999,
+	"createddate": 1668450353.72,
+	"name": "UsernameFieldLoginWindow",
+	"lastfounddate": 1670011549.8629999,
+	"ocrcapturestring": "Username",
+	"lastfoundlocation": [
+		765,
+		700,
+		56,
+		11
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[21,25]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "UsernameFieldLoginWindow.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					875,
+					438,
+					66,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Username"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_30",
+					"HotSpot": "[21,25]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Adaptive to Image"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "UsernameFieldLoginWindow.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					875,
+					438,
+					66,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Username"
+			}
+	]
+}

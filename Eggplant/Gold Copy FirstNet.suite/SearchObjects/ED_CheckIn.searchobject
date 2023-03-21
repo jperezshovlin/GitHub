@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1729,
+		310,
+		49,
+		14
+	],
+	"lastmodifieddate": 1678892041.3610001,
+	"createddate": 1678892041.3610001,
+	"name": "ED_CheckIn",
+	"lastfounddate": 1678992744.882,
+	"ocrcapturestring": "Check In",
+	"lastfoundlocation": [
+		1726,
+		332,
+		49,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[29,6]",
+					"Tolerance": "_50",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ED_CheckIn.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					1729,
+					310,
+					49,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Check In"
+			}
+	]
+}

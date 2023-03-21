@@ -1,0 +1,47 @@
+{
+	"lastmodifieddate": 1677186561.312,
+	"lastfoundlocation": [
+		291,
+		15,
+		25,
+		31
+	],
+	"originalcapturelocation": [
+		1004,
+		246,
+		23,
+		29
+	],
+	"createddate": 1677101438.3429999,
+	"lastfounddate": 1677183835.1500001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[11,14]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_Bluestar.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"capturerect": [
+					1004,
+					246,
+					23,
+					29
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov"
+			}
+	],
+	"name": "Pharm_Bluestar"
+}

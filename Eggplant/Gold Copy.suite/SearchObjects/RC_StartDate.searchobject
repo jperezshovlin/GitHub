@@ -1,0 +1,75 @@
+{
+	"originalcapturelocation": [
+		25,
+		524,
+		68,
+		14
+	],
+	"lastmodifieddate": 1678312307.2290001,
+	"createddate": 1678306262.381,
+	"name": "RC_StartDate",
+	"lastfounddate": 1678374126.0250001,
+	"ocrcapturestring": "Start Date",
+	"lastfoundlocation": [
+		25,
+		524,
+		68,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[15,45]",
+					"Tolerance": "_66",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_StartDate.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					25,
+					524,
+					68,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Start Date"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[15,45]",
+					"Tolerance": 71,
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_StartDate.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					25,
+					524,
+					68,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Start Date"
+			}
+	]
+}

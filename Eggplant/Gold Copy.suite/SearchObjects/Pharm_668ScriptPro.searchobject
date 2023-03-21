@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		759,
+		640,
+		78,
+		14
+	],
+	"lastmodifieddate": 1677102717.4400001,
+	"createddate": 1677102717.4400001,
+	"name": "Pharm_668ScriptPro",
+	"lastfounddate": 1678989043.631,
+	"ocrcapturestring": "668 ScriptPro",
+	"lastfoundlocation": [
+		759,
+		640,
+		78,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[39,7]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_668ScriptPro.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					759,
+					640,
+					78,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "668 ScriptPro"
+			}
+	]
+}

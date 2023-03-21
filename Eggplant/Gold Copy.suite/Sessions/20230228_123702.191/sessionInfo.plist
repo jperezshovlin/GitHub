@@ -1,0 +1,10 @@
+{
+    adaptiveConstant = <*I7>;
+    commandList = "[{captureRect:[600, 835, 715, 848], elementName:\"AP_XRAbdomen2ViewsModify\", eventNum:2, folderPath:\"\", hotSpot:[627, 241], imageName:\"AP_XRAbdomen2ViewsModify\", itemEvent:\"TurboListItemEvent_CaptureImage\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", OCRText:\"XR Abdomen 2 Views\", screenShotFile:\"Screen0001.png\", searchType:\"Smoothed for Text\", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}]";
+    dilations = <*I3>;
+    maxSize = <*I300>;
+    minSize = <*I16>;
+    savedWithEpfVersion = <*I2111051752>;
+    sessionType = rapidSession;
+    sessionUsesDOMObjects = <*BN>;
+}

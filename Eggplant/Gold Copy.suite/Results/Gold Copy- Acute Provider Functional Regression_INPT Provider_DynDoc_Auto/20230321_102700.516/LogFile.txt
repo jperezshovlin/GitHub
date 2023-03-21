@@ -1,0 +1,19 @@
+﻿2023-03-21 10:27:00.516 -0400	START		Running Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script
+2023-03-21 10:27:00.810 -0400	doubleclick	CernerDomainSearch	at (1685, 200)	2	on_citrixdomainsearch	Utilities.script
+2023-03-21 10:27:01.567 -0400	typetext		[controlKey]a	3	on_citrixdomainsearch	Utilities.script
+2023-03-21 10:27:02.301 -0400	typetext		[deleteKey]	4	on_citrixdomainsearch	Utilities.script
+2023-03-21 10:27:03.590 -0400	typetext		C0630 Powerchart	5	on_citrixdomainsearch	Utilities.script
+2023-03-21 10:27:07.420 -0400	everyimagelocation	(TEXT:"C0630 Powerchart")	found 2 images	6	on_citrixdomainsearch	Utilities.script
+2023-03-21 10:27:07.645 -0400	doubleclick		at (460, 301)	6	on_citrixdomainsearch	Utilities.script
+2023-03-21 10:27:22.746 -0400	waitfor	CernerLogoLoginWindow	found #1 at (743, 356)	7	on_applicationlogin	Utilities.script
+2023-03-21 10:27:23.209 -0400	click	UsernameFieldLoginWindow	at (896, 463)	9	on_applicationlogin	Utilities.script
+2023-03-21 10:27:23.979 -0400	typetext		[controlKey]a	12	on_applicationlogin	Utilities.script
+2023-03-21 10:27:24.713 -0400	typetext		[deleteKey]	15	on_applicationlogin	Utilities.script
+2023-03-21 10:27:25.917 -0400	typetext		VAPHYSHOSP	16	on_applicationlogin	Utilities.script
+2023-03-21 10:27:26.916 -0400	click	PasswordLogin	at (885, 523)	17	on_applicationlogin	Utilities.script
+2023-03-21 10:27:27.973 -0400	typetext		Cerner123[return]	18	on_applicationlogin	Utilities.script
+2023-03-21 10:27:28.736 -0400	typetext		[windowsKey][upArrow]	20	on_applicationlogin	Utilities.script
+2023-03-21 10:27:31.048 -0400	waitfor	PC_PatientSearchDropDown	found at (1906, 109)	2	on_searchfin	Utilities.script
+2023-03-21 10:27:31.174 -0400	click	PC_PatientSearchDropDown	at (1906, 109)	4	on_searchfin	Utilities.script
+2023-03-21 10:28:17.555 -0400	EndTestCase		(Duration:"77.039", Errors:"1", Exceptions:"0", StartTime:"2023-03-21 10:27:00 -0400", Successes:"0", TestCase:"Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script", Warnings:"0")
+2023-03-21 10:28:17.571 -0400	ABORTED		Execution Time 0:01:17 Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script

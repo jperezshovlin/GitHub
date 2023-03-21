@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		252,
+		952,
+		76,
+		15
+	],
+	"lastmodifieddate": 1677607959.2259998,
+	"createddate": 1677607959.2259998,
+	"name": "AP_ProgressNoteCreate",
+	"lastfounddate": 1679346244.039,
+	"ocrcapturestring": "Progress Note",
+	"lastfoundlocation": [
+		235,
+		952,
+		76,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[38,7]",
+					"Tolerance": "_71",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_ProgressNoteCreate.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					252,
+					952,
+					76,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Progress Note"
+			}
+	]
+}

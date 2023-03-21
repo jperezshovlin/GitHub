@@ -1,0 +1,24 @@
+﻿2023-03-16 14:51:09.378 -0400	START		Running Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script
+2023-03-16 14:51:09.744 -0400	doubleclick	CernerDomainSearch	at (1685, 200)	2	on_citrixdomainsearch	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:10.494 -0400	typetext		[controlKey]a	3	on_citrixdomainsearch	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:11.237 -0400	typetext		[deleteKey]	4	on_citrixdomainsearch	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:12.458 -0400	typetext		C0630 FirstNet	5	on_citrixdomainsearch	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:16.433 -0400	everyimagelocation	(TEXT:"C0630 FirstNet")	found 2 images	6	on_citrixdomainsearch	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:16.663 -0400	doubleclick		at (266, 301)	6	on_citrixdomainsearch	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:31.762 -0400	waitfor	CernerLogoLoginWindow	found #1 at (743, 356)	7	on_applicationlogin	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:32.252 -0400	click	UsernameFieldLoginWindow	at (896, 463)	9	on_applicationlogin	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:33.017 -0400	typetext		[controlKey]a	12	on_applicationlogin	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:33.771 -0400	typetext		[deleteKey]	15	on_applicationlogin	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:34.877 -0400	typetext		VAEDRN5	16	on_applicationlogin	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:35.957 -0400	click	PasswordLogin	at (885, 523)	17	on_applicationlogin	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:37.117 -0400	typetext		Cerner123[return]	18	on_applicationlogin	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:37.877 -0400	typetext		[windowsKey][upArrow]	20	on_applicationlogin	C:/GitHub/GitHub/Eggplant/Gold Copy.suite/Scripts/Utilities.script
+2023-03-16 14:51:42.630 -0400	click	ED_CheckInOption	at (1861, 202)	3	on_checkin	Utilities4.script
+2023-03-16 14:51:43.545 -0400	click	ED_ChangeLocation	at (1774, 226)	4	on_checkin	Utilities4.script
+2023-03-16 14:51:44.464 -0400	click	ED_NursingUnit	at (1492, 302)	5	on_checkin	Utilities4.script
+2023-03-16 14:51:45.267 -0400	typetext		668	6	on_checkin	Utilities4.script
+2023-03-16 14:51:46.267 -0400	click	ED_LocationOK	at (1866, 202)	8	on_checkin	Utilities4.script
+2023-03-16 14:51:47.114 -0400	click	ED_CheckInOption	at (1861, 202)	10	on_checkin	Utilities4.script
+2023-03-16 14:51:58.745 -0400	Exception	ED_CheckIn	No Image Found On Screen: "ED_CheckIn"	11	on_checkin	Utilities4.script
+2023-03-16 14:51:59.121 -0400	EndTestCase		(Duration:"49.726", Errors:"1", Exceptions:"1", StartTime:"2023-03-16 14:51:09 -0400", Successes:"0", TestCase:"Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script", Warnings:"0")
+2023-03-16 14:51:59.132 -0400	ABORTED		Execution Time 0:00:49 Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script

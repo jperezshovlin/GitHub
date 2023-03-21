@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		17,
+		142,
+		30,
+		27
+	],
+	"lastmodifieddate": 1677186831.6399999,
+	"createddate": 1677186831.6399999,
+	"name": "Pharm_MMRPatientName",
+	"lastfounddate": 1678989163.6919999,
+	"ocrcapturestring": "I£l-",
+	"lastfoundlocation": [
+		17,
+		142,
+		30,
+		27
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[45,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_MMRPatientName.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					17,
+					142,
+					30,
+					27
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "I£l-"
+			}
+	]
+}

@@ -1,0 +1,49 @@
+{
+	"originalcapturelocation": [
+		879,
+		240,
+		39,
+		13
+	],
+	"lastmodifieddate": 1677189493.22,
+	"createddate": 1677189405.3860002,
+	"name": "AnemiaTypeScreenDiagnosis/PharmRefills",
+	"lastfounddate": 1677189424.3569999,
+	"ocrcapturestring": "Refills:",
+	"lastfoundlocation": [
+		879,
+		240,
+		39,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[32,26]",
+					"Tolerance": "_47",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AnemiaTypeScreenDiagnosis/PharmRefills.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					879,
+					240,
+					39,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Refills:"
+			}
+	]
+}

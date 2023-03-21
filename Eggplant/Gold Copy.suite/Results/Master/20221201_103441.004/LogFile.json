@@ -1,0 +1,54 @@
+{
+	"entries": [
+		{
+				"message": "Running Master.script",
+				"identifier": "START",
+				"timestamp": "2022-12-01 10:34:42.249 -0500"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-12-01 10:34:44.944 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "Utilities.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-12-01 10:34:49.942 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-12-01 10:34:51.092 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (127, 134)",
+				"image": "RefreshButton",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_ssoilogin",
+				"timestamp": "2022-12-01 10:34:56.071 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable to Find Image SSOiIcon",
+				"image": "SSOiIcon",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"message": "(Duration:\"14.763\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-12-01 10:34:42 -0500\", Successes:\"0\", TestCase:\"Master.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-12-01 10:34:57.699 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:16 Master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-12-01 10:35:00.428 -0500"
+			}
+	],
+	"createdTimestamp": "2022-12-01 10:34:42.935 -0500"
+}

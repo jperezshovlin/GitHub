@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		269,
+		727,
+		131,
+		16
+	],
+	"lastmodifieddate": 1677603198.7410002,
+	"createddate": 1677603198.7410002,
+	"name": "AP_ObjectivePhysicalExam",
+	"lastfounddate": 1679345785.777,
+	"ocrcapturestring": "Objective/Physical Exam",
+	"lastfoundlocation": [
+		252,
+		893,
+		131,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[56,4]",
+					"Tolerance": "_48",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_ObjectivePhysicalExam.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					269,
+					727,
+					131,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Objective/Physical Exam"
+			}
+	]
+}

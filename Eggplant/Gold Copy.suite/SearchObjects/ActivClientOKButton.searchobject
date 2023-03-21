@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1003,
+		605,
+		73,
+		21
+	],
+	"lastmodifieddate": 1668449142.3990002,
+	"createddate": 1668449142.3990002,
+	"name": "ActivClientOKButton",
+	"lastfounddate": 1668453017.8839998,
+	"ocrcapturestring": "OK",
+	"lastfoundlocation": [
+		1003,
+		605,
+		73,
+		21
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[33,9]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ActivClientOKButton.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1003,
+					605,
+					73,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "OK"
+			}
+	]
+}

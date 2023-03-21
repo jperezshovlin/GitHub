@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		39,
+		236,
+		99,
+		16
+	],
+	"lastmodifieddate": 1678993635.174,
+	"createddate": 1678993635.174,
+	"name": "ED_ChiefComplaint",
+	"lastfounddate": 1678993894.5450001,
+	"ocrcapturestring": "Chief Complaint",
+	"lastfoundlocation": [
+		39,
+		236,
+		99,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[12,27]",
+					"Tolerance": "_52",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ED_ChiefComplaint.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					39,
+					236,
+					99,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Chief Complaint"
+			}
+	]
+}

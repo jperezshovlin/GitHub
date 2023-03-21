@@ -1,0 +1,9 @@
+﻿2022-11-28 13:09:39.340 -0500	START		Running Master.script
+2022-11-28 13:09:40.292 -0500	typetext		[windowsKey]r	2	on_openurl	Utilities.script
+2022-11-28 13:09:45.283 -0500	typetext		https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]	3	on_openurl	Utilities.script
+2022-11-28 13:09:46.956 -0500	waitfor	RefreshButton	found at (376, 153)	4	on_openurl	Utilities.script
+2022-11-28 13:09:49.065 -0500	imagefound	SSOiIcon	found at (977, 576)	2	on_ssoilogin	Utilities.script
+2022-11-28 13:09:51.669 -0500	doubleclick	SSOiIcon	at (977, 576)	3	on_ssoilogin	Utilities.script
+2022-11-28 13:10:18.999 -0500	Exception	CertificateSelection	No Image Found On Screen: "CertificateSelection"	4	on_ssoilogin	Utilities.script
+2022-11-28 13:10:19.693 -0500	EndTestCase		(Duration:"39.807", Errors:"1", Exceptions:"1", StartTime:"2022-11-28 13:09:39 -0500", Successes:"0", TestCase:"Master.script", Warnings:"0")
+2022-11-28 13:10:28.933 -0500	FAILURE	Screen_Error.png	Image Not Found: click Error - No Image Found On Screen: "CertificateSelection" -- Execution Time 0:00:40 Master.script

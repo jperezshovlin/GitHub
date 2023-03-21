@@ -1,0 +1,382 @@
+﻿
+---------------------------------------------------------
+
+To RCSearchPatient PatientName
+
+
+	If ImageFound(Image:"Preferences", WaitFor:10)
+	then 
+		Click "RC_LocationGroup"
+		TypeText "668 1st Floor"
+	End If
+	
+	
+	Click "RC_Search"
+	Click (Image:"RC_NameLastFirst", WaitFor:2.9)
+	//Click (Image:"RC_PatientSearch", WaitFor:30)
+	TypeText PatientName
+	
+	wait 5
+	
+	If ImageFound("RC_FinancialActivityCheck") then
+		Click "RC_FinancialActivityCheck"
+		
+	End If
+	Wait 3
+	//Click "RC_SearchButton"
+	
+	
+	Log EveryImageLocation(text:"Search")
+	WaitFor 20, "RC_SearchButton"
+	Wait 2
+	Click item 4  of EveryImageLocation(text:"Search")
+	
+	Wait 20
+	TypeText returnKey
+	//wait for MPI Search
+	
+	If ImageFound(Image:"RC_ExternalMPI_Identifiers", WaitFor:120) then
+		Click {Image:"Click_MPIUpdate", Waitfor:240}
+		
+	End If
+	
+	
+	If ImageFound("RC_Close") then
+		Click {Image:"RC_Close", WaitFor:240}
+	End If
+	
+	
+	
+	
+End RCSearchPatient
+---------------------------------------------------------------------------------------
+
+To AddEncounter
+	Click Text:"Encounters", SearchRectangle:[7,23,611,75]
+
+	Log EveryImageLocation(text:"Encounters")
+	WaitFor 20, "RC_Encounters_Button"
+	
+	Click item 3 of EveryImageLocation(text:"Encounters")
+	
+	
+	Click imageName:"RC_AddEncounter", waitFor:30
+	Wait 30
+	
+	If ImageFound(imageName:"RC_ReretrievePatientInfo", waitFor:15) then
+		Click "NoContinueWithoutVABenefits"
+		
+	End If
+	
+	If ImageFound(Image:"RC_ProceedingWithoutVABenefitData", WaitFor:10) then
+		Click "RC_OK_gray"	
+	End If
+	
+	
+	
+	
+	Click "RC_Facility"
+	TypeText controlKey, "a"
+	TypeText deleteKey
+	TypeText "668 Mann-Grandstaff WA VA Medical Center"
+	TypeText returnKey
+	
+	Click "RC_Building"
+	TypeText "668 Bldg 01"
+	TypeText tabKey
+	TypeText "668 Derm" //Nurse/Ambulatory Field
+	
+	TypeText tabKey
+	Click "RC_PatientType" 
+	Click "RC_Outpatient" //Patient Type 
+	
+	
+	TypeText tabKey
+	TypeText tabKey
+	
+	TypeText "Dermatology"
+	repeat 5 times
+		TypeText tabKey	
+	end repeat
+	
+	
+	TypeText "Elective" //Admit Type
+	TypeText tabKey
+	
+	TypeText "Patient" //Referral source
+	repeat 8 times
+		TypeText tabKey	
+	end repeat
+	
+	TypeText "Cerner, Cerner" //Attending Provider
+	TypeText returnKey
+	TypeText returnKey 
+	
+	repeat 9 times
+		TypeText tabKey	
+	end repeat
+	
+	
+	
+	
+	TypeText "T" //Registration Date Today
+	Wait 5
+	TypeText tabKey
+	TypeText tabKey
+	TypeText "N" //Reg time now
+	Wait 5
+	
+	//Enter insurance information
+	
+	Click "RC_Insurance"
+	
+	Click "RC_SelectProfile"
+	
+	If ImageFound("RC_VAMedical") then 
+		Click {Image:"RC_VAMedical", WaitFor:6.6}
+	End If
+	
+	If ImageFound("RC_DODNODIRECTCAREBENEFITS") then
+		Click "RC_DODNODIRECTCAREBENEFITS"
+		
+	End If
+	
+	TypeText tabKey
+	TypeText returnKey
+	
+	
+	
+	
+	Click "RC_Guarantor"
+	TypeText returnKey
+	
+	Click "RC_GuarantorOK"
+	
+	If ImageFound(imageName:"RC_InvalidAddress", waitFor:5) then
+		Click "RC_Proceed"
+	End If
+	
+	
+	Click "RC_SaveEncounter"
+	
+End AddEncounter
+
+----------------------------------------------------------
+
+To ScheduleFirstAvailable
+
+	Click {Image:"RC_Appointments", WaitFor:30}
+	Click "RC_AddAppointmentby"
+	Click "RC_Location"
+	Click "RC_Step1AddLocations"
+	
+	TypeText "668 Derm"
+	TypeText returnKey
+	
+	Log EveryImageLocation(text:"668 Derm")
+	Click item 2 of everyimagelocation(text:"668 Derm")
+	
+	
+	Click (Image:"RC_Step2AppointmentType", WaitFor:15)
+	TypeText "Established"
+	TypeText returnKey
+	Click (Image:"RC_DermEstablishedPatientStep2", WaitFor:10)
+	
+	Click (Image:"RC_FollowUpVA", WaitFor:5)
+	Click "RC_Next"
+	Click "RC_InsuranceProfile"
+	Click "RC_VAMedicalSchedAppt"
+	
+	Click {Image:"RC_FirstAvailable", WaitFor: 10}
+
+	Click (Image:"RC_DermEstablishedPatientAppt", WaitFor:15)
+	Click (Image:"Select", WaitFor:10)
+	
+	Click "RC_ConfirmAppointment"
+	
+	CaptureScreen {Name: "Scheduled Appointment", Rectangle: [56,82,1920,1039]}
+
+End ScheduleFirstAvailable
+
+---------------------------------------------------------------------------------------------------
+To ScheduleRecurring RecurringStartDate
+	Click "RC_Appointments"
+	
+	
+	Click "RC_AddAppointmentby"
+	Click "RC_Location"
+	Click "RC_Step1AddLocations"
+	
+	TypeText "668 Derm"
+	TypeText returnKey
+	Repeat 3 times
+		TypeText tabKey
+	End repeat
+	TypeText returnKey
+	
+	//Log EveryImageLocation(text:"668 Derm")
+	//Click item 2 of everyimagelocation(text:"668 Derm")
+	
+	Click (Image:"RC_Step2AppointmentType", WaitFor:15)
+	TypeText "Established"
+	TypeText returnKey
+	Click {Image:"RC_DermEstablishedPatientStep2", WaitFor:10}
+	
+	
+	Click (Image:"RC_FollowUpVA", WaitFor:5)
+	Click "RC_Next"
+	Click "RC_InsuranceProfile"
+	Click "RC_VAMedicalSchedAppt"
+	
+	Click {Image:"RC_Recur", WaitFor:10}
+	
+	
+	
+	Click "RC_StartDate"
+	Wait 4
+	TypeText controlKey, "a"
+	TypeText deleteKey
+	TypeText RecurringStartDate
+	Click {Image:"RC_RecurApply", WaitFor:10} //select criteria for recurrence
+	Click "RC_DermEstablishedPatientAppt"
+	
+	
+	Click {Image:"Select", WaitFor:10}
+	Repeat 3 times
+		Click (Image:"RC_ConfirmandNext", WaitFor:15)
+		
+	End Repeat
+	
+	Click "RC_Confirm"
+End ScheduleRecurring
+
+---------------------------------------------------------------------------------
+
+To CheckIn 
+
+	Click "RC_PatientTracking"
+	Click "RC_Filter"
+	
+	Click "RC_LocationGroup"
+	
+	Typetext controlKey, "a"
+	TypeText deletekey
+	
+	TypeText "668 1st Floor Specialty Clinic"
+	
+	Click 
+	
+	Click {ImageName:"RC_Search", SearchRectangle:[735,216,1057,267]}
+	Wait 3
+	
+	
+	Click "RC_LocationDrop"
+	TypeText "668 Derm"
+	Wait 10
+	
+	Click {Image:"RC_ApplyandClose", WaitFor:10}
+
+	Click (Image:"RC_ApptAllDay", WaitFor:10)
+	
+	Click text:"Confirmed" //need logic to find specific patient
+	Wait 5
+	Click text:"Check In"
+	Wait 5
+	TypeText windowsKey,upArrow
+	
+	Click {Image:"RC_AddressLine1", WaitFor:5}
+	TypeText "2345 2nd Ave N"
+	TypeText tabKey
+	TypeText tabKey
+	TypeText "Saint Petersburg"
+	TypeText tabKey
+	TypeText "FL"
+	TypeText tabKey
+	TypeText "33713"
+	
+	
+	repeat 18 times
+		TypeText tabKey
+	end repeat
+	TypeText "Mobile"
+	
+	repeat 3 times
+		TypeText tabKey
+	end repeat
+	
+	TypeText "7275555555"
+	
+	Click (Image:"RC_Relationship", WaitFor:10)
+	Click (Image:"RC_AddGuarantor", WaitFor:15)
+	
+	Click (Image:"RC_OK_gray", WaitFor:16)
+	
+	If ImageFound(imageName:"RC_InvalidAddress", waitFor:5) then
+		Click "RC_Proceed"
+	End If
+	
+	Click "RC_SaveEncounter"
+	
+	If ImageFound(text:"Lifetime Prescription Encounter") then
+		Click "RC_OK_gray"
+	End If
+	
+	
+	
+	If ImageFound(imageName:"RC_InvalidAddress", waitFor:5) then
+		Click "RC_Proceed"
+	End If
+	
+	
+	
+	
+	If ImageFound("RC_InsuranceUpdatesAcrossEncounte")
+	then 
+		
+		Click (Image:"RC_No", WaitFor:10)
+	End If
+	Wait 10
+	
+	Click "RC_MedicalService"
+	TypeText "Dermatology"
+	repeat 4 times
+		TypeText tabKey
+	end repeat
+	
+	
+	TypeText "Elective" //Admit Type
+	
+	TypeText tabKey
+	
+	TypeText "Patient" //Referral source
+	
+	Click "RC_Guarantor"
+	TypeText returnKey
+	
+	Click "RC_GuarantorOK"
+	Click "RC_SaveEncounter"
+	Wait 5
+	
+	If ImageFound(Text:"Invalid Address", waitFor:5) then
+		Click "RC_Proceed"
+	End If
+	
+	//Click "RC_SaveEncounter"
+	
+	If ImageFound(Text:"Invalid Address", waitFor:5) then
+		Click "RC_Proceed"
+	End If
+	
+	If ImageFound("RC_AddImages") then 
+		Click text:"Close"
+	End If
+	
+	If ImageFound(text:"Checked In") then
+		LogSuccess "Patient is checked in."
+		
+	End If
+	
+	CaptureScreen {Name: "RC_PatientCheckedIn", Rectangle: [36,1,1918,674]}
+
+
+End CheckIn

@@ -1,0 +1,76 @@
+{
+	"entries": [
+		{
+				"message": "Running Master.script",
+				"identifier": "START",
+				"timestamp": "2022-12-01 10:22:00.227 -0500"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-12-01 10:22:01.543 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "Utilities.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-12-01 10:22:07.148 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openurl",
+				"timestamp": "2022-12-01 10:22:30.878 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (576, 184)",
+				"image": "RefreshButton",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_ssoilogin",
+				"timestamp": "2022-12-01 10:22:33.987 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (1177, 652)",
+				"image": "SSOiIcon",
+				"handlerLine": 2,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_ssoilogin",
+				"timestamp": "2022-12-01 10:22:36.373 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1177, 652)",
+				"image": "SSOiIcon",
+				"handlerLine": 3,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_ssoilogin",
+				"timestamp": "2022-12-01 10:22:39.491 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (791, 299)",
+				"image": "CertificateSelection",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_ssoilogin",
+				"timestamp": "2022-12-01 10:22:41.681 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1063, 394)",
+				"image": "CertificateSelectionOkButton",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"message": "Execution Time 0:02:06 Master.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-12-01 10:24:07.560 -0500"
+			}
+	],
+	"createdTimestamp": "2022-12-01 10:22:00.896 -0500"
+}

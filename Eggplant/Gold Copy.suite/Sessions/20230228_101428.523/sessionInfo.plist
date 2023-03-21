@@ -1,0 +1,10 @@
+{
+    adaptiveConstant = <*I7>;
+    commandList = "[{captureRect:[1029, 418, 1243, 651], elementName:\"image0001\", eventNum:2, folderPath:\"\", hotSpot:[1094, 513], imageName:\"image0001\", itemEvent:\"TurboListItemEvent_Drag\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0002.png\", searchType:\"Tolerant of Background\", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[1041, 603, 1151, 622], elementName:\"image0002\", eventNum:2, folderPath:\"\", hotSpot:[1042, 466], imageName:\"image0002\", itemEvent:\"TurboListItemEvent_Drop\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0002.png\", searchType:\"Tolerant of Background\", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[1036, 558, 1151, 628], elementName:\"image0003\", eventNum:4, folderPath:\"\", hotSpot:[1065, 485], imageName:\"image0003\", itemEvent:\"TurboListItemEvent_RightClick\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", screenShotFile:\"Screen0004.png\", searchType:\"Tolerant of Background\", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}, {captureRect:[1043, 572, 1494, 591], elementName:\"tTaghageduetovascularprostheti\", eventNum:6, folderPath:\"\", hotSpot:[1070, 500], imageName:\"tTaghageduetovascularprostheti\", itemEvent:\"TurboListItemEvent_Click\", itemMode:\"TurboListItemMode_Existing\", itemType:\"TurboListItemType_Image\", OCRText:\"t^Tag hage due to vascular prosthetic devices, implants and grafts, initial encounter\", screenShotFile:\"Screen0006.png\", searchType:\"Smoothed for Text\", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}]";
+    dilations = <*I3>;
+    maxSize = <*I300>;
+    minSize = <*I16>;
+    savedWithEpfVersion = <*I2111051752>;
+    sessionType = turboSession;
+    sessionUsesDOMObjects = <*BN>;
+}

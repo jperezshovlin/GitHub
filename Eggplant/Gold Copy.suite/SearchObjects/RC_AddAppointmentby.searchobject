@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		80,
+		615,
+		144,
+		17
+	],
+	"lastmodifieddate": 1678136802.733,
+	"createddate": 1678136802.733,
+	"name": "RC_AddAppointmentby",
+	"lastfounddate": 1679064906.2869999,
+	"ocrcapturestring": "Add Appointment by:",
+	"lastfoundlocation": [
+		80,
+		615,
+		144,
+		17
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[188,34]",
+					"Tolerance": "_66",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_AddAppointmentby.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					80,
+					615,
+					144,
+					17
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Add Appointment by:"
+			}
+	]
+}

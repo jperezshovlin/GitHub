@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Gold Copy- Emergency Medicine Functional Regression_ ED Triage_script" package="Gold Copy FirstNet.suite" timestamp="2023-03-16 14:51:09.378 -0400"
+ tests="1"  failures="0" errors="0" time="49.742000">
+  <properties>
+   <property name="RunDate" value="2023-03-16 14:51:09.378 -0400"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script" assertions="1" status="error"  time="49.726">
+    <error type="Exception" message="No Image Found On Screen: &quot;ED_CheckIn&quot;" />
+  </testcase>
+ </testsuite>
+</testsuites>

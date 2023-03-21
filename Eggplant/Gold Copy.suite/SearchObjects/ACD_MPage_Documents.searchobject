@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		270,
+		553,
+		61,
+		14
+	],
+	"lastmodifieddate": 1677593153.25,
+	"createddate": 1677593153.25,
+	"name": "ACD_MPage_Documents",
+	"lastfounddate": 1679408984.7820001,
+	"ocrcapturestring": "Documents",
+	"lastfoundlocation": [
+		253,
+		460,
+		61,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[30,7]",
+					"Tolerance": "_48",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ACD_MPage_Documents.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					270,
+					553,
+					61,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Documents"
+			}
+	]
+}

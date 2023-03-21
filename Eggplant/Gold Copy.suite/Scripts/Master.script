@@ -1,0 +1,26 @@
+﻿//Open URL of your choice. Just change the URL below if you need to go to a different URL
+Utilities.OpenURL "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/"
+
+//Logs in with SSO into Cerner CernerWorks
+Utilities.SSOiLogin
+//Maximize window
+TypeText windowsKey,upArrow
+
+//Searches for a domain within the CernerWorks Page
+Utilities.CitrixDomainSearch "B1930 Powerchart"
+
+//Logs in with a specific generic username, password and verify correct username + domain name on PowerChart Landing page.
+Utilities.ApplicationLogin "VAPHYSHOSP","Cerner123","B1930"
+Utilities.ApplicationLogout
+Utilities.CitrixDomainSearch  "C0630 Powerchart"
+Utilities.ApplicationLogin "VARN","Cerner123","C0630"
+Utilities.ApplicationLogout
+Utilities.CitrixDomainSearch  "C0630 Powerchart"
+Utilities.ApplicationLogin "VAPHYSPCP","Cerner123","C0630"
+Utilities.ApplicationLogout
+Utilities.CitrixDomainSearch  "C0630 Powerchart"
+Utilities.ApplicationLogin "VAPHARMACIST","Cerner123","C0630"
+Utilities.ApplicationLogout
+
+
+

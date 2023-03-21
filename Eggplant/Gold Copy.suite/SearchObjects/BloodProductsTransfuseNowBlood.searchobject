@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		998,
+		885,
+		284,
+		14
+	],
+	"lastmodifieddate": 1675779947.582,
+	"createddate": 1675779947.582,
+	"name": "BloodProductsTransfuseNowBlood",
+	"lastfounddate": 1679080587.1830001,
+	"ocrcapturestring": "Blood Products Transfuse Now Blood Products Transfuse",
+	"lastfoundlocation": [
+		255,
+		727,
+		284,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[104,6]",
+					"Tolerance": "_66",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "BloodProductsTransfuseNowBlood.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					998,
+					885,
+					284,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Blood Products Transfuse Now Blood Products Transfuse"
+			}
+	]
+}

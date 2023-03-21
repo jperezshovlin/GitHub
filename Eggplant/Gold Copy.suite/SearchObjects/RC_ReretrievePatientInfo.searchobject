@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		879,
+		301,
+		164,
+		17
+	],
+	"lastmodifieddate": 1678395865.885,
+	"createddate": 1678395865.885,
+	"name": "RC_ReretrievePatientInfo",
+	"lastfounddate": 1678914396.086,
+	"ocrcapturestring": "Re-retrieve Patient Info?",
+	"lastfoundlocation": [
+		879,
+		301,
+		164,
+		17
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[44,3]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_ReretrievePatientInfo.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					879,
+					301,
+					164,
+					17
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Re-retrieve Patient Info?"
+			}
+	]
+}

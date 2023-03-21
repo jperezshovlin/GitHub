@@ -1,0 +1,24 @@
+﻿2022-11-14 14:09:51.231 -0500	START		Running VerifyDomain_and_User.script
+2022-11-14 14:09:52.651 -0500	typetext		[windowsKey]r	1	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:09:57.318 -0500	typetext		https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]	2	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:01.137 -0500	waitfor	RefreshButton	found at (115, 51)	3	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:02.997 -0500	doubleclick	SSOiIcon	at (1172, 519)	4	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:04.868 -0500	click	CertificateSelection	at (786, 166)	5	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:06.769 -0500	click	CertificateSelectionOkButton	at (1058, 261)	6	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:18.795 -0500	click	ActivClientOKButton	at (1036, 614)	13	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:26.194 -0500	click	CernerDomainSearch	at (1732, 200)	14	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:27.601 -0500	typetext		B1930 Powerchart	15	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:29.811 -0500	doubleclick	PowerChart	at (66, 260)	16	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:55.329 -0500	waitfor	CernerLogoLoginWindow	found at (743, 356)	18	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:57.382 -0500	click	UsernameFieldLoginWindow	at (896, 463)	19	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:10:58.625 -0500	typetext		VAPHYSHOSP	22	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:11:00.745 -0500	click	PasswordLogin	at (885, 523)	23	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:11:01.810 -0500	typetext		Cerner123[return]	24	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:11:04.653 -0500	imagefound	(TEXT:"B1930")	found at (321, 83)	25	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:11:05.159 -0500	LogSuccess		Correct Domain Found	26	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:11:06.326 -0500	capturescreen	CorrectDomainFoundVerification.png		27	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:11:37.952 -0500	imagefound	(TEXT:"VAPHYSHOSP")	Unable to Find Image (TEXT:"VAPHYSHOSP"). Text not found.	33	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:11:39.086 -0500	LogError		Incorrect User Found	37	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:11:40.377 -0500	capturescreen	IncorrectUserFound.png		38	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-14 14:11:40.985 -0500	EndTestCase		(Duration:"109.111", Errors:"1", Exceptions:"0", StartTime:"2022-11-14 14:09:51 -0500", Successes:"1", TestCase:"VerifyDomain_and_User.script", Warnings:"0")
+2022-11-14 14:11:48.678 -0500	FAILURE	Screen_Error.png	Script Error: Number of Errors logged: 1 -- Execution Time 0:01:50 VerifyDomain_and_User.script

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		889,
+		68,
+		145,
+		17
+	],
+	"lastmodifieddate": 1677768248.069,
+	"createddate": 1677768248.069,
+	"name": "RC_ExternalMPIRetrieve",
+	"lastfounddate": 1678396470.6919999,
+	"ocrcapturestring": "External MPI Retrieve",
+	"lastfoundlocation": [
+		889,
+		68,
+		145,
+		17
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[73,5]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_ExternalMPIRetrieve.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					889,
+					68,
+					145,
+					17
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "External MPI Retrieve"
+			}
+	]
+}

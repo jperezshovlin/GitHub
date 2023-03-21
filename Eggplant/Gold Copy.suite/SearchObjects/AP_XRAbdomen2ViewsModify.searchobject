@@ -1,0 +1,41 @@
+{
+	"originalcapturelocation": [
+		600,
+		232,
+		115,
+		13
+	],
+	"lastmodifieddate": 1677605886.2909999,
+	"createddate": 1677605886.2909999,
+	"name": "AP_XRAbdomen2ViewsModify",
+	"lastfounddate": 1679346098.2740002,
+	"ocrcapturestring": "XR Abdomen 2 Views",
+	"lastfoundlocation": [
+		466,
+		232,
+		115,
+		13
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "XR Abdomen 2 Views",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[27,9]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"type": 1,
+				"capturerect": [
+					600,
+					232,
+					115,
+					13
+				],
+				"name": "AP_XRAbdomen2ViewsModify.png"
+			}
+	]
+}

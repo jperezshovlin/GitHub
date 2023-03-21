@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Utilities3_script" package="Gold Copy.suite" timestamp="2023-03-06 14:44:40.281 -0500"
+ tests="1"  failures="0" errors="0" time="1.603000">
+  <properties>
+   <property name="RunDate" value="2023-03-06 14:44:40.281 -0500"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Utilities3.script" assertions="1" status="success"  time="0.306">
+  </testcase>
+ </testsuite>
+</testsuites>

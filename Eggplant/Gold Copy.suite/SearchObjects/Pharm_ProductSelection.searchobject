@@ -1,0 +1,41 @@
+{
+	"lastmodifieddate": 1677188746.589,
+	"ocrcapturestring": "Product Selection",
+	"originalcapturelocation": [
+		900,
+		334,
+		118,
+		15
+	],
+	"createddate": 1677188746.589,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_45",
+					"HotSpot": "[36,10]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_ProductSelection.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					900,
+					334,
+					118,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Product Selection"
+			}
+	],
+	"name": "Pharm_ProductSelection"
+}

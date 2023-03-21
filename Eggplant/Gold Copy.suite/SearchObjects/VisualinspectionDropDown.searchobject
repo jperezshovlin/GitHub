@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		212,
+		314,
+		98,
+		15
+	],
+	"lastmodifieddate": 1676490847.3629999,
+	"createddate": 1676490847.3629999,
+	"name": "VisualinspectionDropDown",
+	"lastfounddate": 1676491086.5219998,
+	"ocrcapturestring": "Visual inspection:",
+	"lastfoundlocation": [
+		212,
+		314,
+		98,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[187,27]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "VisualinspectionDropDown.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					212,
+					314,
+					98,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Visual inspection:"
+			}
+	]
+}

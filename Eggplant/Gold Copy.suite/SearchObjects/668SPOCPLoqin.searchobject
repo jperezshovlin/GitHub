@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1222,
+		480,
+		110,
+		12
+	],
+	"lastmodifieddate": 1676489391.135,
+	"createddate": 1676489351.1820002,
+	"name": "668SPOCPLoqin",
+	"lastfounddate": 1676489468.4910002,
+	"ocrcapturestring": "668 SPO CP Loqin",
+	"lastfoundlocation": [
+		1222,
+		480,
+		110,
+		12
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[55,6]",
+					"Tolerance": "_59",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "668SPOCPLoqin_Blue.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1222,
+					480,
+					110,
+					12
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "668 SPO CP Loqin"
+			}
+	]
+}

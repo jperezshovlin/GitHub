@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		598,
+		784,
+		21,
+		21
+	],
+	"lastmodifieddate": 1678995346.823,
+	"createddate": 1678995346.823,
+	"name": "ED_OK",
+	"lastfounddate": 1678998326.1300001,
+	"ocrcapturestring": "OK",
+	"lastfoundlocation": [
+		598,
+		784,
+		21,
+		21
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[10,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ED_OK.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					598,
+					784,
+					21,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "OK"
+			}
+	]
+}

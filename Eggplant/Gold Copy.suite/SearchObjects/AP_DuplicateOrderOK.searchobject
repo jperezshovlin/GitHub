@@ -1,0 +1,75 @@
+{
+	"originalcapturelocation": [
+		432,
+		377,
+		36,
+		21
+	],
+	"lastmodifieddate": 1677682005.5279999,
+	"createddate": 1677681513.812,
+	"name": "AP_DuplicateOrderOK",
+	"lastfounddate": 1677693176.8829999,
+	"ocrcapturestring": "OK",
+	"lastfoundlocation": [
+		432,
+		377,
+		36,
+		21
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[18,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_DuplicateOrderOK.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					432,
+					377,
+					36,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "OK"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[18,10]",
+					"Tolerance": 70,
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_DuplicateOrderOK.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					432,
+					377,
+					36,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "OK"
+			}
+	]
+}

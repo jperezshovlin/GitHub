@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		522,
+		832,
+		131,
+		13
+	],
+	"lastmodifieddate": 1675894228.948,
+	"createddate": 1675894228.948,
+	"name": "Unabletoscanbarcode",
+	"lastfounddate": 1678909792.6719999,
+	"ocrcapturestring": "Unable to scan barcode?",
+	"lastfoundlocation": [
+		522,
+		832,
+		131,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[14,6]",
+					"Tolerance": "_59",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Unabletoscanbarcode.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					522,
+					832,
+					131,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Unable to scan barcode?"
+			}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1260,
+		497,
+		80,
+		20
+	],
+	"lastmodifieddate": 1675784871.1900001,
+	"createddate": 1675784871.1900001,
+	"name": "NursecollectYes",
+	"lastfounddate": 1678909517.1890001,
+	"ocrcapturestring": "’Nurse collect",
+	"lastfoundlocation": [
+		864,
+		567,
+		80,
+		20
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[101,9]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "NursecollectYes.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1260,
+					497,
+					80,
+					20
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "’Nurse collect"
+			}
+	]
+}

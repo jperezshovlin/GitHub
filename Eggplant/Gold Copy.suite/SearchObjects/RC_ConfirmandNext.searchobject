@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1613,
+		975,
+		96,
+		15
+	],
+	"lastmodifieddate": 1678312370.138,
+	"createddate": 1678312370.138,
+	"name": "RC_ConfirmandNext",
+	"lastfounddate": 1678374140.6789999,
+	"ocrcapturestring": "Confirm and Next",
+	"lastfoundlocation": [
+		1613,
+		975,
+		96,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[48,7]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_ConfirmandNext.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					1613,
+					975,
+					96,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Confirm and Next"
+			}
+	]
+}

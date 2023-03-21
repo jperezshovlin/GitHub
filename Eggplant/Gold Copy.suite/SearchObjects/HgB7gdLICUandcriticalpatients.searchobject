@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		637,
+		679,
+		213,
+		17
+	],
+	"lastmodifieddate": 1675781213.665,
+	"createddate": 1675781213.665,
+	"name": "HgB7gdLICUandcriticalpatients",
+	"lastfounddate": 1679081158.2750001,
+	"ocrcapturestring": "HgB <= 7 g/dL, ICU and critical patients",
+	"lastfoundlocation": [
+		1244,
+		718,
+		213,
+		17
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[63,10]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "HgB7gdLICUandcriticalpatients.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					637,
+					679,
+					213,
+					17
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "HgB <= 7 g/dL, ICU and critical patients"
+			}
+	]
+}

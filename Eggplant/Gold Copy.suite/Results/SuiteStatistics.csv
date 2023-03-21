@@ -1,0 +1,9 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+Utilities2,Success,2,0,2023-02-23 19:40:59 -0500,2023-03-01 12:49:42 -0500,0:00:02
+Master,Failure,13,5,2022-11-14 12:12:56 -0500,2022-11-28 13:09:38 -0500,0:00:15
+Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto,Success,3,2,2023-03-01 12:26:14 -0500,2023-03-01 17:19:56 -0500,0:05:13
+Gold Copy- Order_Blood_Transfuse_Now_Auto,Failure,10,8,2023-02-07 09:21:57 -0500,2023-02-22 15:18:03 -0500,0:01:45
+Utilities,Success,4,0,2022-11-28 13:07:34 -0500,2023-02-17 15:35:40 -0500,0:00:01
+Utilities3,Success,2,0,2023-03-06 14:44:40 -0500,2023-03-13 10:38:47 -0400,0:00:00
+Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto,Success,2,1,2023-03-02 09:26:31 -0500,2023-03-09 09:55:26 -0500,0:06:55
+Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order_Auto,Success,3,2,2023-02-24 12:07:56 -0500,2023-02-27 11:36:58 -0500,0:04:56

@@ -1,0 +1,68 @@
+{
+	"originalcapturelocation": [
+		1029,
+		429,
+		214,
+		233
+	],
+	"lastmodifieddate": 1677600712.494,
+	"createddate": 1677597500.5970001,
+	"name": "image0001",
+	"lastfounddate": 1677600768.8049998,
+	"ocrcapturestring": "Assessment/Plan Anemia Hemorrhage due to vascular prostheti Rhytides Objective Vitals & Measurements 24 Hour Vitals Range, Ending a •Temperature Oral: 40 - 40 Deg Deg C at 08:33) Systolic Blood Pressure: 85 - 8! at 08:33, latest: 85 mmHg at 08:3: Heart Rate Monitored: 115-11 at 08:33, latest: 115 bom at 08:33",
+	"lastfoundlocation": [
+		1029,
+		429,
+		214,
+		99
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "Assessment/Plan Anemia Hemorrhage due to vascular prostheti Rhytides",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[65,84]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"type": 1,
+				"capturerect": [
+					1029,
+					429,
+					214,
+					233
+				],
+				"name": "AP_AssessmentPlan_Drag.png"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,214,99]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[65,84]",
+					"Tolerance": 70,
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_AssessmentPlan_Drag.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1029,
+					429,
+					214,
+					99
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Assessment/Plan Anemia Hemorrhage due to vascular prostheti Rhytides"
+			}
+	]
+}

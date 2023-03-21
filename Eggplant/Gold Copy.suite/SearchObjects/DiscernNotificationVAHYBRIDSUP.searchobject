@@ -1,0 +1,41 @@
+{
+	"lastmodifieddate": 1676400899.619,
+	"ocrcapturestring": "Discern Notification (VAHYBRIDSUPER)",
+	"originalcapturelocation": [
+		171,
+		280,
+		210,
+		17
+	],
+	"createddate": 1676400899.619,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_45",
+					"HotSpot": "[4,6]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "DiscernNotificationVAHYBRIDSUP.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					171,
+					280,
+					210,
+					17
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Discern Notification (VAHYBRIDSUPER)"
+			}
+	],
+	"name": "DiscernNotificationVAHYBRIDSUP"
+}

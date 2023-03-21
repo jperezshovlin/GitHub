@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1850,
+		172,
+		27,
+		13
+	],
+	"lastmodifieddate": 1675716303.457,
+	"createddate": 1675716303.457,
+	"name": "FIN",
+	"lastfounddate": 1679408972.7490001,
+	"ocrcapturestring": "FIN",
+	"lastfoundlocation": [
+		1850,
+		172,
+		27,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[13,6]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "FIN.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1850,
+					172,
+					27,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "FIN"
+			}
+	]
+}

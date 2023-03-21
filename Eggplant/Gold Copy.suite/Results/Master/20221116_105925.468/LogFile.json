@@ -1,0 +1,45 @@
+{
+	"entries": [
+		{
+				"message": "Running VerifyDomain_and_User.script",
+				"identifier": "START",
+				"timestamp": "2022-11-16 10:59:26.369 -0500"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-16 10:59:27.186 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-16 10:59:31.377 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-16 10:59:32.586 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "found at (366, 169)",
+				"image": "RefreshButton",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"message": "(Duration:\"7.186\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2022-11-16 10:59:26 -0500\", Successes:\"0\", TestCase:\"VerifyDomain_and_User.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2022-11-16 10:59:34.114 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:08 VerifyDomain_and_User.script",
+				"identifier": "ABORTED",
+				"timestamp": "2022-11-16 10:59:36.181 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-16 10:59:26.926 -0500"
+}

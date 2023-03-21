@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		663,
+		418,
+		94,
+		19
+	],
+	"lastmodifieddate": 1678993416.546,
+	"createddate": 1678993416.546,
+	"name": "ED_InvalidAddress",
+	"lastfounddate": 1678993600.9119999,
+	"ocrcapturestring": "Invalid Address",
+	"lastfoundlocation": [
+		663,
+		418,
+		94,
+		19
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[47,9]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ED_InvalidAddress.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					663,
+					418,
+					94,
+					19
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Invalid Address"
+			}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1139,
+		459,
+		233,
+		142
+	],
+	"lastmodifieddate": 1676400327.3400002,
+	"createddate": 1676400327.3400002,
+	"name": "668SPOCPLogin668SPOCPLogin668S",
+	"lastfounddate": 1676488891.553,
+	"ocrcapturestring": "668 SPO CP Login 668 SPO CP Login 668 SPO HH Login 668 SPO IAP Login 668 SPO LA Login 668 SPO Micro Login 668SPOMisc SO Login 668 SPO Palo Alto Login 668 SPO POCT Login v  E",
+	"lastfoundlocation": [
+		1222,
+		460,
+		231,
+		140
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[72,26]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "668SPOCPLogin668SPOCPLogin668S.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1139,
+					459,
+					233,
+					142
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "668 SPO CP Login 668 SPO CP Login 668 SPO HH Login 668 SPO IAP Login 668 SPO LA Login 668 SPO Micro Login 668SPOMisc SO Login 668 SPO Palo Alto Login 668 SPO POCT Login v  E"
+			}
+	]
+}

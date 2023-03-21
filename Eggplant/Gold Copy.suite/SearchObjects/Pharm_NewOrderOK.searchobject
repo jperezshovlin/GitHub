@@ -1,0 +1,75 @@
+{
+	"originalcapturelocation": [
+		1220,
+		874,
+		21,
+		19
+	],
+	"lastmodifieddate": 1677502427.98,
+	"createddate": 1677190114.973,
+	"name": "Pharm_NewOrderOK",
+	"lastfounddate": 1677516082.7220001,
+	"ocrcapturestring": "OK",
+	"lastfoundlocation": [
+		1220,
+		874,
+		21,
+		19
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[10,9]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_NewOrderOK.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1220,
+					874,
+					21,
+					19
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "OK"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[10,9]",
+					"Tolerance": 70,
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_NewOrderOK.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1220,
+					874,
+					21,
+					19
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "OK"
+			}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		273,
+		516,
+		60,
+		16
+	],
+	"lastmodifieddate": 1678133894.214,
+	"createddate": 1678133894.214,
+	"name": "RC_Outpatient",
+	"lastfounddate": 1678914408.214,
+	"ocrcapturestring": "Outpatient",
+	"lastfoundlocation": [
+		273,
+		514,
+		60,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[27,6]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_Outpatient.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					273,
+					516,
+					60,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Outpatient"
+			}
+	]
+}

@@ -1,0 +1,9 @@
+﻿2023-03-03 15:21:49.859 -0500	START		Running Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script
+2023-03-03 15:21:52.921 -0500	doubleclick	CernerDomainSearch	at (1685, 200)	2	on_citrixdomainsearch	Utilities.script
+2023-03-03 15:21:53.860 -0500	typetext		[controlKey]a	3	on_citrixdomainsearch	Utilities.script
+2023-03-03 15:21:56.155 -0500	typetext		B1930 RevenueCycle	4	on_citrixdomainsearch	Utilities.script
+2023-03-03 15:22:13.624 -0500	everyimagelocation	(TEXT:"B1930 RevenueCycle")	found 1 images	6	on_citrixdomainsearch	Utilities.script
+2023-03-03 15:22:14.327 -0500	doubleclick		at current mouse point (1685, 200)	6	on_citrixdomainsearch	Utilities.script
+2023-03-03 15:24:30.975 -0500	Exception	CernerLogoLoginWindow	Unable To Find Any Image On Screen "CernerLogoLoginWindow" within 60.00 seconds	7	on_applicationlogin	Utilities.script
+2023-03-03 15:24:31.664 -0500	EndTestCase		(Duration:"161.214", Errors:"1", Exceptions:"1", StartTime:"2023-03-03 15:21:50 -0500", Successes:"0", TestCase:"Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script", Warnings:"0")
+2023-03-03 15:24:33.528 -0500	ABORTED		Execution Time 0:02:42 Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script

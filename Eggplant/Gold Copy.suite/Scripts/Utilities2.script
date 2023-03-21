@@ -1,0 +1,283 @@
+﻿
+To Workstation
+
+	Wait 10
+	Click "Pharm_Bluestar"
+	Wait 30
+	Click "Pharm_RetailTab"
+	Click "Pharm_Defaultpharmacy"
+	TypeText 668, returnKey
+	Click "Pharm_Defaultdevice"
+	Click "Pharm_668ScriptPro"
+	
+	Click "Pharm_RetailSave"
+	
+	
+End Workstation
+---------------------------------------
+
+To MMR PatientNameMMR, Drug1, Drug2
+
+	Click "Pharm_MMR"
+	Wait 10
+	Click "Pharm_MMRPatientName"
+	TypeText PatientNameMMR, returnKey
+	Wait 20
+	
+	Put [Drug1, Drug2] into MyDrugList
+	//Repeat with each item Drug of MyDrugList
+	
+	Click "Pharm_MMRDrug"
+	TypeText Drug1, returnkey
+	
+	Wait 20
+	
+	//This section orders lisinopril 
+	
+	If ImageFound("Pharm_Selectlisinopril10mgtablet")
+		Click "Pharm_Selectlisinopril10mgtablet"
+		Click "Pharm_ProdSelectOK"
+		
+		Wait 5
+		
+		TypeText tab
+		TypeText tab
+		TypeText "3"
+		
+		
+	End If
+	
+	Wait 5
+	
+	
+	
+	
+	
+	
+	Click "Pharm_RoutingOption"
+	
+	TypeText "Window"
+	WaitFor 8.0, "Pharm_RoutinqOptionOverride"
+	Click "Pharm_Continue_RoutingOption"
+	Click "Pharm_ServiceConnected"
+	
+	Click "Pharm_ServiceConnectedNo"
+	
+	Click "Pharm_PrescriberSearch"
+	Click "Pharm_LastnamePrescriber"
+	TypeText "Cerner"
+	Click "Pharm_FirstnamePresciber"
+	TypeText "Cerner", returnKey
+	Click "Pharm_Provider"
+	Click "Pharm_ProviderSelectionOK"
+	
+	Click "Pharm_NewOrderOK"
+	
+	
+	
+	If ImageFound("Pharm_DiscernRxforadmittedinpatient")
+		Click FoundImageLocation() 
+		Click {Text: "Continue", searchrectangle:[444,104,1127,508]}
+		TypeText returnKey
+		
+	End If
+	
+	
+	//This section orders metoprolol
+	
+	Click "Pharm_MMRDrug"
+	TypeText Drug2, returnkey
+	
+	Wait 20
+	
+	
+	//If ImageFound("Pharm_MMR_Metropolol")
+	Click (Image:"metoprololsuccinateER100m", WaitFor:5)
+	Click "Pharm_ProdSelectOK"
+	
+	Wait 5
+	
+	//End If
+	
+	
+	Click "Pharm_RoutingOption"
+	
+	TypeText "Window"
+	WaitFor 8.0, "Pharm_RoutinqOptionOverride"
+	Click "Pharm_Continue_RoutingOption"
+	Click "Pharm_ServiceConnected"
+	
+	Click "Pharm_ServiceConnectedNo"
+	
+	Click "Pharm_PrescriberSearch"
+	Click "Pharm_LastnamePrescriber"
+	TypeText "Cerner"
+	Click "Pharm_FirstnamePresciber"
+	TypeText "Cerner", returnKey
+	Click "Pharm_Provider"
+	Click "Pharm_ProviderSelectionOK"
+	
+	Click "Pharm_NewOrderOK"
+	
+	If ImageFound("Pharm_DiscernRxforadmittedinpatient")
+		Click FoundImageLocation() 
+		Click {Text: "Continue", searchrectangle:[444,104,1127,508]}
+		TypeText returnKey
+		
+	End If
+	
+	
+	//End Repeat
+	
+	Click "Pharm_Submit"
+	
+	//Verify Status Active
+	Click "Pharm_CloseWindow"
+	
+End MMR
+--------------------------------------
+
+To DispenseMonitor
+
+	Click {Image:"Pharm_DispenseMonitor", WaitFor:10}
+	TypeText windowsKey,upArrow //Maximize screen
+	Click {Image:"Pharm_Dispensestatus", WaitFor:10}
+	TypeText "Fill Prescription"
+	DoubleClick "Pharm_lisinopril10mgtablet"
+	Click "Pharm_ViewDetailsUsername"
+	TypeText "VAPHARMACIST"
+	Click "Pharm_ViewDetailsSave"
+	CaptureScreen "PharmNetDispenseMonitorVerification"
+	
+End DispenseMonitor
+-----------------------------------------------------------
+//This tags part of the note
+
+To TagNote
+	Wait 10
+	Click "ACD_MPage_Documents"
+	Wait 5
+	Click {Image:"AP_ProgressNote", WaitFor:20}
+	DoubleClick "AP_AssessmentPlan_Drag"
+	//Drop "AP_AssessmentPlan"
+	//RightClick "AP_AssessmentPlanTag"
+	Click "AP_Tag"
+	
+	Click imageName:"ACD_MPage_Diagnostics", waitFor:10
+	Click "AP_MPageLabs"
+	
+	Click "AP_Glucose500"
+	Wait 10
+	Click "AP_LargeTag"
+	Click "AP_BlueTag"
+	Wait 5
+	CaptureScreen "TaggedItems"
+	Click "AP_CloseLabResults"
+	Click "AP_BlueTag"
+	//CaptureScreen "TaggedItems"
+	//Click "AP_BlueTag" //closes the tagged items window
+	
+End TagNote
+
+To APChart
+	Click "AP_ProblemList"
+	Click "AP_Addproblem"
+	TypeText "Pain in the abdomen"
+	Click "AP_PainintheabdomenR109"
+	
+	Click "AP_Objective"
+	
+	Wait 10
+	DoubleClick "AP_ObjectivePhysicalExamText"
+	
+	TypeText ".pe-adult-brief"
+	Wait 10
+	TypeText ReturnKey
+	Click "AP_DocumentSave"
+	
+	Click "AP_ReviewofSystems"
+	Click "AP_ReviewofSystemsText"
+	TypeText ".ros-brief_va"
+	Wait 10
+	TypeText ReturnKey
+	Click "AP_DocumentSave"
+	
+	Click "AP_SubjectiveHPI"
+	Click "AP_SubjectiveHPIText"
+	TypeText "Patient states they have had abdominal pain x3 days. No nausea or vomiting. Pain 9/10, sharp, continuous, focused on lower right quadrant."
+	Click "AP_DocumentSave"
+	
+End APChart
+
+To OrderProgressNote
+	Click "AP_NewOrderEntry"
+	Click "AP_SearchNewOrderResults"
+	TypeText "XR Abdomen 2 views"
+	Click {Image:"AP_XRAbdomen2ViewsOrder", WaitFor:20}
+	Wait 10
+	
+	Click "AP_OrderCheckout"
+	Wait 30
+	
+	Click "ModifyDetails"
+	Wait 5
+	Click "AP_XRAbdomen2ViewsModify"
+	Wait 5
+	Click "AP_ReasonforExam"
+	TypeText "Abdominal Pain"
+	Click "SignOrders"
+	
+	
+	//If Duplicate 
+	
+	If ImageFound(Image:"AP_DuplicateOrderAlert")
+	then 
+		Click {Image:"AP_OrderAnyway", WaitFor:10}
+	End If
+	
+	
+	
+	Click "RefreshOrders"
+	Wait 10
+	Click "AP_AssessmentandPlan"
+	Click {Image:"AP_AssessmentandPlanText", WaitFor:20}
+	
+	
+	
+	TypeText "Assess for appendicitis. Admit for appendectomy."
+	
+	Click "AP_DocumentSave"
+	Click "DownArrow"
+	Click "DownArrow"
+	Wait 5
+	Click "AP_ProgressNoteCreate"
+	
+	CaptureScreen "ProgressNoteVerification"
+	Click "AP_SignSubmit"
+	Wait 3
+	Click "AP_SignNote"
+	
+	
+	
+	Click {imagename:"AP_Up_arrow",SearchRectangle:[232,277,465,491]}
+
+	Wait 2
+	Click {imagename:"AP_Up_arrow",SearchRectangle:[232,277,465,491]}
+	Wait 5
+	Click (Image:"AP_Documents", WaitFor:7.3)
+	
+	
+	Click "AP_ProgressNote"
+	Wait 5
+	CaptureScreen "SavedProgressNote"
+	Click "InpatientQuickOrders"
+	Click "AP_InitialHospitalCareDay30Minute"
+	Wait 5
+	Click "AP_OrderCheckout"
+	Wait 10
+	Click "SignOrdersforSignature"
+	Wait 3
+	Click "RefreshOrders"
+	
+	
+End OrderProgressNote

@@ -1,0 +1,49 @@
+{
+	"originalcapturelocation": [
+		939,
+		386,
+		35,
+		13
+	],
+	"lastmodifieddate": 1675797914.7389998,
+	"createddate": 1675797722.0079999,
+	"name": "AnemiaCode",
+	"lastfounddate": 1675797728.26,
+	"ocrcapturestring": "37980",
+	"lastfoundlocation": [
+		939,
+		386,
+		35,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[17,6]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AnemiaCode.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					939,
+					386,
+					35,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "37980"
+			}
+	]
+}

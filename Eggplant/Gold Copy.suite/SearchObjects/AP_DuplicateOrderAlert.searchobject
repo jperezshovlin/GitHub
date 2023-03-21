@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		212,
+		5,
+		160,
+		21
+	],
+	"lastmodifieddate": 1677681349.5469999,
+	"createddate": 1677681349.5469999,
+	"name": "AP_DuplicateOrderAlert",
+	"lastfounddate": 1677709426.2909999,
+	"ocrcapturestring": "Duplicate Order Alert*;",
+	"lastfoundlocation": [
+		212,
+		5,
+		160,
+		21
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[80,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_DuplicateOrderAlert.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					212,
+					5,
+					160,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Duplicate Order Alert*;"
+			}
+	]
+}

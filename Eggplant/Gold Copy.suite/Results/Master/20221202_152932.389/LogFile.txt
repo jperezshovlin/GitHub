@@ -1,0 +1,5 @@
+﻿2022-12-02 15:29:33.241 -0500	START		Running Master.script
+2022-12-02 15:29:35.294 -0500	typetext		[windowsKey]r	2	on_openurl	Utilities.script
+2022-12-02 15:29:39.857 -0500	typetext		https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]	3	on_openurl	Utilities.script
+2022-12-02 15:29:41.238 -0500	EndTestCase		(Duration:"7.452", Errors:"1", Exceptions:"0", StartTime:"2022-12-02 15:29:33 -0500", Successes:"0", TestCase:"Master.script", Warnings:"0")
+2022-12-02 15:29:43.942 -0500	ABORTED		Execution Time 0:00:08 Master.script

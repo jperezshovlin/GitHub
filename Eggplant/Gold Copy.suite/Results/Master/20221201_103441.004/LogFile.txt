@@ -1,0 +1,7 @@
+﻿2022-12-01 10:34:42.249 -0500	START		Running Master.script
+2022-12-01 10:34:44.944 -0500	typetext		[windowsKey]r	2	on_openurl	Utilities.script
+2022-12-01 10:34:49.942 -0500	typetext		https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]	3	on_openurl	Utilities.script
+2022-12-01 10:34:51.092 -0500	waitfor	RefreshButton	found at (127, 134)	4	on_openurl	Utilities.script
+2022-12-01 10:34:56.071 -0500	imagefound	SSOiIcon	Unable to Find Image SSOiIcon	2	on_ssoilogin	Utilities.script
+2022-12-01 10:34:57.699 -0500	EndTestCase		(Duration:"14.763", Errors:"1", Exceptions:"0", StartTime:"2022-12-01 10:34:42 -0500", Successes:"0", TestCase:"Master.script", Warnings:"0")
+2022-12-01 10:35:00.428 -0500	ABORTED		Execution Time 0:00:16 Master.script

@@ -1,0 +1,5 @@
+﻿2022-11-16 10:25:57.553 -0500	START		Running VerifyDomain_and_User.script
+2022-11-16 10:25:58.557 -0500	typetext		[windowsKey]r	1	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-16 10:26:02.826 -0500	typetext		https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]	2	on_verifydomain_and_user	VerifyDomain_and_User.script
+2022-11-16 10:26:32.780 -0500	EndTestCase		(Duration:"34.498", Errors:"1", Exceptions:"0", StartTime:"2022-11-16 10:25:58 -0500", Successes:"0", TestCase:"VerifyDomain_and_User.script", Warnings:"0")
+2022-11-16 10:26:34.414 -0500	ABORTED		Execution Time 0:00:35 VerifyDomain_and_User.script

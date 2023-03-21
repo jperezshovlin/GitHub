@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Utilities3_script" package="PowerChartLogin.suite" timestamp="2023-02-28 12:16:35.349 -0500"
+ tests="1"  failures="0" errors="0" time="5.633000">
+  <properties>
+   <property name="RunDate" value="2023-02-28 12:16:35.349 -0500"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Utilities3.script" assertions="1" status="failure"  time="4.156">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

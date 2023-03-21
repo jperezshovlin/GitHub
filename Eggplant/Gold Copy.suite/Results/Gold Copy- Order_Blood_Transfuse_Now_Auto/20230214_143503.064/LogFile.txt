@@ -1,0 +1,9 @@
+﻿2023-02-14 14:35:03.816 -0500	START		Running BloodProducts.script
+2023-02-14 14:35:06.917 -0500	doubleclick	CernerDomainSearch	at (1685, 200)	2	on_citrixdomainsearch	Utilities.script
+2023-02-14 14:35:07.874 -0500	typetext		[controlKey]a	3	on_citrixdomainsearch	Utilities.script
+2023-02-14 14:35:10.665 -0500	typetext		B1930 Powerchart	4	on_citrixdomainsearch	Utilities.script
+2023-02-14 14:35:16.723 -0500	everyimagelocation	(TEXT:"B1930 Powerchart")	found 2 images	5	on_citrixdomainsearch	Utilities.script
+2023-02-14 14:35:17.838 -0500	doubleclick		at (91, 300)	5	on_citrixdomainsearch	Utilities.script
+2023-02-14 14:35:36.416 -0500	imagefound	MinimizedCernerLogin	Unable to Find Image MinimizedCernerLogin	3	on_powerchartlogin	Utilities.script
+2023-02-14 14:36:07.417 -0500	EndTestCase		(Duration:"62.921", Errors:"1", Exceptions:"0", StartTime:"2023-02-14 14:35:04 -0500", Successes:"0", TestCase:"BloodProducts.script", Warnings:"0")
+2023-02-14 14:36:09.386 -0500	ABORTED		Execution Time 0:01:04 BloodProducts.script

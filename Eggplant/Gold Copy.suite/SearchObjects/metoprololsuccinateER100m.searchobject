@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		614,
+		574,
+		182,
+		15
+	],
+	"lastmodifieddate": 1677503078.108,
+	"createddate": 1677503078.108,
+	"name": "metoprololsuccinateER100m",
+	"lastfounddate": 1677516049.207,
+	"ocrcapturestring": "metoprolol succinate ER 100 m...",
+	"lastfoundlocation": [
+		614,
+		574,
+		182,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-43,6]",
+					"Tolerance": "_71",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "metoprololsuccinateER100m.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					614,
+					574,
+					182,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "metoprolol succinate ER 100 m..."
+			}
+	]
+}

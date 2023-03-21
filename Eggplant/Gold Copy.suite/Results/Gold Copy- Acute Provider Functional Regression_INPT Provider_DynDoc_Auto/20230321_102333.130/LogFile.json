@@ -1,0 +1,332 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script",
+				"identifier": "START",
+				"timestamp": "2023-03-21 10:23:33.130 -0400"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 10:23:33.431 -0400",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 10:23:34.197 -0400",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 10:23:34.954 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 10:23:36.219 -0400",
+				"message": "C0630 Powerchart",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 10:23:40.053 -0400",
+				"scriptName": "Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"C0630 Powerchart\")",
+				"handlerLine": 6,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-03-21 10:23:40.279 -0400",
+				"message": "at (460, 301)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 6,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-21 10:23:56.820 -0400",
+				"scriptName": "Utilities.script",
+				"message": "found #1 at (743, 356)",
+				"image": "CernerLogoLoginWindow",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-21 10:23:57.260 -0400",
+				"scriptName": "Utilities.script",
+				"message": "at (896, 463)",
+				"image": "UsernameFieldLoginWindow",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-21 10:23:58.024 -0400",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 12,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-21 10:23:58.759 -0400",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-21 10:23:59.961 -0400",
+				"message": "VAPHYSHOSP",
+				"scriptName": "Utilities.script",
+				"handlerLine": 16,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-21 10:24:00.980 -0400",
+				"scriptName": "Utilities.script",
+				"message": "at (885, 523)",
+				"image": "PasswordLogin",
+				"handlerLine": 17,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-21 10:24:02.065 -0400",
+				"message": "Cerner123[return]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 18,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_applicationlogin",
+				"timestamp": "2023-03-21 10:24:02.821 -0400",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 20,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-03-21 10:24:05.290 -0400",
+				"scriptName": "Utilities.script",
+				"message": "found at (1906, 109)",
+				"image": "PC_PatientSearchDropDown",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-03-21 10:24:05.439 -0400",
+				"scriptName": "Utilities.script",
+				"message": "at (1906, 109)",
+				"image": "PC_PatientSearchDropDown",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-03-21 10:24:10.583 -0400",
+				"scriptName": "Utilities.script",
+				"message": "at (1863, 178)",
+				"image": "FIN",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-03-21 10:24:11.405 -0400",
+				"scriptName": "Utilities.script",
+				"message": "at (1780, 111)",
+				"image": "RecentPatientSearch",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-03-21 10:24:12.407 -0400",
+				"message": "54202739[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 11,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:22.707 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (283, 467)",
+				"image": "ACD_MPage_Documents",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:27.939 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (682, 563)",
+				"image": "AP_ProgressNote",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:29.312 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (1083, 443)",
+				"image": "AP_AssessmentPlan_Drag",
+				"handlerLine": 6,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:30.213 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (1085, 477)",
+				"image": "AP_Tag",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:31.246 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (296, 658)",
+				"image": "ACD_MPage_Diagnostics",
+				"handlerLine": 11,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:32.179 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (267, 632)",
+				"image": "AP_MPageLabs",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:33.035 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (615, 431)",
+				"image": "AP_Glucose500",
+				"handlerLine": 14,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:43.195 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (1543, 295)",
+				"image": "AP_LargeTag",
+				"handlerLine": 16,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:44.051 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (1775, 257)",
+				"image": "AP_BlueTag",
+				"handlerLine": 17,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:49.168 -0400",
+				"scriptName": "Utilities2.script",
+				"image": "TaggedItems.png",
+				"handlerLine": 19,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:49.332 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (1896, 295)",
+				"image": "AP_CloseLabResults",
+				"handlerLine": 20,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tagnote",
+				"timestamp": "2023-03-21 10:24:50.282 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (1775, 257)",
+				"image": "AP_BlueTag",
+				"handlerLine": 21,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_apchart",
+				"timestamp": "2023-03-21 10:24:51.184 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (288, 417)",
+				"image": "AP_ProblemList",
+				"handlerLine": 2,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_apchart",
+				"timestamp": "2023-03-21 10:24:52.155 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (1264, 397)",
+				"image": "AP_Addproblem",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_apchart",
+				"timestamp": "2023-03-21 10:24:53.526 -0400",
+				"message": "Pain in the abdomen",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_apchart",
+				"timestamp": "2023-03-21 10:24:54.951 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (1353, 428)",
+				"image": "AP_PainintheabdomenR109",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_apchart",
+				"timestamp": "2023-03-21 10:24:55.954 -0400",
+				"scriptName": "Utilities2.script",
+				"message": "at (277, 901)",
+				"image": "AP_Objective",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"message": "(Duration:\"153.6\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-03-21 10:23:33 -0400\", Successes:\"0\", TestCase:\"Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-21 10:26:06.746 -0400"
+			},
+		{
+				"message": "Execution Time 0:02:33 Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-03-21 10:26:06.746 -0400"
+			}
+	],
+	"createdTimestamp": "2023-03-21 10:23:33.146 -0400"
+}

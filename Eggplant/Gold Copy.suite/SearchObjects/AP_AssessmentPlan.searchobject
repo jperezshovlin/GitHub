@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1041,
+		460,
+		107,
+		15
+	],
+	"lastmodifieddate": 1677597199.4860001,
+	"createddate": 1677597199.4860001,
+	"name": "AP_AssessmentPlan",
+	"lastfounddate": 1677610596.4910002,
+	"ocrcapturestring": "Assessment/Plan",
+	"lastfoundlocation": [
+		1039,
+		460,
+		107,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[46,9]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_AssessmentPlan.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					1041,
+					460,
+					107,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Assessment/Plan"
+			}
+	]
+}

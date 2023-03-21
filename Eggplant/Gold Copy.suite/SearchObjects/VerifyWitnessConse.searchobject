@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		676,
+		231,
+		116,
+		17
+	],
+	"lastmodifieddate": 1675785286.641,
+	"createddate": 1675785286.641,
+	"name": "VerifyWitnessConse",
+	"lastfounddate": 1679081188.711,
+	"ocrcapturestring": "Verify/Witness Conse.",
+	"lastfoundlocation": [
+		468,
+		231,
+		116,
+		17
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[58,8]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "VerifyWitnessConse.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					676,
+					231,
+					116,
+					17
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Verify/Witness Conse."
+			}
+	]
+}

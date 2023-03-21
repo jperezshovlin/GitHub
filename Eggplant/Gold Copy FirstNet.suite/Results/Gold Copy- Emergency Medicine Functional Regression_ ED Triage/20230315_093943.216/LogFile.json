@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script",
+				"identifier": "START",
+				"timestamp": "2023-03-15 09:39:43.220 -0400"
+			},
+		{
+				"message": "(Duration:\"0.138\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-03-15 09:39:43 -0400\", Successes:\"1\", TestCase:\"Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-03-15 09:39:43.381 -0400"
+			},
+		{
+				"message": "Execution Time 0:00:00 Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2023-03-15 09:39:43.410 -0400"
+			}
+	],
+	"createdTimestamp": "2023-03-15 09:39:43.228 -0400"
+}

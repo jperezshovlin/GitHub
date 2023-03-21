@@ -1,0 +1,28 @@
+﻿//Preconditions:
+
+//Test patient with reconciled home medications, completed diagnostics (CT), and resulted Glucose = 500 lab data for Dynamic Documentation Tagging purposes
+//Test patient with active inpatient encounter in one of the following live sites:
+//668 - Mann Gran (LIVE)
+
+//757 - Columbus (LIVE)
+
+//692 - White City (LIVE)
+
+//653 - Roseburg (LIVE)
+
+
+
+Utilities.CitrixDomainSearch "C0630 Powerchart"
+//Login to Appbar as VA HOSPITALIST
+Utilities.ApplicationLogin "VAPHYSHOSP","Cerner123","C0630"
+
+Utilities.SearchFIN "54202739"
+
+Utilities2.TagNote
+
+Utilities2.APChart
+
+Utilities2.OrderProgressNote
+
+Utilities.ApplicationLogout
+

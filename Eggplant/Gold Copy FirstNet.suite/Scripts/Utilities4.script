@@ -1,0 +1,223 @@
+﻿Put "abdominal pain" into ChiefComplaint
+
+
+To CheckIn VAEDLocation, EDProvider, Initials
+
+	Click {Image:"ED_CheckInOption", WaitFor:170}
+	Click "ED_ChangeLocation"
+	Click "ED_NursingUnit"
+	TypeText VAEDLocation
+	
+	Click (Image:"ED_LocationOK", WaitFor:5)
+	
+	Click {Image:"ED_CheckInOption", WaitFor:170}
+	Click "ED_CheckIn"
+	Click "ED_ProviderCheckIn"
+	TypeText controlKey, "a"
+	TypeText deleteKey
+	TypeText EDProvider
+	TypeText tabKey
+	TypeText tabKey
+	
+	TypeText "TST"//Initials
+	TypeText tabKey
+	
+	Click "ED_ProviderRole"
+	
+	Click {Text: "Nurse", searchrectangle:[1063,257,1277,466]} 
+	If ImageFound("ED_NoRelationship")
+		Click "ED_NoRelationship"
+		Click {Text: "Nurse", searchrectangle:[952,332,1276,367]} 
+	End If
+	
+	
+	If ImageFound("ED_AssociatedProviderColor")
+		Click "ED_AssociatedProviderColor"
+		Click "ED_orange"
+		Click "ED_LocationOK"
+	End If
+	
+	
+	If ImageFound("ED_AvailableProvider")
+		Click "ED_AvailableProvider"
+	End If
+	
+	Click "ED_LocationOK"
+	
+	
+End CheckIn
+
+-------------------------------------
+To QuickReg PatientName, ChiefComplaint
+	Click (Image:"ED_QuickReg", WaitFor:15)
+	Click {Text:"Quick", SearchRectangle:[19,190,166,259]}
+
+	repeat 3 times
+		TypeText tabKey
+	end repeat
+	
+	TypeText PatientName
+	Wait 5
+	TypeText returnkey
+	
+	Click "ED_AddEncounte"
+	Wait 120
+	
+	//repeat 5 times
+	//TypeText tabKey
+	//end repeat
+	
+	//TypeText returnKey
+	
+	
+	
+	If ImageFound(text:"External MPI", waitFor:120)
+		Click {Text:"Close", searchrectangle:[76,76,1291,708]}
+	End If	
+	
+	If ImageFound(Text:"Retrieve Person")
+		Click {Text:"Yes", searchrectangle:[619,146,1367,678]}
+	End If
+	
+	TypeText windowsKey,upArrow //Maximize screen
+	
+	Click {text:"Save", searchrectangle:[1718,997,1848,1035]}
+
+	If ImageFound(Image:"ED_InvalidAddress", waitFor:15)
+		Click {text:"Proceed", searchrectangle:[662,417,1269,583]}
+	End If
+	
+	Click (Image:"ED_ChiefComplaint", WaitFor:6.2)
+	TypeText ChiefComplaint
+	TypeText tabKey
+	TypeText "Self"
+	TypeText tabKey
+	TypeText "Yes"
+	
+	Click {Text:"Save", SearchRectangle:[1613,897,1920,1080]}
+
+	Click {Image:"ED_WR", WaitFor:5}
+
+	If ImageFound(text: PatientName, waitFor:15) then 
+		Log PatientName, "appears"
+		
+		
+	End If
+	
+End QuickReg
+
+-------------------------------------------------------------------------------------
+
+To Triage ChiefComplaint, Systolic, Diastolic, Pulse, Resp, O2Sat, O2Flow, Weight, Height
+
+	
+	Click "ED_NurseActivities"
+	Click text:"Triage"
+	Click item 2 of EveryImageLocation(text:"Document")
+	
+	//Click {text:"Document", SearchRectangle:[917,201,1919,1048]}
+
+	Wait 5
+	
+	Click "ED_CSelf" //mode of arrival
+	TypeText tabKey
+	TypeText returnKey
+	
+	TypeText tabKey
+	TypeText tabKey
+	TypeText ChiefComplaint
+	
+	Click "ED_Add"
+	
+	TypeText ChiefComplaint
+	TypeText returnKey
+	
+	DoubleClick item 2 of everyimagelocation (text:"Abdominal Pain", WaitFor:40)
+	
+	Click "ED_OK"
+	
+	Click item 2 of EveryImageLocation("ED_Add")
+	
+	TypeText "hypertension"
+	TypeText returnKey
+	
+	DoubleClick item 2 of everyimagelocation (text:"Hypertension", WaitFor:40)
+	Click "ED_OK"
+	
+	Click (Image:"CAlertandresponsive", WaitFor:5)
+	
+	
+	Click {Image:"Oral", WaitFor:5}
+	TypeText Temp
+	
+	repeat 5 times
+		TypeText tabKey
+	end repeat
+	
+	TypeText Systolic
+	TypeText tabKey
+	TypeText Diastolic
+	TypeText tabKey
+	TypeText Pulse
+	TypeText tabKey
+	TypeText Resp
+	TypeText tabKey
+	TypeText O2Sat
+	TypeText tabKey
+	TypeText O2Flow
+	
+	TypeText tabKey
+	
+	TypeText "9" //pain level
+	TypeText tabKey
+	TypeText tabKey
+	TypeText returnKey //Oxygenation Room Air
+
+TypeText tabKey
+TypeText returnKey //weight measures
+
+	TypeText tabKey
+	TypeText Weight
+	
+	
+	TypeText tabKey
+	TypeText tabKey
+	
+	TypeText Height
+	
+	TypeText tabKey
+	TypeText tabKey
+	TypeText returnKey //Triage Assessment form opens
+	
+	Click text:"Regular"
+	TypeText tabKey
+	
+	TypeText returnKey //work of breathing unlabored
+	
+	TypeText tabKey
+	
+	TypeText returnKey // Normal for ethnicity
+	Click "ED_returntopreviousform" //click circle arrow
+	
+	TypeText tabKey
+	TypeText tabKey
+	
+	TypeText returnKey //Opens COVID screening
+	
+	Click "ED_NoCovidSx"
+	Click "ED_Noknownexposure"
+	Click "ED_returntopreviousform" //click circle arrow
+	
+	TypeText tabKey
+	TypeText tabKey
+	
+	TypeText returnKey
+	Click "ED_NoRadioButtonYellow"
+	Click item 2 of EveryImageLocation("ED_NoRadioButtonYellow")
+	Click item 3 of EveryImageLocation("ED_NoRadioButtonYellow")
+	Click item 4 of EveryImageLocation("ED_NoRadioButtonYellow") //no falls
+	Click item 5 of EveryImageLocation("ED_NoRadioButtonYellow") //no alteredmentalstatus
+	
+End Triage
+
+

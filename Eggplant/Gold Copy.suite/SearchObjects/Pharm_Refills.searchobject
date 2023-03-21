@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		876,
+		241,
+		48,
+		12
+	],
+	"lastmodifieddate": 1677189636.937,
+	"createddate": 1677189636.937,
+	"name": "Pharm_Refills",
+	"lastfounddate": 1677258651.1789999,
+	"ocrcapturestring": "Refills:",
+	"lastfoundlocation": [
+		876,
+		240,
+		48,
+		12
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[33,25]",
+					"Tolerance": "_70",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_Refills.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					876,
+					241,
+					48,
+					12
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Refills:"
+			}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"originalcapturelocation": [
+		464,
+		459,
+		116,
+		14
+	],
+	"lastmodifieddate": 1677693238.4159999,
+	"createddate": 1677605281.0880001,
+	"name": "AP_XRAbdomen2ViewsOrder",
+	"lastfounddate": 1677693378.1900001,
+	"ocrcapturestring": "XR Abdomen 2 Views",
+	"lastfoundlocation": [
+		461,
+		883,
+		116,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[83,8]",
+					"Tolerance": "_47",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_XRAbdomen2ViewsOrder.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					464,
+					459,
+					116,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "XR Abdomen 2 Views"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[83,8]",
+					"Tolerance": 52,
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "AP_XRAbdomen2ViewsOrder.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					464,
+					459,
+					116,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "XR Abdomen 2 Views"
+			}
+	]
+}

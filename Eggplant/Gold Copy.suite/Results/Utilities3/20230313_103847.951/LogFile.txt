@@ -1,0 +1,3 @@
+﻿2023-03-13 10:38:47.951 -0400	START		Running Utilities3.script
+2023-03-13 10:38:48.167 -0400	EndTestCase		(Duration:"0.2", Errors:"0", Exceptions:"0", StartTime:"2023-03-13 10:38:47 -0400", Successes:"1", TestCase:"Utilities3.script", Warnings:"0")
+2023-03-13 10:38:48.236 -0400	SUCCESS		Execution Time 0:00:00 Utilities3.script

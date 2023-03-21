@@ -1,0 +1,68 @@
+{
+	"entries": [
+		{
+				"message": "Running VerifyDomain_and_User.script",
+				"identifier": "START",
+				"timestamp": "2022-11-15 10:14:40.708 -0500"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-15 10:14:41.675 -0500",
+				"message": "[windowsKey]r",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 1,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-15 10:14:46.009 -0500",
+				"message": "https://ssoiaccess.valehrpreprod.cernerworks.ehr.gov/Citrix/USVADCPPWeb/[return]",
+				"scriptName": "VerifyDomain_and_User.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-15 10:14:50.093 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "found at (115, 51)",
+				"image": "RefreshButton",
+				"handlerLine": 3,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-15 10:14:52.494 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (1172, 519)",
+				"image": "SSOiIcon",
+				"handlerLine": 4,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-15 10:14:54.771 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (786, 166)",
+				"image": "CertificateSelection",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_verifydomain_and_user",
+				"timestamp": "2022-11-15 10:14:57.128 -0500",
+				"scriptName": "VerifyDomain_and_User.script",
+				"message": "at (1058, 261)",
+				"image": "CertificateSelectionOkButton",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Image Found On Screen: \"PleaseEnterYourPIN\" -- Execution Time 0:01:44 VerifyDomain_and_User.script",
+				"identifier": "FAILURE",
+				"timestamp": "2022-11-15 10:16:32.441 -0500"
+			}
+	],
+	"createdTimestamp": "2022-11-15 10:14:41.307 -0500"
+}

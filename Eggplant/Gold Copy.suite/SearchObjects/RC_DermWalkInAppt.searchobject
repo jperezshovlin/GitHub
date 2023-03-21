@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		889,
+		126,
+		106,
+		18
+	],
+	"lastmodifieddate": 1678301301.0320001,
+	"createddate": 1678301301.0320001,
+	"name": "RC_DermWalkInAppt",
+	"lastfounddate": 1678301301.296,
+	"ocrcapturestring": "Derm Walk",
+	"lastfoundlocation": [
+		889,
+		126,
+		106,
+		18
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[66,6]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_DermWalkInAppt.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					889,
+					126,
+					106,
+					18
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Derm Walk"
+			}
+	]
+}

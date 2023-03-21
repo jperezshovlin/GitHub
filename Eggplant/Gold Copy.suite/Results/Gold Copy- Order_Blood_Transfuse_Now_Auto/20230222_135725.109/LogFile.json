@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running BloodProducts.script",
+				"identifier": "START",
+				"timestamp": "2023-02-22 13:57:26.025 -0500"
+			},
+		{
+				"message": "(Duration:\"10.946\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-02-22 13:57:27 -0500\", Successes:\"0\", TestCase:\"BloodProducts.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-22 13:57:38.084 -0500"
+			},
+		{
+				"message": "Execution Time 0:00:12 BloodProducts.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-02-22 13:57:40.083 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-22 13:57:26.727 -0500"
+}

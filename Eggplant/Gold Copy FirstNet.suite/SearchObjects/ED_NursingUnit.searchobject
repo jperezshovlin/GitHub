@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1476,
+		271,
+		69,
+		15
+	],
+	"lastmodifieddate": 1678891863.2869999,
+	"createddate": 1678891863.2869999,
+	"name": "ED_NursingUnit",
+	"lastfounddate": 1678992741.299,
+	"ocrcapturestring": "Nursing Unit",
+	"lastfoundlocation": [
+		1476,
+		271,
+		69,
+		15
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[16,31]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ED_NursingUnit.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					1476,
+					271,
+					69,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Nursing Unit"
+			}
+	]
+}

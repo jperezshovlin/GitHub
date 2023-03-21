@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		646,
+		154,
+		382,
+		35
+	],
+	"lastmodifieddate": 1677195430.026,
+	"createddate": 1677195430.026,
+	"name": "Pharm_DiscernRxforadmittedinpatient",
+	"lastfounddate": 1677516084.697,
+	"ocrcapturestring": "Rx for admitted inpatient",
+	"lastfoundlocation": [
+		646,
+		154,
+		382,
+		35
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[5,16]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_DiscernRxforadmittedinpatient.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					646,
+					154,
+					382,
+					35
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Rx for admitted inpatient"
+			}
+	]
+}

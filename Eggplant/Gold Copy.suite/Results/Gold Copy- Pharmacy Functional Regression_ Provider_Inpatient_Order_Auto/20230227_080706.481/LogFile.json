@@ -1,0 +1,468 @@
+{
+	"entries": [
+		{
+				"message": "Running Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order.script",
+				"identifier": "START",
+				"timestamp": "2023-02-27 08:07:07.124 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 08:07:10.936 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 08:07:11.754 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 08:07:14.306 -0500",
+				"message": "B1930 Appbar",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 08:07:20.122 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"B1930 Appbar\")",
+				"handlerLine": 5,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-27 08:07:21.130 -0500",
+				"message": "at (81, 302)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-27 08:07:40.588 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable to Find Image MinimizedCernerLogin",
+				"image": "MinimizedCernerLogin",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-27 08:07:49.656 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found #1 at (743, 356)",
+				"image": "CernerLogoLoginWindow",
+				"handlerLine": 6,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-27 08:07:51.317 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (896, 463)",
+				"image": "UsernameFieldLoginWindow",
+				"handlerLine": 8,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-27 08:07:52.082 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 11,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-27 08:07:53.409 -0500",
+				"message": "[deleteKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 14,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-27 08:07:55.364 -0500",
+				"message": "VAPHARMACIST3",
+				"scriptName": "Utilities.script",
+				"handlerLine": 15,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-27 08:07:57.228 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (885, 523)",
+				"image": "PasswordLogin",
+				"handlerLine": 16,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-27 08:07:58.331 -0500",
+				"message": "Cerner123[return]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 17,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-27 08:07:59.720 -0500",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 19,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_workstation",
+				"timestamp": "2023-02-27 08:08:11.695 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (303, 30)",
+				"image": "Pharm_Bluestar",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_workstation",
+				"timestamp": "2023-02-27 08:08:43.203 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (818, 457)",
+				"image": "Pharm_RetailTab",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_workstation",
+				"timestamp": "2023-02-27 08:08:45.625 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (768, 507)",
+				"image": "Pharm_Defaultpharmacy",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_workstation",
+				"timestamp": "2023-02-27 08:08:46.484 -0500",
+				"message": "668[returnKey]",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_workstation",
+				"timestamp": "2023-02-27 08:08:48.576 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (774, 610)",
+				"image": "Pharm_Defaultdevice",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_workstation",
+				"timestamp": "2023-02-27 08:08:51.196 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (798, 647)",
+				"image": "Pharm_668ScriptPro",
+				"handlerLine": 10,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_workstation",
+				"timestamp": "2023-02-27 08:08:52.938 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (1138, 677)",
+				"image": "Pharm_RetailSave",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:08:54.594 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (261, 35)",
+				"image": "Pharm_MMR",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:09:06.483 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (118, 164)",
+				"image": "Pharm_MMRPatientName",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:09:07.618 -0500",
+				"message": "Abdi, Avery[returnKey]",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:09:29.235 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (630, 183)",
+				"image": "Pharm_MMRDrug",
+				"handlerLine": 12,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:09:30.413 -0500",
+				"message": "Lisinopril 10[returnKey]",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 13,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:09:51.810 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "found at (571, 562)",
+				"image": "Pharm_Selectlisinopril10mgtablet",
+				"handlerLine": 19,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:09:53.643 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (571, 562)",
+				"image": "Pharm_Selectlisinopril10mgtablet",
+				"handlerLine": 20,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:09:55.220 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (1221, 762)",
+				"image": "Pharm_ProdSelectOK",
+				"handlerLine": 21,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:00.747 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 25,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:01.952 -0500",
+				"message": "[tab]",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 26,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:03.226 -0500",
+				"message": "3",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 27,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:09.908 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (571, 542)",
+				"image": "Pharm_RoutingOption",
+				"handlerLine": 39,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:10.876 -0500",
+				"message": "Window",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 41,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:12.168 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "found at (822, 141)",
+				"image": "Pharm_RoutinqOptionOverride",
+				"handlerLine": 42,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:13.749 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (988, 570)",
+				"image": "Pharm_Continue_RoutingOption",
+				"handlerLine": 43,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:17.003 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (776, 541)",
+				"image": "Pharm_ServiceConnected",
+				"handlerLine": 44,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:18.588 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (733, 563)",
+				"image": "Pharm_ServiceConnectedNo",
+				"handlerLine": 46,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:20.190 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (1200, 378)",
+				"image": "Pharm_PrescriberSearch",
+				"handlerLine": 48,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:23.100 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (705, 240)",
+				"image": "Pharm_LastnamePrescriber",
+				"handlerLine": 49,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:24.021 -0500",
+				"message": "Cerner",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 50,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:26.009 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (840, 239)",
+				"image": "Pharm_FirstnamePresciber",
+				"handlerLine": 51,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:27.012 -0500",
+				"message": "Cerner[returnKey]",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 52,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:29.407 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (732, 596)",
+				"image": "Pharm_Provider",
+				"handlerLine": 53,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:31.057 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (1083, 841)",
+				"image": "Pharm_ProviderSelectionOK",
+				"handlerLine": 54,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:33.594 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (1230, 883)",
+				"image": "Pharm_NewOrderOK",
+				"handlerLine": 56,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:36.201 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "found at (651, 170)",
+				"image": "Pharm_DiscernRxforadmittedinpatient",
+				"handlerLine": 60,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:36.771 -0500",
+				"message": "at (651, 170)",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 61,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:37.868 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (510, 415)",
+				"image": "(TEXT:\"Continue\")",
+				"handlerLine": 62,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:38.602 -0500",
+				"message": "[returnKey]",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 63,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:40.922 -0500",
+				"scriptName": "Utilities2.script",
+				"message": "at (553, 190)",
+				"image": "Pharm_MMRDrug",
+				"handlerLine": 70,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_mmr",
+				"timestamp": "2023-02-27 08:10:42.109 -0500",
+				"message": "Metoprolol[returnKey]",
+				"scriptName": "Utilities2.script",
+				"handlerLine": 71,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"282.806\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-02-27 08:07:07 -0500\", Successes:\"0\", TestCase:\"Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-27 08:11:50.413 -0500"
+			},
+		{
+				"message": "Execution Time 0:04:43 Gold Copy- Pharmacy Functional Regression_ Provider_Inpatient_Order.script",
+				"identifier": "ABORTED",
+				"timestamp": "2023-02-27 08:11:51.798 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-27 08:07:07.591 -0500"
+}

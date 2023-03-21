@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		50,
+		196,
+		97,
+		13
+	],
+	"lastmodifieddate": 1677103039.211,
+	"createddate": 1677103039.211,
+	"name": "Pharm_FinancialNumber",
+	"lastfounddate": 1677107328.8109999,
+	"ocrcapturestring": "Financial Number",
+	"lastfoundlocation": [
+		5,
+		181,
+		53,
+		7
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[14,5]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_FinancialNumber.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					50,
+					196,
+					97,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Financial Number"
+			}
+	]
+}

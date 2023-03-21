@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="Utilities4">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-03-15 10:51:15 -0400</FirstRun>
+  <LastRun>2023-03-15 10:51:15 -0400</LastRun>
+  <TotalTimeOnSuccess>2.128000</TotalTimeOnSuccess>
+ </script>
+ <script name="Gold Copy- Emergency Medicine Functional Regression_ ED Triage">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2023-03-15 09:39:43 -0400</FirstRun>
+  <LastRun>2023-03-15 11:22:48 -0400</LastRun>
+  <TotalTimeOnSuccess>0.150000</TotalTimeOnSuccess>
+ </script>
+</statistics>

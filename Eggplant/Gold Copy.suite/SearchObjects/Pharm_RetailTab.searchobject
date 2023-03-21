@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		800,
+		451,
+		36,
+		13
+	],
+	"lastmodifieddate": 1677101532.812,
+	"createddate": 1677101532.812,
+	"name": "Pharm_RetailTab",
+	"lastfounddate": 1678989040.1199999,
+	"ocrcapturestring": "Retail",
+	"lastfoundlocation": [
+		800,
+		451,
+		36,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[18,6]",
+					"Tolerance": "_69",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_RetailTab.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					800,
+					451,
+					36,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Retail"
+			}
+	]
+}

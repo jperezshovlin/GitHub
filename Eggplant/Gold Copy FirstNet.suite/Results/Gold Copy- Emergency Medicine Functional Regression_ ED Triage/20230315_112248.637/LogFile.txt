@@ -1,0 +1,3 @@
+﻿2023-03-15 11:22:48.653 -0400	START		Running Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script
+2023-03-15 11:22:48.920 -0400	EndTestCase		(Duration:"0.267", Errors:"1", Exceptions:"0", StartTime:"2023-03-15 11:22:48 -0400", Successes:"0", TestCase:"Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script", Warnings:"0")
+2023-03-15 11:22:49.136 -0400	FAILURE	Screen_Error.png	SenseTalk Compiler Exception: in checkin:\nSyntax Error at line 46: Syntax Error - can't understand [end of script] at character 1 -- Execution Time 0:00:00 Gold Copy- Emergency Medicine Functional Regression_ ED Triage.script

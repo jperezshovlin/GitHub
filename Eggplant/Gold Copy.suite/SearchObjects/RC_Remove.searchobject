@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		1639,
+		353,
+		56,
+		21
+	],
+	"lastmodifieddate": 1678302414.8239999,
+	"createddate": 1678302414.8239999,
+	"name": "RC_Remove",
+	"lastfounddate": 1678302992.839,
+	"ocrcapturestring": "Remove",
+	"lastfoundlocation": [
+		1639,
+		353,
+		56,
+		21
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[28,10]",
+					"Tolerance": "_57",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_Remove.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					1639,
+					353,
+					56,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Remove"
+			}
+	]
+}

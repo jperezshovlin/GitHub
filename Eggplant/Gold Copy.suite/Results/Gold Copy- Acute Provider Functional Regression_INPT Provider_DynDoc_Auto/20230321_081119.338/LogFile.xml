@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto_script" package="Gold Copy.suite" timestamp="2023-03-21 08:11:19.338 -0400"
+ tests="1"  failures="0" errors="0" time="55.754000">
+  <properties>
+   <property name="RunDate" value="2023-03-21 08:11:19.338 -0400"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Gold Copy- Acute Provider Functional Regression_INPT Provider_DynDoc_Auto.script" assertions="1" status="failure"  time="55.745">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

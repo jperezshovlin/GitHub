@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		612,
+		245,
+		54,
+		13
+	],
+	"lastmodifieddate": 1678134537.5880001,
+	"createddate": 1678134537.5880001,
+	"name": "RC_Insurance",
+	"lastfounddate": 1678914444.7449999,
+	"ocrcapturestring": "Insurance",
+	"lastfoundlocation": [
+		612,
+		243,
+		54,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[27,6]",
+					"Tolerance": "_71",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_Insurance.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					612,
+					245,
+					54,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Insurance"
+			}
+	]
+}

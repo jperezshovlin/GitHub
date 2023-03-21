@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="BloodProducts_script" package="ReusablePowerChartLogin.suite" timestamp="2023-02-15 09:47:45.608 -0500"
+ tests="1"  failures="1" errors="1" time="365.505000">
+  <properties>
+   <property name="RunDate" value="2023-02-15 09:47:45.608 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="BloodProducts.script" assertions="1" status="error"  time="364.017">
+    <failure type="FAILURE" message="Image Not Found: click Error - No Image Found On Screen: &quot;668SPOCPLogin668SPOCPLogin668S&quot; -- Execution Time 0:06:05 BloodProducts.script" />
+    <error type="Exception" message="No Image Found On Screen: &quot;668SPOCPLogin668SPOCPLogin668S&quot;" />
+  </testcase>
+ </testsuite>
+</testsuites>

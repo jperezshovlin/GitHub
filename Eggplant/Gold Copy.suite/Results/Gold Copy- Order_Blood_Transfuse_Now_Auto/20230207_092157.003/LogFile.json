@@ -1,0 +1,234 @@
+{
+	"entries": [
+		{
+				"message": "Running BloodProducts.script",
+				"identifier": "START",
+				"timestamp": "2023-02-07 09:21:57.921 -0500"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-07 09:22:03.053 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1685, 200)",
+				"image": "CernerDomainSearch",
+				"handlerLine": 2,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-07 09:22:04.010 -0500",
+				"message": "[controlKey]a",
+				"scriptName": "Utilities.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-07 09:22:06.630 -0500",
+				"message": "B1930 Powerchart",
+				"scriptName": "Utilities.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-07 09:22:14.456 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"B1930 Powerchart\")",
+				"handlerLine": 5,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_citrixdomainsearch",
+				"timestamp": "2023-02-07 09:22:15.184 -0500",
+				"message": "at (91, 300)",
+				"scriptName": "Utilities.script",
+				"handlerLine": 5,
+				"identifier": "doubleclick"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:34.924 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable to Find Image MinimizedCernerLogin",
+				"image": "MinimizedCernerLogin",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:36.466 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (743, 356)",
+				"image": "CernerLogoLoginWindow",
+				"handlerLine": 6,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:38.775 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (896, 463)",
+				"image": "UsernameFieldLoginWindow",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:40.043 -0500",
+				"message": "VAPHYSHOSP",
+				"scriptName": "Utilities.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:41.765 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (885, 523)",
+				"image": "PasswordLogin",
+				"handlerLine": 9,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:43.121 -0500",
+				"message": "Cerner123[return]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 10,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:47.133 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (23, 63)",
+				"image": "CernerHomeButton",
+				"handlerLine": 11,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:47.851 -0500",
+				"message": "[windowsKey][upArrow]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 12,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:49.670 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (1661, 1030)",
+				"image": "(TEXT:\"B1930\")",
+				"handlerLine": 14,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:50.257 -0500",
+				"message": "Correct Domain Found",
+				"scriptName": "Utilities.script",
+				"handlerLine": 15,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:53.135 -0500",
+				"scriptName": "Utilities.script",
+				"image": "CorrectDomainFoundVerification.png",
+				"handlerLine": 16,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:54.957 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (1721, 1031)",
+				"image": "(TEXT:\"VAPHYSHOSP\")",
+				"handlerLine": 23,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:55.575 -0500",
+				"message": "Correct Username Found",
+				"scriptName": "Utilities.script",
+				"handlerLine": 24,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_powerchartlogin",
+				"timestamp": "2023-02-07 09:22:58.500 -0500",
+				"scriptName": "Utilities.script",
+				"image": "CorrectUserFoundVerification.png",
+				"handlerLine": 25,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-07 09:23:00.507 -0500",
+				"scriptName": "Utilities.script",
+				"message": "found at (1908, 112)",
+				"image": "PC_PatientSearchDropDown",
+				"handlerLine": 2,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-07 09:23:02.581 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1908, 112)",
+				"image": "PC_PatientSearchDropDown",
+				"handlerLine": 4,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-07 09:23:05.288 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1863, 178)",
+				"image": "FIN",
+				"handlerLine": 5,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-07 09:23:07.997 -0500",
+				"scriptName": "Utilities.script",
+				"message": "at (1780, 111)",
+				"image": "RecentPatientSearch",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-07 09:23:09.216 -0500",
+				"message": "45125898[returnKey]",
+				"scriptName": "Utilities.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_searchfin",
+				"timestamp": "2023-02-07 09:23:13.897 -0500",
+				"scriptName": "Utilities.script",
+				"message": "Unable to Find Image AssignaRelationship",
+				"image": "AssignaRelationship",
+				"handlerLine": 10,
+				"identifier": "imagefound"
+			},
+		{
+				"message": "(Duration:\"76.162\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-02-07 09:21:58 -0500\", Successes:\"2\", TestCase:\"BloodProducts.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2023-02-07 09:23:14.647 -0500"
+			},
+		{
+				"message": "Execution Time 0:01:17 BloodProducts.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2023-02-07 09:23:24.288 -0500"
+			}
+	],
+	"createdTimestamp": "2023-02-07 09:21:58.485 -0500"
+}

@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		311,
+		207,
+		40,
+		16
+	],
+	"lastmodifieddate": 1678447067.5219998,
+	"createddate": 1678447067.5219998,
+	"name": "RC_ApptAllDay",
+	"lastfounddate": 1679065173.309,
+	"ocrcapturestring": "All Day",
+	"lastfoundlocation": [
+		310,
+		127,
+		41,
+		16
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[19,5]",
+					"Tolerance": "_47",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_ApptAllDay.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					311,
+					207,
+					40,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "All Day"
+			}
+	]
+}

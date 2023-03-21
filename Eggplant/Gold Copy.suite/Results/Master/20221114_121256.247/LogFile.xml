@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Untitled_script" package="ReusablePowerChartLogin.suite" timestamp="2022-11-14 12:12:56.247 -0500"
+ tests="1"  failures="0" errors="0" time="7.511000">
+  <properties>
+   <property name="RunDate" value="2022-11-14 12:12:56.247 -0500"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Untitled.script" assertions="1" status="success"  time="5.134">
+  </testcase>
+ </testsuite>
+</testsuites>

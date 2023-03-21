@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto_script" package="Gold Copy.suite" timestamp="2023-03-02 09:26:31.919 -0500"
+ tests="1"  failures="1" errors="1" time="6.205000">
+  <properties>
+   <property name="RunDate" value="2023-03-02 09:26:31.919 -0500"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script" assertions="1" status="error"  time="4.804">
+    <failure type="FAILURE" message="No Remote Connection: doubleclick Error - Remote Connection Unavailable -- Execution Time 0:00:06 Gold Copy- Business Operations Functional Regression_Add Encounter_Sched Appt_Check_In_Auto.script" />
+    <error type="Exception" message="Remote Connection Unavailable" />
+  </testcase>
+ </testsuite>
+</testsuites>

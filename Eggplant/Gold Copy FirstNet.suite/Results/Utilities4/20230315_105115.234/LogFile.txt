@@ -1,0 +1,6 @@
+﻿2023-03-15 10:51:15.253 -0400	START		Running Utilities.script
+2023-03-15 10:51:15.495 -0400	click	ED_CheckInOption	at (1861, 202)	1	on_utilities	Utilities.script
+2023-03-15 10:51:16.395 -0400	click	ED_ChangeLocation	at (1777, 226)	2	on_utilities	Utilities.script
+2023-03-15 10:51:17.297 -0400	click	ED_NursingUnit	at (1492, 302)	3	on_utilities	Utilities.script
+2023-03-15 10:51:17.378 -0400	EndTestCase		(Duration:"2.109", Errors:"0", Exceptions:"0", StartTime:"2023-03-15 10:51:15 -0400", Successes:"1", TestCase:"Utilities.script", Warnings:"0")
+2023-03-15 10:51:17.412 -0400	SUCCESS		Execution Time 0:00:02 Utilities.script

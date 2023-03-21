@@ -1,0 +1,286 @@
+﻿To OpenURL URL
+	typetext windowsKey,"r"
+	typetext URL, return
+	WaitFor 50.0, "RefreshButton"
+End OpenURL
+
+-----------------------------------------------------------
+To SSOiLogin
+	If imagefound("SSOiIcon") then 
+		DoubleClick "SSOiIcon"
+		Click (Image:"CertificateSelection", WaitFor:5)
+		Click "CertificateSelectionOkButton"
+		Set the scriptlogging to Silent
+		Ask "What is my PIN?"
+		Put it into PinNumber
+		Click {Image:"PleaseEnterYourPIN", WaitFor:60}
+		Typetext PinNumber 
+		Set the scriptlogging to On
+		Click {Image:"ActivClientOKButton", WaitFor:40}
+	end if 
+End SSOiLogin
+----------------------------------------------------------------------
+
+To CitrixDomainSearch Domain
+	DoubleClick {Image:"CernerDomainSearch", WaitFor:40}
+	TypeText controlKey, "a" //THIS COMMAND Selects THE TEXT FIELD
+	TypeText deleteKey
+	TypeText Domain (* Find Application on Citrix Domain*)
+	DoubleClick item 2 of everyimagelocation (text:Domain, WaitFor:40) //searches for 2nd instance
+end CitrixDomainSearch
+
+
+-----------------------------------------------------------
+To ApplicationLogin Username, Password, Domain
+	Wait 15
+	//If ImageFound("MinimizedCernerLogin") then 
+	//Click foundImagelocation()
+	//End If
+	
+	WaitFor 60.0, "CernerLogoLoginWindow" (* Login Screen *), "CernerLogoLoginWindow"
+	
+	Click {Image:"UsernameFieldLoginWindow", WaitFor:40}
+
+
+	TypeText controlKey, "a" //this command selects the username field
+	
+	
+	TypeText deletekey //Deletes the Username field
+	Typetext Username
+	Click {Image:"PasswordLogin", WaitFor:25}
+	Typetext password, return
+	
+	TypeText windowsKey,upArrow //Maximize screen
+	
+end ApplicationLogin
+--------------------------------------------------------------------
+//Logs  the user out
+To ApplicationLogout 
+	Click "Task"
+	Click "ExitCommand"
+	
+	
+	
+End ApplicationLogout
+
+
+--------------------------------------------------------------------------
+//Search patient by FIN
+
+To SearchFIN FIN
+	WaitFor 30.0, "PC_PatientSearchDropDown"
+	
+	Click {ImageName:"PC_PatientSearchDropDown", SearchRectangle:[1779,68,1917,163]}
+	Wait 5
+	Click {ImageName: "FIN", SearchRectangle:[1688,82,1917,209]}
+
+
+
+	Click "RecentPatientSearch"
+	TypeText FIN, returnKey
+	
+	
+End SearchFIN
+---------------------------------------------------------
+//AssignRelationship
+To Relationship
+	If ImageFound("RegisteredNurseAssignRelationship") then
+		Click "RegisteredNurseAssignRelationship"
+		Click "AssignRelationshipOK"
+		
+	End If
+	
+	If ImageFound("InpatientConsultingPhysician")
+		Click "InpatientConsultingPhysician"
+		Click "AssignRelationshipOK"
+	End If
+	
+End Relationship	
+------------------------------------------------------------------------------
+
+//Orders RBC and Type & Screen
+
+To OrderRBC
+
+	TypeText windowsKey,upArrow //Maximize screen
+	wait 30
+	
+	
+	
+	Click {Image:"InpatientQuickOrders", WaitFor: 20}
+
+	Click {Image:"BloodProductsTransfuseNowBlood", WaitFor: 10}
+	Click (Image:"OrderCheckout", WaitFor:15)
+	If ImageFound(Image:"OrdersforSignatureBox") then
+		Click {Image:"ModifyDetails", WaitFor:20}
+	End If
+	
+	Click "RBCProduct"
+	
+	Click {Image:"OrdersForSignature", WaitFor:15}
+
+	If ImageFound("BloodProduct") then //Discern Alert
+		Click "TypeScreenOK"
+	End If
+	
+	Click "RBCProductOrder_1"
+	
+	Click {Image:"HgB7gdLICUandcriticalpatients", WaitFor:10}
+	Click (Image:"Diagnoses", WaitFor:20)
+	Click "AddDiagnosis"
+	Click "Binoculars"
+	
+	Click {Image:"SearchDiagnosis", WaitFor:20}
+
+	TypeText anemia, returnkey
+	
+	Click "37980"
+	
+	Typetext ReturnKey
+	Typetext Returnkey
+	
+	//If statement because Type & Screen isn't always ordered
+	
+	If ImageFound("TypeScreen") then
+		Click "TypeScreen"
+		Click "NursecollectYes"
+		Click "Diagnoses"
+		
+		Click "AddDiagnosis"
+		Click "Binoculars"
+		
+		Click {Image:"SearchDiagnosis", WaitFor:20}
+
+		TypeText anemia, returnkey
+		
+		Click "37980"
+		
+		Typetext ReturnKey
+		Typetext Returnkey
+		
+	End If
+	
+	
+	//This section selects diagnosis For RBCProductAdministrationOrder
+	Click "RBCProductAdministrationOrder"
+	Click "Diagnoses"
+	
+	
+	Click "AddDiagnosis"
+	Click "Binoculars"
+	
+	Click {Image:"SearchDiagnosis", WaitFor:20}
+
+	TypeText anemia, returnkey
+	
+	Click "37980"
+	
+	Typetext ReturnKey
+	Typetext Returnkey
+	
+	
+	
+	
+	
+	wait 10
+	
+	Click "VerifyWitnessConse"
+	Click "Diagnoses"
+	
+	Click "AddDiagnosis"
+	Click "Binoculars"
+	
+	Click {Image:"SearchDiagnosis", WaitFor:20}
+
+	TypeText anemia, returnkey
+	
+	Click "37980"
+	
+	Typetext ReturnKey
+	Typetext Returnkey
+	
+	
+	Click "SignOrders"
+	
+	
+	Click (Image:"RefreshOrders", WaitFor:3.2)
+	
+End OrderRBC
+--------------------------------------------------------------------------
+
+//Collect Labs
+
+To CollectSpecimen
+
+	Click "SpecimenCollection"
+	Click "Unabletoscanbarcode"
+	
+	Put imagerectangle("CollectSpecimenRefresh")+[16,32,150,80] into MyReadArea
+	Put Readtext(Myreadarea) into Global AccessionNumberVar //Global allows Eggplant to maintain its value
+	Log Global AccessionNumberVar
+	
+	
+	RightClick "PinkPPID7mL"
+	Click "Collected"
+	Click "CollectedYes"
+	Click "CollectedSign"
+	Click "SpecimenCollectClose"
+	
+	
+End CollectSpecimen
+
+------------------------------------------------------------------------------------
+
+To SpecimenLogin
+	Wait 20
+	Click (Image:"SpecimenLoginIcon", WaitFor:30)
+	Click (Image:"SpecimenLoginRetrieveButton", WaitFor:7.6)
+	Click "SpecimenLoginAccession"
+	//Typetext Global AccessionNumberVar, returnKey
+	//TypeText "66800-23-045-0003", returnKey
+	TypeText "66800-23-045-0010", returnKey
+	
+	Put Global AccessionNumberVar into MyNumber
+	
+	delete every occurrence of "-" in MyNumber
+	Put (MyNumber+1) into MyNewNumber
+	Log MyNewNumber
+	Wait 2
+	
+	Click "SpecimenLoginAccession"
+	Typetext MyNewNumber, returnKey
+	
+	Assert that ImageFound(text:"Collected", waitFor:20) //log success if Collected is found
+	
+	Click "SpecimenLogin_Location"
+	Click "668SPOCPLoqin_Blue"
+	
+	Click "SpecimenLogin_LogIn"
+	If ImageFound(Image:"DiscernNotificationVAHYBRIDSUP_1", WaitFor:10)
+		Click {Image:"ExitIcon", WaitFor:4.7}
+	End If
+	
+End SpecimenLogin
+
+---------------------------------------------------------------------------------------
+
+To ExitSpecimenLogin
+
+	Click "SpecimenLoginTask"
+	Click "SpecimenLoginExit"
+	
+End ExitSpecimenLogin
+
+--------------------------------------------------------------------------------------
+To ReceiveProducts
+
+	Click "AppBarReceiveProducts"
+	Click (Image:"ReceiveProducts_Ok", WaitFor:5.3)
+	Click (Image:"VisualinspectionDropDown", WaitFor:7.2)
+	Click "VisualInspection_OK"
+	Click "Supplier"
+	TypeText "(W0671)"
+	Click "Productnumber"
+	
+	
+End ReceiveProducts

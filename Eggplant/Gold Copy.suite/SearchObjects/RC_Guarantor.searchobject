@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		784,
+		245,
+		56,
+		13
+	],
+	"lastmodifieddate": 1678134779.45,
+	"createddate": 1678134779.45,
+	"name": "RC_Guarantor",
+	"lastfounddate": 1679065437.598,
+	"ocrcapturestring": "Guarantor",
+	"lastfoundlocation": [
+		665,
+		133,
+		56,
+		13
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[28,6]",
+					"Tolerance": "_71",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "RC_Guarantor.png",
+				"connectionname": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL02.vha.med.va.gov",
+				"capturerect": [
+					784,
+					245,
+					56,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Guarantor"
+			}
+	]
+}
