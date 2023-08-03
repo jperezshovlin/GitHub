@@ -82,7 +82,7 @@ To SearchFIN FIN
 	
 End SearchFIN
 ---------------------------------------------------------
-//AssignRelationship
+//AssignRelationship popup
 To Relationship
 	If ImageFound("RegisteredNurseAssignRelationship") then
 		Click "RegisteredNurseAssignRelationship"

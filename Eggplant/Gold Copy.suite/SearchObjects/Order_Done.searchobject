@@ -1,0 +1,41 @@
+{
+	"lastmodifieddate": 1680119054.23,
+	"ocrcapturestring": "Done",
+	"originalcapturelocation": [
+		931,
+		590,
+		29,
+		13
+	],
+	"createddate": 1680119054.23,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_64",
+					"HotSpot": "[17,8]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Order_Done.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					931,
+					590,
+					29,
+					13
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Done"
+			}
+	],
+	"name": "Order_Done"
+}

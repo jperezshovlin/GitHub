@@ -1,0 +1,41 @@
+{
+	"lastmodifieddate": 1680100863.7030001,
+	"ocrcapturestring": "Pharmacist Judgement",
+	"originalcapturelocation": [
+		778,
+		593,
+		130,
+		15
+	],
+	"createddate": 1680100863.7030001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_73",
+					"HotSpot": "[67,7]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_PharmacistJudgement.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					778,
+					593,
+					130,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Pharmacist Judgement"
+			}
+	],
+	"name": "Pharm_PharmacistJudgement"
+}

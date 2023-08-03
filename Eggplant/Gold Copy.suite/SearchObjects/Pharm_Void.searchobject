@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		636,
+		345,
+		38,
+		14
+	],
+	"lastmodifieddate": 1680100320.7350001,
+	"createddate": 1680100320.7350001,
+	"name": "Pharm_Void",
+	"lastfounddate": 1680111987.7189999,
+	"ocrcapturestring": "Void",
+	"lastfoundlocation": [
+		633,
+		222,
+		38,
+		14
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[19,7]",
+					"Tolerance": "_73",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_Void.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					636,
+					345,
+					38,
+					14
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Void"
+			}
+	]
+}

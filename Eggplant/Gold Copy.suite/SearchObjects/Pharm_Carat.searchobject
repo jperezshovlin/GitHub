@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1679930498.1989999,
+	"lastfoundlocation": [
+		36,
+		144,
+		10,
+		19
+	],
+	"originalcapturelocation": [
+		36,
+		144,
+		11,
+		19
+	],
+	"createddate": 1679930323.5339999,
+	"lastfounddate": 1679930600.211,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[5,9]",
+					"Tolerance": "_30",
+					"Discrepancy": "_0",
+					"SearchType": "Adaptive to Image"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_Carat.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"capturerect": [
+					36,
+					144,
+					11,
+					19
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov"
+			}
+	],
+	"name": "Pharm_Carat"
+}

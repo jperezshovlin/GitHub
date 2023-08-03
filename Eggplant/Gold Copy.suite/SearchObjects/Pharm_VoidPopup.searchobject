@@ -1,0 +1,41 @@
+{
+	"lastmodifieddate": 1680100681.648,
+	"ocrcapturestring": "Please select a reason for voiding the order.",
+	"originalcapturelocation": [
+		776,
+		530,
+		239,
+		15
+	],
+	"createddate": 1680100681.648,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_50",
+					"HotSpot": "[90,11]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Pharm_VoidPopup.png",
+				"connectionname": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"type": 1,
+				"connectionserverid": "VHAISPAPPEGPL03.vha.med.va.gov",
+				"capturerect": [
+					776,
+					530,
+					239,
+					15
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "Please select a reason for voiding the order."
+			}
+	],
+	"name": "Pharm_VoidPopup"
+}

@@ -20,8 +20,19 @@ To MMR PatientNameMMR, Drug1, Drug2
 
 	Click "Pharm_MMR"
 	Wait 10
-	Click "Pharm_MMRPatientName"
-	TypeText PatientNameMMR, returnKey
+	
+	If ImageFound("Pharm_MMRPatientName") then
+		Click "Pharm_MMRPatientName"
+		
+		Else
+		Click {image:"Pharm_Carat", searchrectangle:[2,120,92,184]}
+		Click "Pharm_Name"
+		
+	End if
+	
+	
+	
+	TypeText "Test, Dallas", returnKey
 	Wait 20
 	
 	Put [Drug1, Drug2] into MyDrugList
@@ -48,11 +59,6 @@ To MMR PatientNameMMR, Drug1, Drug2
 	End If
 	
 	Wait 5
-	
-	
-	
-	
-	
 	
 	Click "Pharm_RoutingOption"
 	
@@ -110,10 +116,10 @@ To MMR PatientNameMMR, Drug1, Drug2
 	Click "Pharm_ServiceConnectedNo"
 	
 	Click "Pharm_PrescriberSearch"
-	Click "Pharm_LastnamePrescriber"
-	TypeText "Cerner"
-	Click "Pharm_FirstnamePresciber"
-	TypeText "Cerner", returnKey
+Click "Pharm_LastnamePrescriber"
+TypeText "Cerner"
+Click "Pharm_FirstnamePresciber"
+TypeText "Cerner", returnKey
 	Click "Pharm_Provider"
 	Click "Pharm_ProviderSelectionOK"
 	

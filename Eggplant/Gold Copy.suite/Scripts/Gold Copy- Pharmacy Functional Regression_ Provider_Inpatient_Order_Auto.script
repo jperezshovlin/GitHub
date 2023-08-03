@@ -4,12 +4,12 @@
 
 Utilities.CitrixDomainSearch "C0630 Appbar"
 //Login to Appbar as VAPHARMACIST
-Utilities.ApplicationLogin "VAPHARMACIST3","Cerner123","B1930"
+Utilities.ApplicationLogin "VAPHARMACIST3","Cerner123"
 
 
 Utilities2.Workstation
 
-Utilities2.MMR "Test, Ronnie","Lisinopril 10", "Metoprolol"
+Utilities2.MMR "Test, Dallas","Lisinopril 10", "Metoprolol"
 Utilities2.DispenseMonitor
 
 

@@ -1,0 +1,18 @@
+﻿//Script Name : 1VA - RACA - SCI D - Annual Evaluation Completion Tracking
+//Test Case Preconditions: 
+//1)A patient with an active rehab encounter
+
+put "rehab, todd" into PatientName
+put "18099754" into FIN
+
+Utilities.CitrixDomainSearch "B1930 Powerchart" 
+//Finds the application
+Utilities.ApplicationLogin "VARNREHAB", "Cerner123"
+//logs the user in
+Utilities.SearchFIN "45124480"
+
+
+
+
+
+
